@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dinem en Família — Menús mediterranis per compartir en família, cada dia de l'any. Calendari anual de menús, receptes mediterrànies i alimentació BLW per a nadons." />
+  <meta name="keywords" content="menús família, receptes mediterrànies, BLW, Baby Led Weaning, calendari menús, alimentació infantil, cuina catalana, temporada" />
+  <meta name="author" content="Dinem en Família" />
+  <meta name="robots" content="index, follow" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dinem en Família" />
+  <meta property="og:description" content="Menús mediterranis per compartir en família, cada dia de l'any." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dinem-de-temporada.github.io/" />
+  <meta property="og:image" content="assets/images/og-image.jpg" />
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Dinem en Família",
+    "description": "Menús mediterranis per compartir en família, cada dia de l'any.",
+    "url": "https://dinem-de-temporada.github.io/"
+  }
+  </script>
+  <title>Dinem en Família — Menús Mediterranis per a Tota la Família</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/calendar.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Salta al contingut principal</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo" role="img" aria-label="Dinem en Família">
+          <span class="logo-icon" aria-hidden="true">🫒</span>
+          <div class="logo-text">
+            <span class="logo-title">Dinem en Família</span>
+            <span class="logo-subtitle">Cuina mediterrània · De temporada · BLW</span>
+          </div>
+        </div>
+        <nav class="main-nav" role="navigation" aria-label="Navegació principal">
+          <a href="index.html" class="nav-link active" aria-current="page">Calendari</a>
+          <a href="recepta.html" class="nav-link">Receptes</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Obrir menú" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div id="mobile-nav" class="mobile-nav" role="dialog" aria-modal="true" aria-label="Menú mòbil" hidden>
+    <nav>
+      <a href="index.html" class="nav-link" tabindex="-1">Calendari</a>
+      <a href="recepta.html" class="nav-link" tabindex="-1">Receptes</a>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" role="complementary" aria-label="Benvinguda">
+    <div class="container">
+      <h1 class="hero-title">Menús mediterranis per compartir en família, cada dia de l'any.</h1>
+      <p class="hero-description">Planifica els àpats de la teva família amb receptes de temporada, equilibrades i aptes per a nadons des dels 12 mesos (BLW).</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main id="main-content" class="main-content">
+    <div class="container">
+
+      <!-- Controls Bar -->
+      <div class="controls-bar" role="toolbar" aria-label="Controls del calendari">
+        <!-- Year Selector -->
+        <div class="year-selector" role="group" aria-label="Selector d'any">
+          <button id="prev-year" class="btn btn-icon" aria-label="Any anterior">&#8249;</button>
+          <span id="current-year-display" class="year-display" aria-live="polite" aria-atomic="true">2026</span>
+          <button id="next-year" class="btn btn-icon" aria-label="Any següent">&#8250;</button>
+        </div>
+
+        <!-- View Toggle -->
+        <div class="view-toggle" role="group" aria-label="Vista del calendari">
+          <button id="view-annual" class="btn btn-sm active" aria-pressed="true">Anual</button>
+          <button id="view-monthly" class="btn btn-sm" aria-pressed="false">Mensual</button>
+        </div>
+
+        <!-- Search -->
+        <div class="search-container" role="search">
+          <label for="search-input" class="sr-only">Cerca receptes o ingredients</label>
+          <input type="search" id="search-input" class="search-input" placeholder="Cerca recepta o ingredient…" aria-label="Cerca recepta o ingredient" />
+          <button id="search-btn" class="btn btn-icon search-btn" aria-label="Cercar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Filter Tags -->
+        <div class="filter-tags" role="group" aria-label="Filtre per etiquetes">
+          <button class="tag-filter" data-tag="all" aria-pressed="true">Tots</button>
+          <button class="tag-filter" data-tag="BLW" aria-pressed="false">BLW</button>
+          <button class="tag-filter" data-tag="vegetarià" aria-pressed="false">Vegetarià</button>
+          <button class="tag-filter" data-tag="peix" aria-pressed="false">Peix</button>
+          <button class="tag-filter" data-tag="carn" aria-pressed="false">Carn</button>
+          <button class="tag-filter" data-tag="de temporada" aria-pressed="false">Temporada</button>
+        </div>
+      </div>
+
+      <!-- Search Results -->
+      <div id="search-results" class="search-results" role="region" aria-label="Resultats de cerca" hidden>
+        <h2 class="search-results-title">Resultats de cerca</h2>
+        <div id="search-results-list" class="search-results-list"></div>
+        <button id="close-search" class="btn btn-sm">Tancar cerca</button>
+      </div>
+
+      <!-- Calendar -->
+      <div id="calendar-container" class="calendar-container" role="region" aria-label="Calendari anual">
+        <div id="calendar-grid" class="calendar-grid">
+          <!-- Generated by calendar.js -->
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Day Modal -->
+  <div id="day-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-panel">
+      <button class="modal-close" id="modal-close" aria-label="Tancar">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-date-badge" id="modal-date-badge" aria-hidden="true"></div>
+        <h2 class="modal-title" id="modal-title"></h2>
+        <div class="modal-season-tags" id="modal-season-tags" aria-label="Estació"></div>
+      </div>
+
+      <div class="modal-body">
+        <!-- Lunch -->
+        <section class="meal-section" aria-labelledby="lunch-heading">
+          <div class="meal-header">
+            <span class="meal-icon" aria-hidden="true">☀️</span>
+            <h3 id="lunch-heading" class="meal-label">Dinar</h3>
+          </div>
+          <div class="meal-content" id="modal-lunch">
+            <p class="meal-title" id="lunch-title"></p>
+            <div class="meal-tags" id="lunch-tags" aria-label="Etiquetes"></div>
+            <div class="meal-ingredients" id="lunch-ingredients" aria-label="Ingredients principals"></div>
+            <a id="lunch-recipe-link" href="#" class="btn btn-sm btn-outline recipe-link" aria-label="Veure recepta del dinar">Veure recepta →</a>
+          </div>
+        </section>
+
+        <!-- Dinner -->
+        <section class="meal-section" aria-labelledby="dinner-heading">
+          <div class="meal-header">
+            <span class="meal-icon" aria-hidden="true">🌙</span>
+            <h3 id="dinner-heading" class="meal-label">Sopar</h3>
+          </div>
+          <div class="meal-content" id="modal-dinner">
+            <p class="meal-title" id="dinner-title"></p>
+            <div class="meal-tags" id="dinner-tags" aria-label="Etiquetes"></div>
+            <div class="meal-ingredients" id="dinner-ingredients" aria-label="Ingredients principals"></div>
+            <a id="dinner-recipe-link" href="#" class="btn btn-sm btn-outline recipe-link" aria-label="Veure recepta del sopar">Veure recepta →</a>
+          </div>
+        </section>
+
+        <!-- Quick Option -->
+        <section class="meal-section meal-quick" aria-labelledby="quick-heading">
+          <div class="meal-header">
+            <span class="meal-icon" aria-hidden="true">⚡</span>
+            <h3 id="quick-heading" class="meal-label">Sense temps</h3>
+          </div>
+          <div class="meal-content">
+            <p class="meal-title" id="quick-title"></p>
+          </div>
+        </section>
+      </div>
+
+      <!-- BLW Notes -->
+      <div class="blw-banner" id="blw-banner" role="note" aria-label="Notes per al nadó">
+        <span class="blw-icon" aria-hidden="true">👶</span>
+        <div>
+          <strong>Per al nadó (12+ mesos)</strong>
+          <p id="blw-notes"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-icon" aria-hidden="true">🫒</span>
+          <span>Dinem en Família</span>
+        </div>
+        <p class="footer-tagline">Cuina casolana · Productes de temporada · Família</p>
+        <p class="footer-copy">&copy; <span id="footer-year">2026</span> Dinem en Família. Fet amb ❤️ per a la família.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay" class="loading-overlay" role="status" aria-label="Carregant..." aria-live="polite">
+    <div class="loading-spinner" aria-hidden="true"></div>
+    <p>Carregant menús…</p>
+  </div>
+
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/recipes.js"></script>
+  <script src="assets/js/calendar.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
