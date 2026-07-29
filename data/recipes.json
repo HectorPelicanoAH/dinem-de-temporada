@@ -1,0 +1,2086 @@
+{
+  "arros-paella": {
+    "id": "arros-paella",
+    "title": "Paella valenciana",
+    "category": "arròs",
+    "season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "time": 50,
+    "difficulty": "Mitjana",
+    "servings": 4,
+    "tags": [
+      "carn",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "arròs de gra rodó",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "pollastre tallat a trossos",
+        "amount": "500",
+        "unit": "g"
+      },
+      {
+        "ingredient": "bajoqueta verda",
+        "amount": "150",
+        "unit": "g"
+      },
+      {
+        "ingredient": "tomàquet madur ratllat",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "pebrot vermell",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "3",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "safrà",
+        "amount": "1",
+        "unit": "pessic"
+      },
+      {
+        "ingredient": "pimentó dolç",
+        "amount": "1",
+        "unit": "cullerada"
+      },
+      {
+        "ingredient": "brou de pollastre",
+        "amount": "1",
+        "unit": "l"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "4",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Escalfa l'oli en una paella gran i daurar el pollastre a foc viu. Reserva.",
+      "En el mateix oli, sofregeix el pebrot i la bajoqueta durant 5 minuts.",
+      "Afegeix l'all i el tomàquet ratllat. Cuina fins que redueixi el suc.",
+      "Incorpora el pimentó dolç, remena i afegeix el brou. Porta a ebullició.",
+      "Afegeix el safrà dissolt en una mica de brou. Rectifica de sal.",
+      "Torna el pollastre a la paella i distribueix l'arròs uniformement.",
+      "Cuina a foc alt 5 minuts, després baixa el foc i cuina 15 minuts més sense remenar.",
+      "Deixa reposar 5 minuts tapat amb un drap net abans de servir."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "babyNotes": "Retira els ossos del pollastre. Serveix l'arròs ben cuit i tou. Evita la sal en la ració del nadó."
+  },
+  "arros-negre": {
+    "id": "arros-negre",
+    "title": "Arròs negre",
+    "category": "arròs",
+    "season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "time": 45,
+    "difficulty": "Mitjana",
+    "servings": 4,
+    "tags": [
+      "peix",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "arròs de gra rodó",
+        "amount": "320",
+        "unit": "g"
+      },
+      {
+        "ingredient": "sèpia",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "gambes",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "tinta de calamar",
+        "amount": "2",
+        "unit": "bosses"
+      },
+      {
+        "ingredient": "tomàquet madur",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "brou de peix",
+        "amount": "900",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "allioli",
+        "amount": "",
+        "unit": "per acompanyar"
+      }
+    ],
+    "steps": [
+      "Sofregeix la ceba i l'all picats fins que estiguin tous.",
+      "Afegeix la sèpia tallada i cuina fins que canviï de color.",
+      "Incorpora el tomàquet ratllat i cuina 10 minuts.",
+      "Dissol la tinta en una mica de brou calent i afegeix-la a la paella.",
+      "Afegeix l'arròs i remena per impregnar-lo bé.",
+      "Aboca el brou calent i cuina 18-20 minuts a foc mitjà.",
+      "Incorpora les gambes els últims 5 minuts de cocció.",
+      "Serveix amb allioli casolà."
+    ],
+    "allergens": [
+      "marisc",
+      "mol·luscs"
+    ],
+    "babyNotes": "No recomanat per a nadons menors de 18 mesos degut al marisc. Per a més grans, tritura la sèpia i serveix en petits trossos."
+  },
+  "arros-caldo": {
+    "id": "arros-caldo",
+    "title": "Arròs caldós de peix",
+    "category": "arròs",
+    "season": [
+      "tardor",
+      "hivern"
+    ],
+    "time": 35,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "peix",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "arròs de gra rodó",
+        "amount": "280",
+        "unit": "g"
+      },
+      {
+        "ingredient": "lluc o merlusa",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "musclos",
+        "amount": "300",
+        "unit": "g"
+      },
+      {
+        "ingredient": "tomàquet madur",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "pebrot verd",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "pimentó dolç",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "brou de peix",
+        "amount": "1.2",
+        "unit": "l"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "julivert fresc",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Sofregeix la ceba i el pebrot picats durant 5 minuts.",
+      "Afegeix el tomàquet ratllat i el pimentó. Cuina 8 minuts.",
+      "Incorpora l'arròs i remena 2 minuts.",
+      "Aboca el brou calent, porta a ebullició i cuina 10 minuts.",
+      "Afegeix el peix tallat a daus i els musclos.",
+      "Cuina 8 minuts més fins que el peix estigui cuit i els musclos oberts.",
+      "Rectifica de sal i serveix espolsant julivert fresc."
+    ],
+    "allergens": [
+      "peix",
+      "mol·luscs"
+    ],
+    "babyNotes": "Retira totes les espines del peix. Serveix el brou separat i el peix ben esmicolat. Apte per a BLW des dels 12 mesos."
+  },
+  "pasta-bolonya": {
+    "id": "pasta-bolonya",
+    "title": "Espaguetis a la bolonya",
+    "category": "pasta",
+    "season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "time": 40,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "carn",
+      "BLW"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "espaguetis",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "carn picada de vedella",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "tomàquet triturat",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "pastanaga",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "api",
+        "amount": "1",
+        "unit": "tija"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "vi negre",
+        "amount": "100",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "llorer",
+        "amount": "1",
+        "unit": "fulla"
+      },
+      {
+        "ingredient": "orenga",
+        "amount": "1",
+        "unit": "culleradeta"
+      }
+    ],
+    "steps": [
+      "Sofregeix finament la ceba, la pastanaga i l'api durant 8 minuts.",
+      "Afegeix l'all picat i la carn picada. Dora a foc viu.",
+      "Desglassa amb el vi negre i deixa evaporar.",
+      "Incorpora el tomàquet triturat, el llorer i l'orenga.",
+      "Cuina a foc baix 25 minuts fins que la salsa redueixi.",
+      "Cou la pasta al dente en abundant aigua amb sal.",
+      "Barreja la pasta amb la salsa bolonya i serveix."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "babyNotes": "La pasta bolonya és perfecta per a BLW. Cuina la pasta una mica més que al dente per facilitar la masticació. Posa la carn picada en trossets petits."
+  },
+  "pasta-carbonara": {
+    "id": "pasta-carbonara",
+    "title": "Pasta carbonara",
+    "category": "pasta",
+    "season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "time": 25,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "carn"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "rigatoni o penne",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "guanciale o panceta",
+        "amount": "150",
+        "unit": "g"
+      },
+      {
+        "ingredient": "ous",
+        "amount": "4",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "parmesà ratllat",
+        "amount": "80",
+        "unit": "g"
+      },
+      {
+        "ingredient": "pecorino ratllat",
+        "amount": "40",
+        "unit": "g"
+      },
+      {
+        "ingredient": "pebre negre mòlt",
+        "amount": "",
+        "unit": "abundant"
+      },
+      {
+        "ingredient": "sal",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Cou la pasta en abundant aigua amb sal.",
+      "Talla el guanciale a daus i fregeix sense oli fins que estigui cruixent.",
+      "Bat els ous amb el formatge ratllat i el pebre.",
+      "Escorre la pasta guardant una mica d'aigua de cocció.",
+      "Fora del foc, barreja la pasta calenta amb el guanciale.",
+      "Afegeix la mescla d'ou i formatge, remenant ràpid.",
+      "Afegeix una mica d'aigua de cocció per aconseguir la textura cremosa desitjada.",
+      "Serveix immediatament amb més formatge i pebre."
+    ],
+    "allergens": [
+      "gluten",
+      "ou",
+      "làctics"
+    ],
+    "babyNotes": "Substitueix la sal i usa poca panceta. Els ous cuinats amb la calor de la pasta fan la salsa segura. Talla la pasta curta en porcions petites."
+  },
+  "pasta-pesto": {
+    "id": "pasta-pesto",
+    "title": "Pasta al pesto genovès",
+    "category": "pasta",
+    "season": [
+      "primavera",
+      "estiu"
+    ],
+    "time": 20,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "fusilli o linguine",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "alfàbrega fresca",
+        "amount": "80",
+        "unit": "g"
+      },
+      {
+        "ingredient": "parmesà ratllat",
+        "amount": "60",
+        "unit": "g"
+      },
+      {
+        "ingredient": "pinyons",
+        "amount": "40",
+        "unit": "g"
+      },
+      {
+        "ingredient": "all",
+        "amount": "1",
+        "unit": "grà"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "100",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "sal gruixuda",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Tritura l'alfàbrega, els pinyons, l'all i la sal en un morter o robot.",
+      "Afegeix el parmesà i l'oli a poc a poc fins obtenir una crema.",
+      "Cou la pasta al dente en abundant aigua amb sal.",
+      "Reserva una tassa d'aigua de cocció.",
+      "Barreja la pasta amb el pesto, afegint aigua de cocció per alleugerir.",
+      "Serveix immediatament amb parmesà extra i pinyons torrats."
+    ],
+    "allergens": [
+      "gluten",
+      "fruita de closca",
+      "làctics"
+    ],
+    "babyNotes": "El pesto és ric en greixos saludables. Evita afegir sal extra. Els pinyons poden donar-se sencers a partir dels 18 mesos o trinxats abans."
+  },
+  "peix-bacalla": {
+    "id": "peix-bacalla",
+    "title": "Bacallà amb tomàquet i olives",
+    "category": "peix",
+    "season": [
+      "tardor",
+      "hivern",
+      "primavera"
+    ],
+    "time": 35,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "peix",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "llom de bacallà dessalat",
+        "amount": "600",
+        "unit": "g"
+      },
+      {
+        "ingredient": "tomàquet madur",
+        "amount": "4",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "olives negres",
+        "amount": "80",
+        "unit": "g"
+      },
+      {
+        "ingredient": "all",
+        "amount": "3",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "orenga seca",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "4",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "pebre negre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Sofregeix la ceba i l'all fins que estiguin daurats.",
+      "Afegeix el tomàquet tallat i cuina 15 minuts a foc mitjà.",
+      "Incorpora les olives i l'orenga. Amanyaga amb pebre.",
+      "Col·loca el bacallà damunt la salsa.",
+      "Cuina a foc suau 10-12 minuts fins que el bacallà estigui cuit.",
+      "Serveix directament a la taula amb pa casolà."
+    ],
+    "allergens": [
+      "peix"
+    ],
+    "babyNotes": "Revisa que no hi hagi espines. El bacallà és excel·lent per a BLW per la seva textura que es desmunta fàcilment. Serveix en flocs."
+  },
+  "peix-salmo": {
+    "id": "peix-salmo",
+    "title": "Salmó al forn amb verdures",
+    "category": "peix",
+    "season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "time": 30,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "peix",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "llom de salmó",
+        "amount": "600",
+        "unit": "g"
+      },
+      {
+        "ingredient": "carbassó",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "pebrot vermell",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "pebrot groc",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "llimona",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "herbes provençals",
+        "amount": "1",
+        "unit": "cullerada"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      }
+    ],
+    "steps": [
+      "Preescalfa el forn a 200°C.",
+      "Talla les verdures a tires i col·loca-les en una safata amb oli.",
+      "Assa les verdures 15 minuts fins que estiguin lleugerament daurades.",
+      "Col·loca el salmó damunt les verdures.",
+      "Ruixa amb suc de llimona i herbes provençals.",
+      "Assa 12-15 minuts fins que el salmó estigui cuit però jugós."
+    ],
+    "allergens": [
+      "peix"
+    ],
+    "babyNotes": "El salmó és ric en omega-3. Retira la pell i comprova les espines. Serveix en flocs. Les verdures cuites al forn són perfectes per agafar amb les mans."
+  },
+  "peix-lluc": {
+    "id": "peix-lluc",
+    "title": "Lluç al forn amb patates",
+    "category": "peix",
+    "season": [
+      "tardor",
+      "hivern",
+      "primavera"
+    ],
+    "time": 45,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "peix",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "lluç sencer o rodanxes",
+        "amount": "800",
+        "unit": "g"
+      },
+      {
+        "ingredient": "patates",
+        "amount": "600",
+        "unit": "g"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "tomàquet",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "all",
+        "amount": "3",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "julivert",
+        "amount": "1",
+        "unit": "manat"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "4",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "vi blanc",
+        "amount": "100",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Preescalfa el forn a 180°C.",
+      "Talla les patates i la ceba a rodanxes i col·loca-les a la base de la safata.",
+      "Afegeix el tomàquet tallat i l'all picat. Salpebra i rega amb oli.",
+      "Assa les patates 25 minuts fins que estiguin quasi cuites.",
+      "Col·loca el lluç damunt les patates, afegeix el vi blanc.",
+      "Pica el julivert i escampa'l per sobre.",
+      "Assa 15-18 minuts fins que el peix estigui cuit."
+    ],
+    "allergens": [
+      "peix"
+    ],
+    "babyNotes": "Revisa bé les espines. El lluç té una textura suau perfecta per a nadons. Les patates cuites al forn es poden donar com a finger food."
+  },
+  "carn-pollastre": {
+    "id": "carn-pollastre",
+    "title": "Pollastre rostit al forn",
+    "category": "carn",
+    "season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "time": 90,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "carn",
+      "BLW"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "pollastre sencer",
+        "amount": "1.5",
+        "unit": "kg"
+      },
+      {
+        "ingredient": "llimona",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "4",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "romaní fresc",
+        "amount": "2",
+        "unit": "branques"
+      },
+      {
+        "ingredient": "farigola fresca",
+        "amount": "2",
+        "unit": "branques"
+      },
+      {
+        "ingredient": "mantega",
+        "amount": "50",
+        "unit": "g"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Preescalfa el forn a 200°C.",
+      "Barreja la mantega tova amb l'all picat, les herbes, sal i pebre.",
+      "Separa la pell del pollastre amb els dits i distribueix la mantega per sota.",
+      "Fregeix l'interior amb llimona. Lliga el pollastre.",
+      "Col·loca en una safata i rega amb oli.",
+      "Assa 20 minuts a 200°C, després baixa a 180°C i cuina 60 minuts més.",
+      "Deixa reposar 10 minuts tapat amb paper d'alumini abans de trinxar."
+    ],
+    "allergens": [
+      "làctics"
+    ],
+    "babyNotes": "Retira la pell i els ossos. La carn de pit de pollastre ben cuita és tova i fàcil de mastegar. Apta per a BLW des dels 12 mesos."
+  },
+  "carn-costelles": {
+    "id": "carn-costelles",
+    "title": "Costelles de porc al forn amb mel",
+    "category": "carn",
+    "season": [
+      "tardor",
+      "hivern"
+    ],
+    "time": 75,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "carn",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "costelles de porc",
+        "amount": "1",
+        "unit": "kg"
+      },
+      {
+        "ingredient": "mel",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "salsa de soja",
+        "amount": "2",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "all en pols",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "pimentó fumat",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "2",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Barreja la mel, la soja, l'all en pols i el pimentó.",
+      "Frota les costelles amb la marinada i deixa macerar 30 minuts.",
+      "Preescalfa el forn a 180°C.",
+      "Col·loca les costelles en una safata coberta amb paper d'alumini.",
+      "Assa 45 minuts. Destapa i assa 15 minuts més fins que estiguin daurades.",
+      "Serveix amb puré de patata o verdures al vapor."
+    ],
+    "allergens": [
+      "soja"
+    ],
+    "babyNotes": "No afegeixis sal extra. La mel no és recomanable per a menors d'1 any. Per a majors d'1 any, talla la carn en trossos petits retirant l'os."
+  },
+  "llegums-llenties": {
+    "id": "llegums-llenties",
+    "title": "Llentilles amb verdures",
+    "category": "llegums",
+    "season": [
+      "tardor",
+      "hivern",
+      "primavera"
+    ],
+    "time": 40,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "llentilles verdes o pardines",
+        "amount": "300",
+        "unit": "g"
+      },
+      {
+        "ingredient": "pastanaga",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "patata",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "tomàquet madur",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "pimentó dolç",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "comí mòlt",
+        "amount": "1/2",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal i llorer",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Renta les llentilles i posa-les a remullar si les uses seques.",
+      "Sofregeix la ceba i l'all fins que estiguin tous.",
+      "Afegeix el tomàquet ratllat, el pimentó i el comí. Cuina 5 minuts.",
+      "Incorpora les llentilles, la pastanaga i la patata tallades.",
+      "Cobreix amb aigua freda, afegeix el llorer i porta a ebullició.",
+      "Cuina a foc mitjà-baix 30 minuts fins que les llentilles estiguin cuites.",
+      "Rectifica de sal i serveix."
+    ],
+    "allergens": [],
+    "babyNotes": "Les llentilles són una excel·lent font de ferro. Per a BLW, serveix una mica aixafades o en forma de puré. La pastanaga i la patata tendres es poden donar senceres tallades."
+  },
+  "llegums-cigrons": {
+    "id": "llegums-cigrons",
+    "title": "Cigrons saltats amb espinacs",
+    "category": "llegums",
+    "season": [
+      "hivern",
+      "primavera",
+      "tardor"
+    ],
+    "time": 25,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "cigrons cuits (pot)",
+        "amount": "600",
+        "unit": "g"
+      },
+      {
+        "ingredient": "espinacs frescos",
+        "amount": "300",
+        "unit": "g"
+      },
+      {
+        "ingredient": "all",
+        "amount": "3",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "tomàquet triturat",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "comí",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "cúrcuma",
+        "amount": "1/2",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Sofregeix la ceba i l'all fins que estiguin daurats.",
+      "Afegeix el comí i la cúrcuma. Remena 1 minut.",
+      "Incorpora el tomàquet triturat i cuina 8 minuts.",
+      "Afegeix els cigrons escorreguts i barreja bé.",
+      "Incorpora els espinacs i cuina fins que es marcideixin.",
+      "Rectifica de sal i serveix."
+    ],
+    "allergens": [],
+    "babyNotes": "Plat excel·lent per a BLW. Els cigrons cuits tendres es poden donar sencers (aixafant-los lleugerament) o en puré. Els espinacs aporten ferro."
+  },
+  "llegums-mongetes": {
+    "id": "llegums-mongetes",
+    "title": "Mongetes amb botifarra",
+    "category": "llegums",
+    "season": [
+      "tardor",
+      "hivern"
+    ],
+    "time": 30,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "carn",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "mongetes cuites",
+        "amount": "600",
+        "unit": "g"
+      },
+      {
+        "ingredient": "botifarra negra",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "botifarra blanca",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "tomàquet madur",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "vi blanc",
+        "amount": "50",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Fregeix les botifar­res tallades en rodanxes fins que estiguin daurades. Reserva.",
+      "En el mateix oli, sofregeix l'all fins que estigui daurat.",
+      "Afegeix el tomàquet ratllat i cuina 10 minuts.",
+      "Afegeix el vi blanc i deixa evaporar.",
+      "Incorpora les mongetes i les botifar­res. Barreja amb cura.",
+      "Cuina 5 minuts més i rectifica de sal."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "babyNotes": "La botifarra pot tenir sal i espècies. Per a nadons, serveix les mongetes soles o en puré. Introdueix la botifarra a partir dels 18 mesos en petites quantitats."
+  },
+  "crema-carbassa": {
+    "id": "crema-carbassa",
+    "title": "Crema de carbassa i gingebre",
+    "category": "cremes",
+    "season": [
+      "tardor",
+      "hivern"
+    ],
+    "time": 35,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "carbassa",
+        "amount": "800",
+        "unit": "g"
+      },
+      {
+        "ingredient": "pastanaga",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "gingebre fresc ratllat",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "brou de verdures",
+        "amount": "700",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "nata de cuina",
+        "amount": "100",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "2",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Sofregeix la ceba i l'all fins que estiguin tous.",
+      "Afegeix la carbassa i la pastanaga tallades a daus.",
+      "Incorpora el gingebre i remena 2 minuts.",
+      "Afegeix el brou i porta a ebullició.",
+      "Cuina a foc mitjà 20 minuts fins que les verdures estiguin toves.",
+      "Tritura fins obtenir una crema fina.",
+      "Afegeix la nata, rectifica de sal i escalfa suaument.",
+      "Serveix amb una mica de nata per decorar."
+    ],
+    "allergens": [
+      "làctics"
+    ],
+    "babyNotes": "Crema perfecta per a BLW. Serveix sense sal en la ració del nadó. El gingebre es pot reduir o eliminar per als més petits."
+  },
+  "crema-verdures": {
+    "id": "crema-verdures",
+    "title": "Crema de verdures de temporada",
+    "category": "cremes",
+    "season": [
+      "tardor",
+      "hivern",
+      "primavera"
+    ],
+    "time": 30,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "patata",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "porro",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "carbassó",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "pastanaga",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "brou de verdures",
+        "amount": "800",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "2",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Sofregeix la ceba i el porro fins que estiguin tous.",
+      "Afegeix totes les verdures tallades a daus.",
+      "Cobreix amb el brou i porta a ebullició.",
+      "Cuina a foc mitjà 20 minuts fins que les verdures estiguin toves.",
+      "Tritura amb el minipimer fins obtenir una crema suau.",
+      "Rectifica de sal i pebre. Serveix ben calenta."
+    ],
+    "allergens": [],
+    "babyNotes": "Crema ideal per a primers mesos de BLW. Serveix a temperatura tèbia. Pots afegir unes gotes d'oli d'oliva verge extra per a un extra de greixos saludables."
+  },
+  "crema-bolets": {
+    "id": "crema-bolets",
+    "title": "Crema de bolets de tardor",
+    "category": "cremes",
+    "season": [
+      "tardor"
+    ],
+    "time": 35,
+    "difficulty": "Mitjana",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "bolets variats (rovellons, xampinyons)",
+        "amount": "600",
+        "unit": "g"
+      },
+      {
+        "ingredient": "patata",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "brou de verdures",
+        "amount": "700",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "nata de cuina",
+        "amount": "100",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "farigola fresca",
+        "amount": "1",
+        "unit": "branca"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Salteja els bolets en oli a foc viu fins que evapori el líquid. Reserva uns quants per decorar.",
+      "Sofregeix la ceba i l'all fins que estiguin tous.",
+      "Afegeix els bolets saltejats i la patata tallada.",
+      "Incorpora el brou i la farigola. Porta a ebullició.",
+      "Cuina 20 minuts i tritura fins obtenir una crema fina.",
+      "Afegeix la nata, rectifica i serveix decorat amb els bolets reservats."
+    ],
+    "allergens": [
+      "làctics"
+    ],
+    "babyNotes": "Els bolets son rics en nutrients. Tritura bé per a una textura suau. Redueix la sal per a la ració del nadó."
+  },
+  "amanida-mixta": {
+    "id": "amanida-mixta",
+    "title": "Amanida mixta mediterrània",
+    "category": "amanides",
+    "season": [
+      "primavera",
+      "estiu"
+    ],
+    "time": 15,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "enciam",
+        "amount": "1",
+        "unit": "cap"
+      },
+      {
+        "ingredient": "tomàquet cirerer",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "pepino",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "olives negres",
+        "amount": "80",
+        "unit": "g"
+      },
+      {
+        "ingredient": "formatge feta",
+        "amount": "100",
+        "unit": "g"
+      },
+      {
+        "ingredient": "ceba tendra",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "4",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "vinagre de vi blanc",
+        "amount": "1",
+        "unit": "cullerada"
+      },
+      {
+        "ingredient": "sal i orenga",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Renta i asseca bé l'enciam. Talla'l a trossos.",
+      "Talla els tomàquets per la meitat i el pepino a mitges llunes.",
+      "Col·loca tots els ingredients en un bol gran.",
+      "Esmicula el formatge feta per sobre.",
+      "Emulsiona l'oli amb el vinagre, la sal i l'orenga.",
+      "Alinya l'amanida just abans de servir."
+    ],
+    "allergens": [
+      "làctics"
+    ],
+    "babyNotes": "Perfecta per a BLW: els tomàquets cirerers tallats per la meitat i el pepino a daus son fàcils d'agafar. El formatge feta es pot donar esmicolat. Evita les olives senceres (risc d'encallament)."
+  },
+  "amanida-niçoise": {
+    "id": "amanida-niçoise",
+    "title": "Amanida niçoise",
+    "category": "amanides",
+    "season": [
+      "primavera",
+      "estiu"
+    ],
+    "time": 20,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "peix",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "tonyina en oli d'oliva",
+        "amount": "240",
+        "unit": "g"
+      },
+      {
+        "ingredient": "ous",
+        "amount": "4",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "mongetes verdes",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "patata",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "tomàquet",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "olives negres",
+        "amount": "60",
+        "unit": "g"
+      },
+      {
+        "ingredient": "enciam",
+        "amount": "1/2",
+        "unit": "cap"
+      },
+      {
+        "ingredient": "anxoves",
+        "amount": "4",
+        "unit": "filets"
+      },
+      {
+        "ingredient": "vinagreta de mostassa",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Cou les patates i les mongetes verdes al vapor. Reserva.",
+      "Cou els ous durs (10 minuts). Pela i talla per la meitat.",
+      "Distribueix l'enciam en una font àmplia.",
+      "Col·loca la tonyina, les patates, les mongetes, els ous i els tomàquets.",
+      "Decora amb les olives i les anxoves.",
+      "Alinya amb vinagreta de mostassa just abans de servir."
+    ],
+    "allergens": [
+      "peix",
+      "ou",
+      "mostassa"
+    ],
+    "babyNotes": "Retira les anxoves (massa sal). La tonyina, les patates cuites i les mongetes tendres son ideals per a BLW. L'ou dur tallat en quarts és fàcil d'agafar."
+  },
+  "forn-lasanya": {
+    "id": "forn-lasanya",
+    "title": "Lasanya de carn i beixamel",
+    "category": "forn",
+    "season": [
+      "tardor",
+      "hivern"
+    ],
+    "time": 75,
+    "difficulty": "Mitjana",
+    "servings": 6,
+    "tags": [
+      "carn",
+      "BLW"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "plaques de lasanya",
+        "amount": "12",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "carn picada mixta",
+        "amount": "500",
+        "unit": "g"
+      },
+      {
+        "ingredient": "tomàquet triturat",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "mozzarella ratllada",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "llet",
+        "amount": "750",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "mantega",
+        "amount": "60",
+        "unit": "g"
+      },
+      {
+        "ingredient": "farina",
+        "amount": "60",
+        "unit": "g"
+      },
+      {
+        "ingredient": "nou moscada",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Prepara la bolonya: sofregeix ceba i all, afegeix la carn i el tomàquet. Cuina 20 minuts.",
+      "Prepara la beixamel: fon la mantega, afegeix la farina i remena. Incorpora la llet calenta a poc a poc. Cuina 10 minuts.",
+      "Cou les plaques de lasanya si cal (segueix les instruccions del paquet).",
+      "En una safata, alterna capes: bolonya, plaques de pasta, beixamel.",
+      "Acaba amb beixamel i mozzarella per sobre.",
+      "Assa al forn a 180°C durant 30-35 minuts fins que estigui daurada."
+    ],
+    "allergens": [
+      "gluten",
+      "làctics",
+      "ou"
+    ],
+    "babyNotes": "La lasanya és ideal per a BLW. La pasta tova i la carn ben cuita són fàcils de mastegar. Talla en quadrats petits. Redueix la sal a la bolonya."
+  },
+  "catalana-canelons": {
+    "id": "catalana-canelons",
+    "title": "Canelons de Sant Esteve",
+    "category": "forn",
+    "season": [
+      "hivern"
+    ],
+    "time": 90,
+    "difficulty": "Difícil",
+    "servings": 6,
+    "tags": [
+      "carn",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "plaques de caneló",
+        "amount": "20",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "carn de vedella rostida (sobrants)",
+        "amount": "500",
+        "unit": "g"
+      },
+      {
+        "ingredient": "fetge de pollastre",
+        "amount": "100",
+        "unit": "g"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "1",
+        "unit": "grà"
+      },
+      {
+        "ingredient": "vi ranci",
+        "amount": "50",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "llet",
+        "amount": "800",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "mantega",
+        "amount": "70",
+        "unit": "g"
+      },
+      {
+        "ingredient": "farina",
+        "amount": "70",
+        "unit": "g"
+      },
+      {
+        "ingredient": "parmesà ratllat",
+        "amount": "100",
+        "unit": "g"
+      },
+      {
+        "ingredient": "nou moscada, sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Sofregeix la ceba i l'all, afegeix el fetge i la carn picada grosserament.",
+      "Afegeix el vi ranci i deixa reduir. Rectifica de sal.",
+      "Cou les plaques de caneló en abundant aigua amb sal.",
+      "Prepara la beixamel espessa amb la mantega, la farina i la llet.",
+      "Omple els canelons amb la carn i enrotlla'ls.",
+      "Col·loca en una safata, cobreix amb la beixamel i el parmesà.",
+      "Assa a 180°C durant 25 minuts fins que estiguin daurats."
+    ],
+    "allergens": [
+      "gluten",
+      "làctics",
+      "ou"
+    ],
+    "babyNotes": "Per als nadons, tritura el farcit finament i serveix amb beixamel suau. Redueix la sal i evita el vi ranci per a la ració infantil."
+  },
+  "catalana-escudella": {
+    "id": "catalana-escudella",
+    "title": "Escudella i carn d'olla",
+    "category": "catalana",
+    "season": [
+      "hivern"
+    ],
+    "time": 120,
+    "difficulty": "Difícil",
+    "servings": 6,
+    "tags": [
+      "carn",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "pollastre",
+        "amount": "1/2",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "costella de porc",
+        "amount": "300",
+        "unit": "g"
+      },
+      {
+        "ingredient": "peu de porc",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "botifarra negra",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "carn picada (pilota)",
+        "amount": "300",
+        "unit": "g"
+      },
+      {
+        "ingredient": "cigrons",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "patata",
+        "amount": "3",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "pastanaga",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "nap",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "pasta galets",
+        "amount": "200",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Posa a remullar els cigrons la nit anterior.",
+      "En una olla gran, cou les carns amb els cigrons en abundant aigua freda des de fred.",
+      "Porta a ebullició i escuma bé. Cuina a foc baix 1 hora.",
+      "Afegeix les verdures i continua cuinant 30 minuts més.",
+      "Prepara les pilotes barrejant la carn picada amb ou, all i julivert. Forma boles.",
+      "Afegeix les pilotes i les botifarres al brou. Cuina 20 minuts.",
+      "Cou els galets en el brou filtrat per servir la sopa primer.",
+      "Serveix les carns i verdures com a segon plat."
+    ],
+    "allergens": [
+      "gluten",
+      "ou"
+    ],
+    "babyNotes": "L'escudella és nutritiva però laboriosa. Per als nadons, serveix les verdures tendres i la carn ben esmicolada sense ossos en el brou."
+  },
+  "med-gaspatxo": {
+    "id": "med-gaspatxo",
+    "title": "Gaspatxo andalús",
+    "category": "cremes",
+    "season": [
+      "estiu"
+    ],
+    "time": 15,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "tomàquet madur",
+        "amount": "1",
+        "unit": "kg"
+      },
+      {
+        "ingredient": "pepino",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "pebrot verd",
+        "amount": "1/2",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "1",
+        "unit": "grà"
+      },
+      {
+        "ingredient": "pa de motlle",
+        "amount": "40",
+        "unit": "g"
+      },
+      {
+        "ingredient": "vinagre de vi xerès",
+        "amount": "2",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "5",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal",
+        "amount": "",
+        "unit": "al gust"
+      },
+      {
+        "ingredient": "aigua freda",
+        "amount": "200",
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Pela i talla el tomàquet, el pepino i el pebrot.",
+      "Tritura tots els ingredients fins obtenir una crema llisa.",
+      "Afegeix l'oli a poc a poc mentre tritures (emulsió).",
+      "Rectifica de sal i vinagre.",
+      "Refrigera almenys 2 hores abans de servir.",
+      "Serveix ben fred amb guarnició de verdures tallades a daus."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "babyNotes": "Serveix en form de puré o com a dip de verdures. Elimina el vinagre i l'all per a nadons. Perfecte per als mesos d'estiu."
+  },
+  "med-ratatouille": {
+    "id": "med-ratatouille",
+    "title": "Samfaina de verdures",
+    "category": "mediterrània",
+    "season": [
+      "estiu",
+      "tardor"
+    ],
+    "time": 40,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "carbassó",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "albergínia",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "pebrot vermell",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "pebrot verd",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "tomàquet madur",
+        "amount": "4",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "all",
+        "amount": "3",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "herbes de Provença",
+        "amount": "1",
+        "unit": "cullerada"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "4",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "sal i pebre",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Talla totes les verdures a daus d'igual mida.",
+      "Sofregeix la ceba i l'all durant 5 minuts.",
+      "Afegeix el pebrot i cuina 5 minuts més.",
+      "Incorpora l'albergínia i el carbassó. Cuina 10 minuts.",
+      "Afegeix el tomàquet tallat i les herbes de Provença.",
+      "Cuina a foc baix 20 minuts fins que totes les verdures estiguin molt tendres.",
+      "Rectifica de sal i serveix calent o fred."
+    ],
+    "allergens": [],
+    "babyNotes": "La samfaina és perfecta per a BLW. Les verdures ben cuites i toves es poden agafar amb les mans. Serveix sense sal extra i deixa refredar a temperatura tèbia."
+  },
+  "pizza-margherita": {
+    "id": "pizza-margherita",
+    "title": "Pizza margherita casolana",
+    "category": "pizza",
+    "season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "time": 60,
+    "difficulty": "Mitjana",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "farina de força",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "llevat fresc de forner",
+        "amount": "15",
+        "unit": "g"
+      },
+      {
+        "ingredient": "sal",
+        "amount": "8",
+        "unit": "g"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "2",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "aigua tèbia",
+        "amount": "250",
+        "unit": "ml"
+      },
+      {
+        "ingredient": "tomàquet triturat",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "mozzarella fresca",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "ingredient": "alfàbrega fresca",
+        "amount": "",
+        "unit": "al gust"
+      }
+    ],
+    "steps": [
+      "Dissol el llevat en l'aigua tèbia. Afegeix la farina, la sal i l'oli.",
+      "Pastar fins obtenir una massa llisa i elàstica. Deixa reposar 1 hora.",
+      "Preescalfa el forn al màxim (250°C) amb una safata a dins.",
+      "Estira la massa fins obtenir una capa fina.",
+      "Col·loca en paper de forn, cobreix amb tomàquet i mozzarella.",
+      "Assa 8-10 minuts fins que la vora estigui daurada i el formatge fos.",
+      "Afegeix l'alfàbrega fresca en treure del forn."
+    ],
+    "allergens": [
+      "gluten",
+      "làctics"
+    ],
+    "babyNotes": "La pizza casolana és ideal per a BLW. Talla en tires o quadrats petits. Redueix la sal a la massa. Els nadons solen gaudir de la mozzarella i el tomàquet."
+  },
+  "pasta-macarrons": {
+    "id": "pasta-macarrons",
+    "title": "Macarrons gratinats al forn",
+    "category": "pasta",
+    "season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "time": 50,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "carn",
+      "BLW"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "macarrons",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "carn picada de porc i vedella",
+        "amount": "350",
+        "unit": "g"
+      },
+      {
+        "ingredient": "tomàquet triturat",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "ingredient": "ceba",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "mozzarella ratllada",
+        "amount": "150",
+        "unit": "g"
+      },
+      {
+        "ingredient": "parmesà ratllat",
+        "amount": "50",
+        "unit": "g"
+      },
+      {
+        "ingredient": "orenga",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "oli d'oliva verge extra",
+        "amount": "3",
+        "unit": "cullerades"
+      }
+    ],
+    "steps": [
+      "Cou els macarrons en abundant aigua salada fins que estiguin al dente.",
+      "Sofregeix la ceba i l'all. Afegeix la carn i dora.",
+      "Incorpora el tomàquet triturat i l'orenga. Cuina 15 minuts.",
+      "Barreja els macarrons amb la salsa de carn.",
+      "Posa en una safata de forn i cobreix amb la mozzarella i el parmesà.",
+      "Gratina al forn a 200°C durant 10-12 minuts fins que estigui daurat."
+    ],
+    "allergens": [
+      "gluten",
+      "làctics"
+    ],
+    "babyNotes": "Un clàssic per als nadons. Els macarrons cuits ben tous i la carn picada son ideals per a BLW. Talla si cal per a mides més manejables."
+  },
+  "verdures-wok": {
+    "id": "verdures-wok",
+    "title": "Saltejat de verdures al wok",
+    "category": "mediterrània",
+    "season": [
+      "primavera",
+      "estiu"
+    ],
+    "time": 20,
+    "difficulty": "Fàcil",
+    "servings": 4,
+    "tags": [
+      "vegetarià",
+      "BLW",
+      "de temporada"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "bròquil",
+        "amount": "300",
+        "unit": "g"
+      },
+      {
+        "ingredient": "pastanaga",
+        "amount": "2",
+        "unit": "unitats"
+      },
+      {
+        "ingredient": "pebrot vermell",
+        "amount": "1",
+        "unit": "unitat"
+      },
+      {
+        "ingredient": "mongetes verdes",
+        "amount": "150",
+        "unit": "g"
+      },
+      {
+        "ingredient": "all",
+        "amount": "2",
+        "unit": "grans"
+      },
+      {
+        "ingredient": "gingebre fresc",
+        "amount": "1",
+        "unit": "culleradeta"
+      },
+      {
+        "ingredient": "salsa de soja",
+        "amount": "2",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "oli de sèsam",
+        "amount": "1",
+        "unit": "cullerada"
+      },
+      {
+        "ingredient": "sèsam torrat",
+        "amount": "1",
+        "unit": "cullerada"
+      }
+    ],
+    "steps": [
+      "Talla totes les verdures a tires o floretes.",
+      "Escalfa el wok a foc molt alt amb l'oli de sèsam.",
+      "Afegeix l'all i el gingebre i salteja 30 segons.",
+      "Incorpora les verdures més dures primer (pastanaga, mongetes).",
+      "Afegeix la resta de verdures i salteja 5-7 minuts removent constantment.",
+      "Alinya amb la salsa de soja i serveix immediatament amb sèsam torrat."
+    ],
+    "allergens": [
+      "soja",
+      "sèsam"
+    ],
+    "babyNotes": "Cou les verdures una mica més de temps per a una textura adequada per a nadons. Elimina la salsa de soja (massa sal). El bròquil i la pastanaga cuits son excel·lents finger foods."
+  }
+}

@@ -1,0 +1,4750 @@
+{
+  "year": 2026,
+  "days": {
+    "2026-01-01": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-01-02": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-01-03": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-01-04": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-01-05": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-01-06": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-01-07": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-01-08": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-01-09": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-01-10": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-01-11": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-01-12": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-01-13": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-01-14": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-01-15": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-01-16": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-01-17": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-01-18": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-01-19": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-01-20": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-01-21": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-01-22": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-01-23": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-01-24": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-01-25": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-01-26": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-01-27": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-01-28": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-01-29": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-01-30": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-01-31": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-02-01": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-02-02": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-02-03": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-02-04": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-02-05": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-02-06": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-02-07": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-02-08": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-02-09": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-02-10": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-02-11": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-02-12": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-02-13": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-02-14": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-02-15": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-02-16": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-02-17": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-02-18": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-02-19": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-02-20": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-02-21": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-02-22": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-02-23": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-02-24": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-02-25": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-02-26": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-02-27": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-02-28": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-03-01": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-03-02": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-03-03": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-03-04": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-03-05": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-03-06": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-03-07": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-03-08": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-03-09": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-03-10": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-03-11": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-03-12": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-03-13": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-03-14": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-03-15": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-03-16": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-03-17": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-03-18": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-03-19": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-03-20": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-03-21": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-03-22": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-03-23": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-03-24": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-03-25": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-03-26": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-03-27": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-03-28": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-03-29": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-03-30": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-03-31": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-04-01": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-04-02": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-04-03": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-04-04": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-04-05": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-04-06": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-04-07": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-04-08": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-04-09": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-04-10": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-04-11": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-04-12": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-04-13": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-04-14": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-04-15": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-04-16": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-04-17": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-04-18": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-04-19": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-04-20": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-04-21": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-04-22": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-04-23": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-04-24": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-04-25": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-04-26": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-04-27": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-04-28": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-04-29": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-04-30": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-05-01": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-05-02": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-05-03": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-05-04": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-05-05": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-05-06": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-05-07": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-05-08": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-05-09": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-05-10": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-05-11": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-05-12": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-05-13": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-05-14": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-05-15": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-05-16": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-05-17": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-05-18": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-05-19": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-05-20": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-05-21": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-05-22": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-05-23": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-05-24": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-05-25": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-05-26": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-05-27": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-05-28": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-05-29": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-05-30": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-05-31": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-06-01": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-06-02": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-06-03": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-06-04": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-06-05": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-06-06": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-06-07": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-06-08": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-06-09": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-06-10": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-06-11": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-06-12": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-06-13": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-06-14": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-06-15": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-06-16": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-06-17": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-06-18": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-06-19": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-06-20": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-06-21": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-06-22": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-06-23": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-06-24": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-06-25": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-06-26": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-06-27": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-06-28": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-06-29": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-06-30": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-07-01": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-07-02": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-07-03": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-07-04": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-07-05": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-07-06": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-07-07": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-07-08": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-07-09": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-07-10": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-07-11": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-07-12": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-07-13": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-07-14": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-07-15": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-07-16": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-07-17": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-07-18": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-07-19": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-07-20": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-07-21": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-07-22": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-07-23": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-07-24": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-07-25": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-07-26": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-07-27": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-07-28": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-07-29": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-07-30": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-07-31": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-08-01": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-08-02": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-08-03": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-08-04": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-08-05": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-08-06": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-08-07": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-08-08": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-08-09": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-08-10": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-08-11": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-08-12": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-08-13": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-08-14": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-08-15": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-08-16": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-08-17": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-08-18": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-08-19": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-08-20": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-08-21": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-08-22": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-08-23": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-08-24": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-08-25": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-08-26": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-08-27": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-08-28": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-08-29": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-08-30": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-08-31": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-09-01": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-09-02": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-09-03": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-09-04": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-09-05": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-09-06": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-09-07": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-09-08": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-09-09": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-09-10": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-09-11": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-09-12": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-09-13": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-09-14": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-09-15": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-09-16": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-09-17": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-09-18": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-09-19": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-09-20": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-09-21": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-09-22": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-09-23": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-09-24": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-09-25": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-09-26": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-09-27": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-09-28": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-09-29": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-09-30": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-10-01": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-10-02": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-10-03": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-10-04": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-10-05": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-10-06": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-10-07": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-10-08": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-10-09": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-10-10": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-10-11": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-10-12": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-10-13": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-10-14": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-10-15": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-10-16": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-10-17": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-10-18": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-10-19": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-10-20": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-10-21": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-10-22": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-10-23": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-10-24": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-10-25": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-10-26": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-10-27": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-10-28": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-10-29": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-10-30": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-10-31": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-11-01": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-11-02": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-11-03": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-11-04": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-11-05": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-11-06": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-11-07": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-11-08": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-11-09": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-11-10": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-11-11": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-11-12": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-11-13": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-11-14": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-11-15": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-11-16": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-11-17": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-11-18": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-11-19": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-11-20": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-11-21": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-11-22": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-11-23": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-11-24": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-11-25": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-11-26": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-11-27": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-11-28": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-11-29": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-11-30": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-12-01": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-12-02": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-12-03": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-12-04": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-12-05": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-12-06": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-12-07": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-12-08": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-12-09": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-12-10": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-12-11": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-12-12": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-12-13": {
+      "lunch": {
+        "title": "Pasta carbonara",
+        "recipe": "pasta-carbonara"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-12-14": {
+      "lunch": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-12-15": {
+      "lunch": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-12-16": {
+      "lunch": {
+        "title": "Salmó al forn amb verdures",
+        "recipe": "peix-salmo"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-12-17": {
+      "lunch": {
+        "title": "Lluç al forn amb patates",
+        "recipe": "peix-lluc"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-12-18": {
+      "lunch": {
+        "title": "Pollastre rostit al forn",
+        "recipe": "carn-pollastre"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-12-19": {
+      "lunch": {
+        "title": "Costelles de porc al forn amb mel",
+        "recipe": "carn-costelles"
+      },
+      "dinner": {
+        "title": "Crema de verdures de temporada",
+        "recipe": "crema-verdures"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-12-20": {
+      "lunch": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "dinner": {
+        "title": "Crema de bolets de tardor",
+        "recipe": "crema-bolets"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-12-21": {
+      "lunch": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "dinner": {
+        "title": "Amanida mixta mediterrània",
+        "recipe": "amanida-mixta"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-12-22": {
+      "lunch": {
+        "title": "Mongetes amb botifarra",
+        "recipe": "llegums-mongetes"
+      },
+      "dinner": {
+        "title": "Amanida niçoise",
+        "recipe": "amanida-niçoise"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-12-23": {
+      "lunch": {
+        "title": "Lasanya de carn i beixamel",
+        "recipe": "forn-lasanya"
+      },
+      "dinner": {
+        "title": "Gaspatxo andalús",
+        "recipe": "med-gaspatxo"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    },
+    "2026-12-24": {
+      "lunch": {
+        "title": "Canelons de Sant Esteve",
+        "recipe": "catalana-canelons"
+      },
+      "dinner": {
+        "title": "Cigrons saltats amb espinacs",
+        "recipe": "llegums-cigrons"
+      },
+      "quickOption": {
+        "title": "Formatge fresc amb mel"
+      }
+    },
+    "2026-12-25": {
+      "lunch": {
+        "title": "Macarrons gratinats al forn",
+        "recipe": "pasta-macarrons"
+      },
+      "dinner": {
+        "title": "Llentilles amb verdures",
+        "recipe": "llegums-llenties"
+      },
+      "quickOption": {
+        "title": "Ou ferrat amb pa"
+      }
+    },
+    "2026-12-26": {
+      "lunch": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "dinner": {
+        "title": "Bacallà amb tomàquet i olives",
+        "recipe": "peix-bacalla"
+      },
+      "quickOption": {
+        "title": "Plàtan i fruits secs"
+      }
+    },
+    "2026-12-27": {
+      "lunch": {
+        "title": "Pizza margherita casolana",
+        "recipe": "pizza-margherita"
+      },
+      "dinner": {
+        "title": "Pasta al pesto genovès",
+        "recipe": "pasta-pesto"
+      },
+      "quickOption": {
+        "title": "Entrepà de formatge i pernil"
+      }
+    },
+    "2026-12-28": {
+      "lunch": {
+        "title": "Paella valenciana",
+        "recipe": "arros-paella"
+      },
+      "dinner": {
+        "title": "Samfaina de verdures",
+        "recipe": "med-ratatouille"
+      },
+      "quickOption": {
+        "title": "Iogurt amb fruita"
+      }
+    },
+    "2026-12-29": {
+      "lunch": {
+        "title": "Arròs negre",
+        "recipe": "arros-negre"
+      },
+      "dinner": {
+        "title": "Saltejat de verdures al wok",
+        "recipe": "verdures-wok"
+      },
+      "quickOption": {
+        "title": "Sopa de sobre casolana"
+      }
+    },
+    "2026-12-30": {
+      "lunch": {
+        "title": "Arròs caldós de peix",
+        "recipe": "arros-caldo"
+      },
+      "dinner": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "quickOption": {
+        "title": "Fruita de temporada"
+      }
+    },
+    "2026-12-31": {
+      "lunch": {
+        "title": "Espaguetis a la bolonya",
+        "recipe": "pasta-bolonya"
+      },
+      "dinner": {
+        "title": "Crema de carbassa i gingebre",
+        "recipe": "crema-carbassa"
+      },
+      "quickOption": {
+        "title": "Torrades amb tomàquet"
+      }
+    }
+  }
+}
