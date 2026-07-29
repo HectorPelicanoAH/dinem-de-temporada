@@ -572,6 +572,10 @@ button {
   justify-content: flex-end;
 }
 
+.modal[hidden] {
+  display: none;
+}
+
 .modal-backdrop {
   position: fixed;
   inset: 0;
