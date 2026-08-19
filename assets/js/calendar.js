@@ -1,13 +1,14 @@
 /**
  * calendar.js — Dinem en Família
- * Calendar rendering engine (annual + monthly views)
+ * Calendar rendering engine (annual + monthly + weekly views)
  */
 
 /* === State === */
 let calendarState = {
-  view: 'annual',        // 'annual' | 'monthly'
+  view: 'annual',        // 'annual' | 'monthly' | 'weekly'
   year: 2026,
   month: 1,             // for monthly view (1-12)
+  weekStart: null,       // ISO date string for weekly view (Monday)
   selectedDate: null,
   filterTag: 'all',
   menus: {},
@@ -51,6 +52,7 @@ function bindCalendarControls() {
   // Year navigation
   document.getElementById('prev-year')?.addEventListener('click', () => {
     calendarState.year--;
+    if (calendarState.view === 'weekly') calendarState.weekStart = null;
     storageSet(STORAGE_KEYS.YEAR, calendarState.year);
     updateYearDisplay();
     renderCalendar();
@@ -58,6 +60,7 @@ function bindCalendarControls() {
 
   document.getElementById('next-year')?.addEventListener('click', () => {
     calendarState.year++;
+    if (calendarState.view === 'weekly') calendarState.weekStart = null;
     storageSet(STORAGE_KEYS.YEAR, calendarState.year);
     updateYearDisplay();
     renderCalendar();
@@ -70,6 +73,10 @@ function bindCalendarControls() {
 
   document.getElementById('view-monthly')?.addEventListener('click', () => {
     setView('monthly');
+  });
+
+  document.getElementById('view-weekly')?.addEventListener('click', () => {
+    setView('weekly');
   });
 
   // Search
@@ -125,6 +132,7 @@ function setView(view) {
 function updateViewButtons() {
   const annualBtn = document.getElementById('view-annual');
   const monthlyBtn = document.getElementById('view-monthly');
+  const weeklyBtn = document.getElementById('view-weekly');
   if (annualBtn) {
     const isAnnual = calendarState.view === 'annual';
     annualBtn.setAttribute('aria-pressed', String(isAnnual));
@@ -134,6 +142,11 @@ function updateViewButtons() {
     const isMonthly = calendarState.view === 'monthly';
     monthlyBtn.setAttribute('aria-pressed', String(isMonthly));
     monthlyBtn.classList.toggle('active', isMonthly);
+  }
+  if (weeklyBtn) {
+    const isWeekly = calendarState.view === 'weekly';
+    weeklyBtn.setAttribute('aria-pressed', String(isWeekly));
+    weeklyBtn.classList.toggle('active', isWeekly);
   }
 }
 
@@ -152,8 +165,10 @@ function renderCalendar() {
 
   if (calendarState.view === 'annual') {
     renderAnnualCalendar(container);
-  } else {
+  } else if (calendarState.view === 'monthly') {
     renderMonthlyCalendar(container);
+  } else {
+    renderWeeklyCalendar(container);
   }
 }
 
@@ -306,6 +321,141 @@ function renderMonthlyCalendar(container) {
 
   monthlyCard.appendChild(daysGrid);
   container.appendChild(monthlyCard);
+}
+
+/* === Weekly View === */
+
+function dateToISO(date) {
+  return buildDateStr(date.getFullYear(), date.getMonth() + 1, date.getDate());
+}
+
+function getMonday(date) {
+  const monday = new Date(date);
+  const offset = (monday.getDay() + 6) % 7;
+  monday.setDate(monday.getDate() - offset);
+  return monday;
+}
+
+function getInitialWeekStart() {
+  const today = new Date();
+  const reference = today.getFullYear() === calendarState.year
+    ? today
+    : new Date(calendarState.year, 0, 5, 12);
+  return dateToISO(getMonday(reference));
+}
+
+function shiftWeek(amount) {
+  const start = new Date(`${calendarState.weekStart}T12:00:00`);
+  start.setDate(start.getDate() + amount * 7);
+  calendarState.weekStart = dateToISO(start);
+
+  // Use Thursday to assign weeks spanning two years to the ISO week year.
+  const thursday = new Date(start);
+  thursday.setDate(thursday.getDate() + 3);
+  calendarState.year = thursday.getFullYear();
+  storageSet(STORAGE_KEYS.YEAR, calendarState.year);
+  updateYearDisplay();
+  renderCalendar();
+}
+
+function formatWeekRange(start) {
+  const end = new Date(start);
+  end.setDate(end.getDate() + 6);
+  const startLabel = `${start.getDate()} ${MONTHS_CA[start.getMonth()].toLowerCase()}`;
+  const endLabel = `${end.getDate()} ${MONTHS_CA[end.getMonth()].toLowerCase()}`;
+  return `${startLabel} — ${endLabel}`;
+}
+
+function createWeeklyMealCard(mealData, mealLabel) {
+  const cell = document.createElement('div');
+  cell.className = 'weekly-meal-cell';
+
+  if (!mealData?.recipe || !calendarState.recipes[mealData.recipe]) {
+    cell.innerHTML = '<span class="weekly-empty">Per planificar</span>';
+    return cell;
+  }
+
+  const recipe = calendarState.recipes[mealData.recipe];
+  const mainLink = document.createElement('a');
+  mainLink.className = 'weekly-meal-card';
+  mainLink.href = `recepta.html?id=${recipe.id}`;
+  mainLink.setAttribute('aria-label', `${mealLabel}: ${recipe.title}`);
+  mainLink.innerHTML = `
+    <img src="${recipe.image}" alt="" loading="lazy">
+    <span class="weekly-meal-copy">
+      <small>${mealLabel}</small>
+      <strong>${recipe.title}</strong>
+    </span>
+  `;
+  cell.appendChild(mainLink);
+
+  const sideRecipe = mealData.side && calendarState.recipes[mealData.side];
+  if (sideRecipe) {
+    const sideLink = document.createElement('a');
+    sideLink.className = 'weekly-side-link';
+    sideLink.href = `recepta.html?id=${sideRecipe.id}`;
+    sideLink.innerHTML = `<span aria-hidden="true">＋</span> ${sideRecipe.title}`;
+    sideLink.setAttribute('aria-label', `Acompanyament: ${sideRecipe.title}`);
+    cell.appendChild(sideLink);
+  }
+
+  return cell;
+}
+
+function renderWeeklyCalendar(container) {
+  container.className = 'weekly-view';
+  if (!calendarState.weekStart) calendarState.weekStart = getInitialWeekStart();
+
+  const start = new Date(`${calendarState.weekStart}T12:00:00`);
+  const nav = document.createElement('div');
+  nav.className = 'weekly-nav';
+  nav.innerHTML = `
+    <button class="btn btn-icon" id="prev-week" aria-label="Setmana anterior">&#8249;</button>
+    <div>
+      <p class="weekly-nav-kicker">Menú setmanal</p>
+      <h2>${formatWeekRange(start)}</h2>
+    </div>
+    <button class="btn btn-icon" id="next-week" aria-label="Setmana següent">&#8250;</button>
+  `;
+  container.appendChild(nav);
+
+  nav.querySelector('#prev-week').addEventListener('click', () => shiftWeek(-1));
+  nav.querySelector('#next-week').addEventListener('click', () => shiftWeek(1));
+
+  const board = document.createElement('section');
+  board.className = 'weekly-board';
+  board.setAttribute('aria-label', `Menús de la setmana del ${formatWeekRange(start)}`);
+  board.innerHTML = `
+    <div class="weekly-columns" aria-hidden="true">
+      <span>Dia</span><span>Dinar</span><span>Sopar</span>
+    </div>
+  `;
+
+  for (let index = 0; index < 7; index++) {
+    const date = new Date(start);
+    date.setDate(start.getDate() + index);
+    const dateStr = dateToISO(date);
+    const menuData = calendarState.menus[dateStr];
+    const row = document.createElement('article');
+    row.className = `weekly-row${isToday(dateStr) ? ' today' : ''}`;
+
+    const dayButton = document.createElement('button');
+    dayButton.className = 'weekly-day';
+    dayButton.type = 'button';
+    dayButton.setAttribute('aria-label', `Obrir menú de ${formatDateLong(dateStr)}`);
+    dayButton.innerHTML = `
+      <span>${WEEKDAYS_CA[index]}</span>
+      <strong>${date.getDate()}</strong>
+      <small>${MONTHS_CA[date.getMonth()].slice(0, 3)}</small>
+    `;
+    dayButton.addEventListener('click', () => openDayModal(dateStr));
+    row.appendChild(dayButton);
+    row.appendChild(createWeeklyMealCard(menuData?.lunch, 'Dinar'));
+    row.appendChild(createWeeklyMealCard(menuData?.dinner, 'Sopar'));
+    board.appendChild(row);
+  }
+
+  container.appendChild(board);
 }
 
 /* === Day Cell Factory === */

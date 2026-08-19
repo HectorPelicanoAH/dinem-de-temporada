@@ -321,6 +321,137 @@
   margin-top: auto;
 }
 
+/* === Weekly View === */
+.weekly-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.weekly-nav {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.weekly-nav h2 {
+  font-family: var(--font-serif);
+  color: var(--color-primary-dark);
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  line-height: 1.2;
+}
+
+.weekly-nav-kicker {
+  color: var(--color-accent);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: .2rem;
+}
+
+.weekly-board {
+  background: rgba(255, 253, 249, .78);
+  border: 1px solid var(--color-border);
+  border-radius: 28px;
+  padding: .75rem;
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(12px);
+}
+
+.weekly-columns,
+.weekly-row {
+  display: grid;
+  grid-template-columns: 82px repeat(2, minmax(0, 1fr));
+  gap: .75rem;
+}
+
+.weekly-columns {
+  padding: .35rem .5rem .65rem;
+  color: var(--color-text-muted);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.weekly-row {
+  align-items: stretch;
+  padding: .7rem .5rem;
+  border-top: 1px solid var(--color-border-light);
+}
+
+.weekly-row.today {
+  background: rgba(65, 90, 59, .055);
+  border-radius: var(--radius-lg);
+  border-top-color: transparent;
+}
+
+.weekly-day {
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--color-bg-subtle);
+  color: var(--color-primary-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 92px;
+  padding: .5rem;
+}
+
+.weekly-day:hover { background: var(--color-bg-hover); }
+.weekly-day span { font-size: .68rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.weekly-day strong { font-family: var(--font-serif); font-size: 1.8rem; line-height: 1.05; }
+.weekly-day small { color: var(--color-text-muted); font-size: .65rem; text-transform: uppercase; }
+.weekly-row.today .weekly-day { background: var(--color-primary); color: white; }
+.weekly-row.today .weekly-day small { color: rgba(255,255,255,.72); }
+
+.weekly-meal-cell {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-bg-card);
+}
+
+.weekly-meal-card {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  align-items: center;
+  color: var(--color-text);
+  text-decoration: none;
+  flex: 1;
+  transition: background var(--transition-fast);
+}
+
+.weekly-meal-card:hover { background: var(--color-bg-subtle); color: var(--color-text); text-decoration: none; }
+.weekly-meal-card img { width: 112px; height: 100%; min-height: 92px; object-fit: cover; }
+.weekly-meal-copy { min-width: 0; display: flex; flex-direction: column; gap: .25rem; padding: .75rem; }
+.weekly-meal-copy small { color: var(--color-accent); font-size: .64rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+.weekly-meal-copy strong { font-family: var(--font-serif); font-size: .95rem; line-height: 1.3; }
+
+.weekly-side-link {
+  display: block;
+  padding: .45rem .7rem;
+  border-top: 1px solid var(--color-border-light);
+  background: rgba(224, 182, 111, .10);
+  color: var(--color-secondary-dark);
+  font-size: .68rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.weekly-side-link:hover { background: rgba(224, 182, 111, .2); text-decoration: none; }
+.weekly-empty { display: grid; place-items: center; height: 100%; min-height: 92px; color: var(--color-text-light); font-size: .75rem; }
+
 /* === Filter Indicator on Days === */
 .day-cell.filter-match {
   background: rgba(212, 169, 106, 0.25);
@@ -401,6 +532,20 @@
   .weekday-header { padding: .65rem .7rem 0; }
   .days-grid { padding: .35rem .7rem .9rem; gap: 3px; }
   .day-cell { min-height: 40px; font-size: .82rem; border-radius: 9px; }
+
+  .weekly-board { padding: .4rem; border-radius: 20px; }
+  .weekly-columns, .weekly-row { grid-template-columns: 52px repeat(2, minmax(0, 1fr)); gap: .4rem; }
+  .weekly-columns { padding-inline: .2rem; }
+  .weekly-row { padding: .45rem .2rem; }
+  .weekly-day { min-height: 112px; padding: .3rem; border-radius: 12px; }
+  .weekly-day strong { font-size: 1.45rem; }
+  .weekly-day span, .weekly-day small { font-size: .58rem; }
+  .weekly-meal-card { display: flex; flex-direction: column; align-items: stretch; }
+  .weekly-meal-card img { width: 100%; height: 64px; min-height: 64px; }
+  .weekly-meal-copy { padding: .55rem; }
+  .weekly-meal-copy small { display: none; }
+  .weekly-meal-copy strong { font-size: .78rem; line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .weekly-side-link { padding: .4rem .5rem; font-size: .6rem; }
 }
 
 @media (max-width: 480px) {
