@@ -441,6 +441,8 @@ function populateMealInfo(mealSection, mealData, recipes, prefix) {
     const link = document.getElementById(`${prefix}-recipe-link`);
     if (link) {
       link.href = `recepta.html?id=${recipeId}`;
+      link.style.display = '';
+      link.hidden = false;
       link.setAttribute('aria-label', `Veure recepta: ${recipe.title}`);
     }
   } else {
