@@ -383,3 +383,31 @@
     padding: 0.5rem;
   }
 }
+
+/* === 2026 visual refresh === */
+.calendar-grid { gap: 1.25rem; }
+.month-card { border-radius: var(--radius-xl); }
+.month-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.month-header { padding: 1rem 1.1rem .9rem; }
+.month-title { font-size: 1.08rem; }
+.day-cell { min-height: 34px; }
+.monthly-card { border-radius: 28px; }
+
+@media (max-width: 600px) {
+  .calendar-grid { gap: 1rem; }
+  .month-card { scroll-margin-top: calc(var(--header-height) + 1rem); }
+  .month-card:hover { transform: none; }
+  .month-header { padding: 1rem 1.15rem; }
+  .weekday-header { padding: .65rem .7rem 0; }
+  .days-grid { padding: .35rem .7rem .9rem; gap: 3px; }
+  .day-cell { min-height: 40px; font-size: .82rem; border-radius: 9px; }
+}
+
+@media (max-width: 480px) {
+  .monthly-day-cell { min-height: 48px; }
+  .monthly-days-grid { padding: .4rem; }
+  .monthly-weekday-header { padding: .7rem .4rem; }
+  .monthly-card { border-radius: 20px; }
+  .monthly-nav { justify-content: space-between; gap: .5rem; }
+  .monthly-title { min-width: 0; flex: 1; }
+}

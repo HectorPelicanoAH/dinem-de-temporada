@@ -168,6 +168,9 @@ const CATEGORY_LABELS = {
   'forn': 'Plats al forn',
   'catalana': 'Cuina catalana',
   'mediterrània': 'Cuina mediterrània',
+  'ous': 'Ous i truites',
+  'entrepans': 'Entrepans',
+  'acompanyaments': 'Acompanyaments',
 };
 
 function getCategoryLabel(cat) {

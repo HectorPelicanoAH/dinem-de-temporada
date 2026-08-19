@@ -57,8 +57,9 @@
       <!-- Recipe Index (shown when no recipe ID in URL) -->
       <section id="recipe-index" class="recipe-index" aria-label="Índex de receptes">
         <div class="recipe-index-header">
-          <h1>Totes les Receptes</h1>
-          <p>Més de 150 receptes mediterrànies casolanes, de temporada i aptes per a nadons.</p>
+          <p class="section-kicker">Receptari familiar</p>
+          <h1>Totes les receptes</h1>
+          <p>Idees mediterrànies casolanes, de temporada i aptes per compartir en família.</p>
         </div>
 
         <!-- Filter Controls -->
@@ -83,6 +84,9 @@
                 <option value="forn">Plats al forn</option>
                 <option value="catalana">Cuina catalana</option>
                 <option value="mediterrània">Cuina mediterrània</option>
+                <option value="ous">Ous i truites</option>
+                <option value="entrepans">Entrepans</option>
+                <option value="acompanyaments">Acompanyaments</option>
               </select>
               <label for="filter-season" class="sr-only">Estació</label>
               <select id="filter-season" class="filter-select" aria-label="Filtrar per estació">
@@ -193,6 +197,11 @@
               <h2 id="allergens-heading">Al·lèrgens</h2>
               <div id="recipe-allergens" class="allergens-list" aria-label="Llista d'al·lèrgens"></div>
             </section>
+
+            <section class="recipe-section options-section" aria-labelledby="options-heading" id="options-container" hidden>
+              <h2 id="options-heading">Variants</h2>
+              <div id="recipe-options" class="option-chips"></div>
+            </section>
           </div>
 
           <div class="recipe-column recipe-column-main">
@@ -211,6 +220,12 @@
             </section>
           </div>
         </div>
+
+        <section class="recipe-section pairings-section" aria-labelledby="pairings-heading" id="pairings-container" hidden>
+          <p class="section-kicker">Combina aquest plat</p>
+          <h2 id="pairings-heading">Hi queda molt bé</h2>
+          <div id="recipe-pairings" class="recipe-grid recipe-grid-sm" role="list"></div>
+        </section>
 
         <!-- Related Recipes -->
         <section class="recipe-section related-section" aria-labelledby="related-heading" id="related-container">

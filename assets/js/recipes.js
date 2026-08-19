@@ -279,6 +279,25 @@ function populateRecipeDetail(recipe, allRecipes) {
     if (babySection) hideEl(babySection);
   }
 
+  // Variants of the same preparation
+  const optionsSection = document.getElementById('options-container');
+  const optionsList = document.getElementById('recipe-options');
+  if (optionsSection && optionsList && recipe.variations?.length) {
+    optionsList.innerHTML = recipe.variations.map(option => `<span>${option}</span>`).join('');
+    showEl(optionsSection);
+  }
+
+  // Suggested combinations and side dishes
+  const pairingsSection = document.getElementById('pairings-container');
+  const pairingsGrid = document.getElementById('recipe-pairings');
+  if (pairingsSection && pairingsGrid && recipe.pairings?.length) {
+    const pairings = recipe.pairings.map(id => allRecipes[id]).filter(Boolean);
+    if (pairings.length) {
+      renderRecipeGrid(pairingsGrid, pairings);
+      showEl(pairingsSection);
+    }
+  }
+
   // Favorite button state
   const favBtn = document.getElementById('toggle-favorite');
   const favText = document.getElementById('favorite-text');
