@@ -24,12 +24,17 @@ function initCalendar(menus, recipes) {
   calendarState.menus = menus.days || menus || {};
   calendarState.recipes = recipes;
 
+  // The app currently loads one menu file at a time. Keep the calendar on
+  // that data year instead of restoring a stale year with no menus.
+  const menuYear = Number(menus.year) || calendarState.year;
+  calendarState.year = menuYear;
+
   // Restore saved state
   const savedYear = storageGet(STORAGE_KEYS.YEAR);
   const savedView = storageGet(STORAGE_KEYS.VIEW);
   const savedMonth = storageGet(STORAGE_KEYS.MONTH);
 
-  if (savedYear) calendarState.year = savedYear;
+  if (savedYear === menuYear) calendarState.year = savedYear;
   if (savedView) calendarState.view = savedView;
   if (savedMonth) calendarState.month = savedMonth;
 
@@ -76,6 +81,11 @@ function bindCalendarControls() {
   });
 
   document.getElementById('view-weekly')?.addEventListener('click', () => {
+    const today = new Date();
+    calendarState.weekStart = dateToISO(getMonday(today));
+    calendarState.year = today.getFullYear();
+    storageSet(STORAGE_KEYS.YEAR, calendarState.year);
+    updateYearDisplay();
     setView('weekly');
   });
 
