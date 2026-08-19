@@ -443,15 +443,30 @@ function populateMealInfo(mealSection, mealData, recipes, prefix) {
       link.href = `recepta.html?id=${recipeId}`;
       link.style.display = '';
       link.hidden = false;
+      link.textContent = mealData.side ? 'Veure recepta principal →' : 'Veure recepta →';
       link.setAttribute('aria-label', `Veure recepta: ${recipe.title}`);
+    }
+
+    // Optional linked side dish
+    const sideLink = document.getElementById(`${prefix}-side-recipe-link`);
+    const sideRecipe = mealData.side && recipes[mealData.side];
+    if (sideLink && sideRecipe) {
+      sideLink.href = `recepta.html?id=${sideRecipe.id}`;
+      sideLink.hidden = false;
+      sideLink.setAttribute('aria-label', `Veure recepta acompanyant: ${sideRecipe.title}`);
+    } else if (sideLink) {
+      sideLink.hidden = true;
+      sideLink.removeAttribute('href');
     }
   } else {
     // Hide tag/ingredient/link elements if no recipe found
     const tagsContainer = document.getElementById(`${prefix}-tags`);
     const ingredientsContainer = document.getElementById(`${prefix}-ingredients`);
     const link = document.getElementById(`${prefix}-recipe-link`);
+    const sideLink = document.getElementById(`${prefix}-side-recipe-link`);
     if (tagsContainer) tagsContainer.innerHTML = '';
     if (ingredientsContainer) ingredientsContainer.textContent = '';
     if (link) link.style.display = 'none';
+    if (sideLink) sideLink.hidden = true;
   }
 }
