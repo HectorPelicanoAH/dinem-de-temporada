@@ -171,6 +171,8 @@ const CATEGORY_LABELS = {
   'ous': 'Ous i truites',
   'entrepans': 'Entrepans',
   'acompanyaments': 'Acompanyaments',
+  'asiàtica': 'Cuina asiàtica',
+  'mexicana': 'Cuina mexicana',
 };
 
 function getCategoryLabel(cat) {

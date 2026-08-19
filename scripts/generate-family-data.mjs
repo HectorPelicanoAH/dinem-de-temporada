@@ -58,16 +58,34 @@ const recipes = [
   recipe('croquetes-pollastre', 'Croquetes casolanes de pollastre', 'catalana', 60, ['carn'], ['pollastre rostit', 'llet', 'farina', 'mantega', 'ou', 'pa ratllat'], ['Prepara una beixamel espessa amb el pollastre picat.', 'Refreda la massa, forma les croquetes i arrebossa-les.', 'Fregir fins que quedin daurades.'], { difficulty: 'Mitjana', allergens: ['gluten', 'ou', 'lactis'] }),
   recipe('crema-verdures', 'Crema suau de verdures', 'cremes', 35, ['vegetarià', 'BLW', 'de temporada'], ['verdures de temporada', 'patata', 'porro', 'oli d’oliva'], ['Talla i sofregeix lleugerament les verdures.', 'Cobreix amb aigua i cou fins que siguin tendres.', 'Tritura fins a obtenir una crema fina.']),
   recipe('amanida-verda', 'Amanida verda de temporada', 'amanides', 10, ['vegetarià', 'de temporada'], ['fulles verdes', 'cogombre', 'pastanaga', 'tomàquet'], ['Renta i asseca bé les verdures.', 'Talla-les i combina-les.', 'Amaneix just abans de servir.']),
-  recipe('verdures-forn', 'Safata de verdures al forn', 'acompanyaments', 40, ['vegetarià', 'de temporada'], ['verdures de temporada', 'oli d’oliva', 'herbes'], ['Talla les verdures en peces regulars.', 'Amaneix-les amb oli i herbes.', 'Enforna fins que quedin tendres i daurades.'])
+  recipe('verdures-forn', 'Safata de verdures al forn', 'acompanyaments', 40, ['vegetarià', 'de temporada'], ['verdures de temporada', 'oli d’oliva', 'herbes'], ['Talla les verdures en peces regulars.', 'Amaneix-les amb oli i herbes.', 'Enforna fins que quedin tendres i daurades.']),
+  recipe('broquil-vapor', 'Bròquil al vapor', 'acompanyaments', 12, ['vegetarià', 'BLW', 'de temporada'], ['bròquil', 'oli d’oliva', 'llimona opcional'], ['Separa el bròquil en ramells regulars.', 'Cou-lo al vapor fins que sigui tendre però mantingui el color.', 'Serveix-lo amb un raig d’oli i, si vols, unes gotes de llimona.'], { season: ['tardor', 'hivern', 'primavera'], pairings: ['salmo-planxa', 'pollastre-planxa', 'lluc-planxa'] }),
+  recipe('remenat-esparrecs', 'Remenat d’espàrrecs de marge', 'ous', 18, ['vegetarià', 'de temporada'], ['ous', 'espàrrecs de marge', 'oli d’oliva'], ['Talla i salta els espàrrecs fins que siguin tendres.', 'Bat lleugerament els ous.', 'Afegeix-los a la paella i remena a foc suau fins que quedin cremosos.'], { season: ['primavera'], allergens: ['ou'], pairings: ['tomates-huerto'] }),
+  recipe('remenat-xampinyons', 'Remenat de xampinyons', 'ous', 18, ['vegetarià'], ['ous', 'xampinyons', 'all', 'julivert'], ['Neteja i lamina els xampinyons.', 'Salta’ls amb una mica d’all fins que perdin l’aigua.', 'Afegeix els ous i remena a foc suau.'], { allergens: ['ou'] }),
+  recipe('remenat-portobello', 'Remenat de portobello', 'ous', 20, ['vegetarià'], ['ous', 'bolets portobello', 'ceba tendra', 'oli d’oliva'], ['Talla els portobellos a làmines.', 'Daurar-los amb la ceba tendra.', 'Incorpora els ous i remena fins que quedin melosos.'], { allergens: ['ou'] }),
+  recipe('remenat-shiitake', 'Remenat de shiitake', 'ous', 20, ['vegetarià'], ['ous', 'bolets shiitake', 'ceba tendra', 'oli d’oliva'], ['Retira els peus durs i lamina els shiitake.', 'Salta’ls a foc viu amb la ceba.', 'Afegeix els ous i remena suaument.'], { allergens: ['ou'] }),
+  recipe('pasta-japonesa', 'Pasta estil japonès', 'asiàtica', 25, ['pasta', 'vegetarià'], ['fideus udon', 'col', 'pastanaga', 'ceba tendra', 'salsa de soja', 'sèsam'], ['Cou o escalda els udon segons el paquet.', 'Salta les verdures a foc viu.', 'Afegeix els fideus i la salsa de soja i salta-ho tot un parell de minuts.'], { allergens: ['gluten', 'soja', 'sèsam'], variations: ['Amb pollastre', 'Només amb verdures'] }),
+  recipe('makis-salmo', 'Makis de salmó', 'asiàtica', 50, ['peix', 'arròs'], ['arròs per a sushi', 'salmó apte per a consum en cru', 'alga nori', 'vinagre d’arròs', 'cogombre'], ['Renta i cou l’arròs; amaneix-lo amb vinagre d’arròs i deixa’l temperar.', 'Estén l’arròs sobre el nori i col·loca el salmó i el cogombre.', 'Enrotlla amb l’estoreta i talla cada rotlle amb un ganivet humit.'], { difficulty: 'Mitjana', allergens: ['peix'], babyNotes: 'Per als infants, utilitza salmó ben cuinat i serveix els components separats en formats segurs.' }),
+  recipe('tacos', 'Tacos casolans', 'mexicana', 30, ['carn'], ['tortilles de blat de moro', 'carn picada', 'tomàquet', 'enciam', 'ceba', 'alvocat'], ['Daurar la carn amb espècies suaus.', 'Escalfa les tortilles en una paella.', 'Porta els ingredients a taula perquè cadascú munti els seus tacos.'], { variations: ['De vedella', 'De pollastre', 'Vegetarians'] }),
+  recipe('fajitas', 'Fajitas de pollastre', 'mexicana', 30, ['carn'], ['tortilles de blat', 'pit de pollastre', 'pebrot', 'ceba', 'llimona'], ['Talla el pollastre i les verdures a tires.', 'Salta-ho tot a foc viu fins que quedi daurat.', 'Serveix amb les tortilles calentes i unes gotes de llimona.'], { allergens: ['gluten'] }),
+  recipe('kebab-pollastre', 'Kebab de pollastre casolà', 'carn', 35, ['carn'], ['pollastre', 'iogurt', 'llimona', 'comí', 'pa de pita', 'enciam', 'tomàquet'], ['Marina el pollastre amb iogurt, llimona i espècies.', 'Cuina’l a la planxa i talla’l a tires.', 'Serveix-lo al plat o dins del pa de pita amb amanida.'], { allergens: ['gluten', 'lactis'], variations: ['Al plat', 'Amb pa de pita'] })
 ];
 
 const recipeMap = Object.fromEntries(recipes.map(item => [item.id, item]));
 
-const weekdayLunches = ['pasta-bolonyesa','pasta-carbonara','pasta-alberginia-olives','amanida-pasta','amanida-cigrons','amanida-llenties','llenties-xorico','caldo-pollastre','botifarra-remendada','truita-patata','truita-verdures','salmo-planxa','lluc-planxa','pollastre-planxa','arros-cubana','ous-estrellats','hamburguesa','seques-botifarra','alberginies-farcides'];
-const weekendLunches = ['paella-pollastre','paella-bolets','fideua-sepia','orada-forn','aletes-forn','cuixes-pollastre','pizza-casolana','croquetes-pollastre','truita-patata','seques-botifarra'];
-const dinners = ['bikini','hummus','ensaladilla-russa','ensaladilla-tonyina','amanida-quinoa','caldo-pollastre','truita-patata','truita-verdures','salmo-planxa','lluc-planxa','orada-planxa','pollastre-planxa','ous-farcits','crema-verdures','amanida-verda','pernil-iberic'];
+const lunchesByWeekday = {
+  1: ['amanida-cigrons','amanida-llenties','llenties-xorico','seques-botifarra'],
+  2: ['pollastre-planxa','botifarra-remendada','truita-patata','truita-verdures','fajitas'],
+  3: ['pasta-bolonyesa','pasta-carbonara','pasta-alberginia-olives','pasta-japonesa','arros-cubana'],
+  4: ['salmo-planxa','lluc-planxa','orada-planxa','makis-salmo'],
+  5: ['amanida-pasta','alberginies-farcides','hamburguesa','tacos','kebab-pollastre']
+};
+const saturdayLunches = ['paella-pollastre','paella-bolets','fideua-sepia','pizza-casolana','tacos','fajitas','kebab-pollastre','makis-salmo'];
+const sundayLunches = ['orada-forn','aletes-forn','cuixes-pollastre','croquetes-pollastre','truita-patata','seques-botifarra','paella-pollastre','fideua-sepia'];
+const dinners = ['bikini','hummus','ensaladilla-russa','ensaladilla-tonyina','amanida-quinoa','caldo-pollastre','truita-patata','truita-verdures','remenat-esparrecs','remenat-xampinyons','remenat-portobello','remenat-shiitake','salmo-planxa','lluc-planxa','orada-planxa','pollastre-planxa','ous-farcits','crema-verdures','amanida-verda','pernil-iberic'];
 const quicks = ['Bikini de pernil i formatge','Hummus amb pa torrat','Truita francesa','Pernil ibèric amb pa amb tomàquet','Ous remenats','Tomàquets de l’hort amb tonyina'];
-const sides = ['patata-boniato-forn','calabacin-llimona','tomates-huerto','verdures-forn','amanida-verda'];
+const sides = ['patata-boniato-forn','calabacin-llimona','tomates-huerto','verdures-forn','amanida-verda','broquil-vapor'];
+const lightSides = ['calabacin-llimona','tomates-huerto','amanida-verda','broquil-vapor'];
 
 const seasonalAllowed = (id, month) => {
   const season = month >= 3 && month <= 5 ? 'primavera' : month >= 6 && month <= 8 ? 'estiu' : month >= 9 && month <= 11 ? 'tardor' : 'hivern';
@@ -80,22 +98,36 @@ const pick = (pool, index, month, offset = 0) => {
 
 const days = {};
 let dayIndex = 0;
+const recentLunches = [];
+const recentDinners = [];
+const pickWithoutRecentRepeat = (pool, index, month, recent, offset = 0) => {
+  const allowed = pool.filter(id => seasonalAllowed(id, month));
+  const candidates = allowed.filter(id => !recent.slice(-10).includes(id));
+  const source = candidates.length ? candidates : allowed;
+  return source[(index * 7 + month * 3 + offset) % source.length];
+};
 for (let month = 1; month <= 12; month++) {
   const count = new Date(2026, month, 0).getDate();
   for (let day = 1; day <= count; day++, dayIndex++) {
     const date = new Date(2026, month - 1, day);
-    const weekend = date.getDay() === 0 || date.getDay() === 6;
-    const lunchId = pick(weekend ? weekendLunches : weekdayLunches, dayIndex, month);
-    let dinnerId = pick(dinners, dayIndex, month, 5);
+    const weekday = date.getDay();
+    const lunchPool = weekday === 6 ? saturdayLunches : weekday === 0 ? sundayLunches : lunchesByWeekday[weekday];
+    const lunchId = pickWithoutRecentRepeat(lunchPool, dayIndex, month, recentLunches);
+    let dinnerId = pickWithoutRecentRepeat(dinners, dayIndex, month, recentDinners, 5);
     for (let attempt = 0; attempt < dinners.length && (dinnerId === lunchId || recipeMap[dinnerId].category === recipeMap[lunchId].category); attempt++) {
-      dinnerId = pick(dinners, dayIndex, month, 6 + attempt);
+      dinnerId = pickWithoutRecentRepeat(dinners, dayIndex, month, recentDinners, 6 + attempt);
     }
+    recentLunches.push(lunchId);
+    recentDinners.push(dinnerId);
     const sideId = pick(sides, dayIndex, month, 2);
     const side = recipeMap[sideId];
     const addSide = ['peix', 'carn', 'forn'].includes(recipeMap[lunchId].category);
+    const dinnerSideId = pick(lightSides, dayIndex, month, 4);
+    const dinnerSide = recipeMap[dinnerSideId];
+    const addDinnerSide = ['peix', 'carn'].includes(recipeMap[dinnerId].category);
     days[`2026-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`] = {
       lunch: { title: addSide ? `${recipeMap[lunchId].title} · ${side.title}` : recipeMap[lunchId].title, recipe: lunchId, ...(addSide ? { side: sideId } : {}) },
-      dinner: { title: recipeMap[dinnerId].title, recipe: dinnerId },
+      dinner: { title: addDinnerSide ? `${recipeMap[dinnerId].title} · ${dinnerSide.title}` : recipeMap[dinnerId].title, recipe: dinnerId, ...(addDinnerSide ? { side: dinnerSideId } : {}) },
       quickOption: { title: quicks[(dayIndex + month) % quicks.length] }
     };
   }
