@@ -24,8 +24,8 @@ const recipes = [
   recipe('amanida-pasta', 'Amanida de pasta amb tonyina', 'amanides', 20, ['pasta', 'peix'], ['pasta curta', 'tonyina', 'ou', 'tomàquets cherry', 'olives verdes'], ['Bull la pasta i refreda-la.', 'Cou els ous i talla tots els ingredients.', 'Barreja i amaneix just abans de servir.'], { allergens: ['gluten', 'ou', 'peix'] }),
   recipe('ensaladilla-russa', 'Ensaladilla russa', 'amanides', 35, ['peix'], ['patata', 'pastanaga', 'pèsols', 'tonyina', 'ou', 'maionesa'], ['Cou les verdures fins que siguin tendres.', 'Refreda-les i barreja-les amb la tonyina i l’ou.', 'Incorpora la maionesa i reserva en fred.'], { allergens: ['ou', 'peix'] }),
   recipe('ensaladilla-tonyina', 'Ensaladilla de tonyina, ou i olives', 'amanides', 15, ['peix'], ['tonyina', 'ou', 'olives verdes', 'maionesa'], ['Cou i pica els ous.', 'Escorre la tonyina i talla les olives.', 'Barreja-ho tot amb la maionesa i refreda.'], { allergens: ['ou', 'peix'] }),
-  recipe('amanida-cigrons', 'Amanida fresca de cigrons', 'amanides', 15, ['llegums', 'peix'], ['cigrons cuits', 'remolatxa', 'pastanaga', 'olives', 'tomàquet', 'tonyina'], ['Esbandeix i escorre els cigrons.', 'Talla les hortalisses a daus.', 'Barreja, amaneix i afegeix la tonyina.']),
-  recipe('amanida-llenties', 'Amanida fresca de llenties', 'amanides', 15, ['llegums', 'peix'], ['llenties cuites', 'remolatxa', 'pastanaga', 'olives', 'tomàquet', 'tonyina'], ['Esbandeix i escorre les llenties.', 'Talla les hortalisses a daus petits.', 'Barreja i amaneix amb oli i vinagre.']),
+  recipe('amanida-cigrons', 'Amanida fresca de cigrons', 'amanides', 15, ['llegums', 'vegetarià'], ['cigrons cuits', 'remolatxa', 'pastanaga', 'olives', 'tomàquet', 'tonyina opcional'], ['Esbandeix i escorre els cigrons.', 'Talla les hortalisses a daus.', 'Barreja, amaneix i afegeix la tonyina només si en vols.'], { variations: ['Vegetariana', 'Amb tonyina'] }),
+  recipe('amanida-llenties', 'Amanida fresca de llenties', 'amanides', 15, ['llegums', 'vegetarià'], ['llenties cuites', 'remolatxa', 'pastanaga', 'olives', 'tomàquet', 'tonyina opcional'], ['Esbandeix i escorre les llenties.', 'Talla les hortalisses a daus petits.', 'Barreja i amaneix amb oli i vinagre; la tonyina és opcional.'], { variations: ['Vegetariana', 'Amb tonyina'] }),
   recipe('amanida-quinoa', 'Amanida fresca de quinoa', 'amanides', 25, ['vegetarià', 'de temporada'], ['quinoa', 'remolatxa', 'pastanaga', 'olives', 'tomàquet'], ['Renta i cou la quinoa.', 'Deixa-la refredar completament.', 'Barreja amb les hortalisses i amaneix.']),
   recipe('llenties-xorico', 'Llenties amb xoriço', 'llegums', 50, ['llegums', 'carn'], ['llenties', 'xoriço', 'ceba', 'pastanaga', 'tomàquet'], ['Fes un sofregit amb les verdures.', 'Afegeix les llenties, el xoriço i aigua.', 'Cou a foc suau fins que les llenties siguin tendres.']),
   recipe('caldo-pollastre', 'Caldo de pollastre', 'cremes', 75, ['carn'], ['pollastre', 'verdures per al brou', 'galets', 'pilota opcional'], ['Posa el pollastre i les verdures en aigua freda.', 'Cou a foc suau, escumant el brou.', 'Cola i serveix amb galets, pollastre o pilota.'], { season: ['tardor', 'hivern', 'primavera'], variations: ['Amb pilota', 'Amb pollastre esmicolat', 'Amb galets', 'Només brou'] }),
@@ -73,16 +73,33 @@ const recipes = [
 
 const recipeMap = Object.fromEntries(recipes.map(item => [item.id, item]));
 
+// Weekly rhythm: four pulses, three fish meals, eggs, plenty of vegetables,
+// and no more than a few meat meals. Rich weekend dishes stay occasional.
+const legumeMains = ['amanida-cigrons','amanida-llenties','hummus','llenties-xorico','seques-botifarra'];
+const plantLegumeMains = ['amanida-cigrons','amanida-llenties','hummus'];
+const whiteMeatMains = ['pollastre-planxa','fajitas','kebab-pollastre','cuixes-pollastre','aletes-forn'];
+const grainMains = ['pasta-alberginia-olives','pasta-japonesa','arros-cubana','amanida-quinoa','pasta-bolonyesa','pasta-carbonara'];
+const fishMains = ['salmo-planxa','lluc-planxa','orada-planxa','orada-forn','amanida-pasta','makis-salmo'];
+const eggMains = ['truita-patata','truita-verdures','remenat-esparrecs','remenat-xampinyons','remenat-portobello','remenat-shiitake'];
+const vegetableMains = ['crema-verdures','amanida-verda','amanida-quinoa','pasta-alberginia-olives'];
 const lunchesByWeekday = {
-  1: ['amanida-cigrons','amanida-llenties','llenties-xorico','seques-botifarra'],
-  2: ['pollastre-planxa','botifarra-remendada','truita-patata','truita-verdures','fajitas'],
-  3: ['pasta-bolonyesa','pasta-carbonara','pasta-alberginia-olives','pasta-japonesa','arros-cubana'],
-  4: ['salmo-planxa','lluc-planxa','orada-planxa','makis-salmo'],
-  5: ['amanida-pasta','alberginies-farcides','hamburguesa','tacos','kebab-pollastre']
+  1: plantLegumeMains,
+  2: whiteMeatMains,
+  3: grainMains,
+  4: fishMains,
+  5: plantLegumeMains
 };
-const saturdayLunches = ['paella-pollastre','paella-bolets','fideua-sepia','pizza-casolana','tacos','fajitas','kebab-pollastre','makis-salmo'];
-const sundayLunches = ['orada-forn','aletes-forn','cuixes-pollastre','croquetes-pollastre','truita-patata','seques-botifarra','paella-pollastre','fideua-sepia'];
-const dinners = ['bikini','hummus','ensaladilla-russa','ensaladilla-tonyina','amanida-quinoa','caldo-pollastre','truita-patata','truita-verdures','remenat-esparrecs','remenat-xampinyons','remenat-portobello','remenat-shiitake','salmo-planxa','lluc-planxa','orada-planxa','pollastre-planxa','ous-farcits','crema-verdures','amanida-verda','pernil-iberic'];
+const saturdayLunches = ['paella-bolets','fideua-sepia','pizza-casolana','makis-salmo'];
+const sundayLunches = ['orada-forn','cuixes-pollastre','truita-patata','paella-pollastre','fideua-sepia','croquetes-pollastre','tacos'];
+const dinnersByWeekday = {
+  1: eggMains,
+  2: fishMains,
+  3: plantLegumeMains,
+  4: [...vegetableMains, ...eggMains],
+  5: fishMains,
+  6: ['crema-verdures','amanida-verda','amanida-quinoa','ensaladilla-russa','ensaladilla-tonyina','caldo-pollastre','bikini','pernil-iberic','botifarra-remendada','ous-estrellats','ous-farcits','hamburguesa','alberginies-farcides','llenties-xorico','seques-botifarra'],
+  0: plantLegumeMains
+};
 const quicks = ['Bikini de pernil i formatge','Hummus amb pa torrat','Truita francesa','Pernil ibèric amb pa amb tomàquet','Ous remenats','Tomàquets de l’hort amb tonyina'];
 const sides = ['patata-boniato-forn','calabacin-llimona','tomates-huerto','verdures-forn','amanida-verda','broquil-vapor'];
 const lightSides = ['calabacin-llimona','tomates-huerto','amanida-verda','broquil-vapor'];
@@ -113,9 +130,10 @@ for (let month = 1; month <= 12; month++) {
     const weekday = date.getDay();
     const lunchPool = weekday === 6 ? saturdayLunches : weekday === 0 ? sundayLunches : lunchesByWeekday[weekday];
     const lunchId = pickWithoutRecentRepeat(lunchPool, dayIndex, month, recentLunches);
-    let dinnerId = pickWithoutRecentRepeat(dinners, dayIndex, month, recentDinners, 5);
-    for (let attempt = 0; attempt < dinners.length && (dinnerId === lunchId || recipeMap[dinnerId].category === recipeMap[lunchId].category); attempt++) {
-      dinnerId = pickWithoutRecentRepeat(dinners, dayIndex, month, recentDinners, 6 + attempt);
+    const dinnerPool = dinnersByWeekday[weekday];
+    let dinnerId = pickWithoutRecentRepeat(dinnerPool, dayIndex, month, recentDinners, 5);
+    for (let attempt = 0; attempt < dinnerPool.length && (dinnerId === lunchId || recipeMap[dinnerId].category === recipeMap[lunchId].category); attempt++) {
+      dinnerId = pickWithoutRecentRepeat(dinnerPool, dayIndex, month, recentDinners, 6 + attempt);
     }
     recentLunches.push(lunchId);
     recentDinners.push(dinnerId);

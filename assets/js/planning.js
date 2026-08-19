@@ -57,6 +57,20 @@ function mealsInRange() {
   return meals;
 }
 
+function primaryMealsInRange() {
+  const [start, end] = getRange();
+  const meals = [];
+  for (let date = new Date(start); date <= end; date = addDays(date, 1)) {
+    const day = planningState.menus[isoDate(date)];
+    if (!day) continue;
+    ['lunch', 'dinner'].forEach(slot => {
+      const recipe = planningState.recipes[day[slot]?.recipe];
+      if (recipe) meals.push(recipe);
+    });
+  }
+  return meals;
+}
+
 function bindPlanningControls() {
   document.querySelector('#period-tabs')?.addEventListener('click', event => {
     const button = event.target.closest('[data-period]');
@@ -124,23 +138,24 @@ function renderShopping() {
 }
 
 const nutritionRules = [
-  { key:'vegetables', label:'Verdura i hortalisses', target:7, match:r => r.tags?.includes('vegetarià') || /amanid|verdura|bròquil|carbass|alberg|tomà|bolet|xampiny|espàrrec|shiitake/.test(`${r.title} ${(r.ingredients||[]).map(i=>i.ingredient).join(' ')}`.toLowerCase()) },
+  { key:'vegetables', label:'Verdura i hortalisses', target:10, includeSides:true, match:r => r.tags?.includes('vegetarià') || /amanid|verdura|bròquil|carbass|alberg|tomà|bolet|xampiny|espàrrec|shiitake/.test(`${r.title} ${(r.ingredients||[]).map(i=>i.ingredient).join(' ')}`.toLowerCase()) },
   { key:'fish', label:'Peix', target:3, match:r => r.tags?.includes('peix') },
-  { key:'legumes', label:'Llegums', target:3, match:r => /llent|cigr|hummus|seques/.test(`${r.title} ${(r.ingredients||[]).map(i=>i.ingredient).join(' ')}`.toLowerCase()) },
+  { key:'legumes', label:'Llegums', target:4, match:r => /llent|cigr|hummus|seques/.test(`${r.title} ${(r.ingredients||[]).map(i=>i.ingredient).join(' ')}`.toLowerCase()) },
   { key:'eggs', label:'Ous', target:3, match:r => /ou|truita|remenat/.test(`${r.title} ${(r.ingredients||[]).map(i=>i.ingredient).join(' ')}`.toLowerCase()) },
-  { key:'meat', label:'Carn', target:4, match:r => r.tags?.includes('carn') },
+  { key:'meat', label:'Carn', target:3, maximum:true, match:r => r.tags?.includes('carn') },
   { key:'whole', label:'Cereals i tubercles', target:7, match:r => /pasta|arròs|paella|fideu|quinoa|patata|pizza|pa |galet/.test(`${r.title} ${(r.ingredients||[]).map(i=>i.ingredient).join(' ')}`.toLowerCase()) }
 ];
 
 function renderNutrition() {
   document.querySelector('#period-tabs')?.removeAttribute('hidden');
-  const meals = mealsInRange();
-  const multiplier = Math.max(1, meals.length / 14);
-  const results = nutritionRules.map(rule => ({...rule, count:meals.filter(rule.match).length, expected:Math.round(rule.target * multiplier)}));
-  const score = Math.round(results.reduce((sum,item)=>sum + Math.min(item.count / Math.max(1,item.expected),1),0) / results.length * 100);
+  const allRecipes = mealsInRange();
+  const primaryMeals = primaryMealsInRange();
+  const multiplier = Math.max(1, primaryMeals.length / 14);
+  const results = nutritionRules.map(rule => ({...rule, count:(rule.includeSides ? allRecipes : primaryMeals).filter(rule.match).length, expected:Math.round(rule.target * multiplier)}));
+  const score = Math.round(results.reduce((sum,item)=>sum + (item.maximum ? Math.min(item.expected / Math.max(1,item.count),1) : Math.min(item.count / Math.max(1,item.expected),1)),0) / results.length * 100);
   const findings = results.map(item => {
-    const low = item.count < item.expected * .7;
-    const highMeat = item.key === 'meat' && item.count > item.expected * 1.5;
+    const low = !item.maximum && item.count < item.expected * .7;
+    const highMeat = item.maximum && item.count > item.expected;
     const proposal = low ? `Prova d’afegir ${Math.max(1,item.expected-item.count)} àpat(s) amb ${item.label.toLowerCase()}.` : highMeat ? 'Canvia algun plat de carn per llegums, peix o una opció vegetal.' : 'Presència adequada dins del menú planificat.';
     return `<div class="nutrition-finding${low || highMeat ? '' : ' good'}"><strong>${low ? 'A reforçar' : highMeat ? 'A moderar' : 'Bon equilibri'} · ${item.label}</strong><span>${proposal}</span></div>`;
   }).join('');
