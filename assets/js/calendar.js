@@ -376,6 +376,17 @@ function formatWeekRange(start) {
   return `${startLabel} — ${endLabel}`;
 }
 
+function createPlanningLinks(weekStart, compact = false) {
+  const links = document.createElement('div');
+  links.className = compact ? 'week-planning-links compact' : 'week-planning-links';
+  links.innerHTML = `
+    <a href="compra.html?week=${weekStart}" aria-label="Llista de la compra d'aquesta setmana"><span aria-hidden="true">🛒</span>${compact ? '' : ' Llista de la compra'}</a>
+    <a href="dieta.html?week=${weekStart}" aria-label="Valorar la dieta d'aquesta setmana"><span aria-hidden="true">🥗</span>${compact ? '' : ' Dieta equilibrada'}</a>
+  `;
+  links.querySelectorAll('a').forEach(link => link.addEventListener('click', event => event.stopPropagation()));
+  return links;
+}
+
 function createWeeklyMealCard(mealData, mealLabel) {
   const cell = document.createElement('div');
   cell.className = 'weekly-meal-cell';
@@ -431,6 +442,7 @@ function renderWeeklyCalendar(container) {
 
   nav.querySelector('#prev-week').addEventListener('click', () => shiftWeek(-1));
   nav.querySelector('#next-week').addEventListener('click', () => shiftWeek(1));
+  container.appendChild(createPlanningLinks(calendarState.weekStart));
 
   const board = document.createElement('section');
   board.className = 'weekly-board';
@@ -522,9 +534,10 @@ function createDayCell(dateStr, dayNum, isMonthly = false) {
 }
 
 function createMonthlyDayCell(dateStr, dayNum) {
-  const cell = document.createElement('button');
+  const cell = document.createElement('div');
   cell.className = 'monthly-day-cell';
   cell.setAttribute('role', 'gridcell');
+  cell.setAttribute('tabindex', '0');
 
   const menuData = calendarState.menus[dateStr];
   const today = isToday(dateStr);
@@ -558,7 +571,19 @@ function createMonthlyDayCell(dateStr, dayNum) {
   if (selected) cell.classList.add('selected');
   if (weekend) cell.classList.add('weekend');
 
+  const date = new Date(`${dateStr}T12:00:00`);
+  if (date.getDay() === 1 || dayNum === 1) {
+    cell.classList.add('week-start');
+    cell.appendChild(createPlanningLinks(dateToISO(getMonday(date)), true));
+  }
+
   cell.addEventListener('click', () => openDayModal(dateStr));
+  cell.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openDayModal(dateStr);
+    }
+  });
 
   return cell;
 }
