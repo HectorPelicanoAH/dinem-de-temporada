@@ -354,6 +354,35 @@
   margin-bottom: .2rem;
 }
 
+.week-planning-links {
+  display: flex;
+  justify-content: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
+
+.week-planning-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  min-height: 40px;
+  padding: .5rem .8rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-bg-card);
+  color: var(--color-primary-dark);
+  font-size: .76rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.week-planning-links a:hover { background: var(--color-bg-subtle); text-decoration: none; }
+.monthly-day-cell { position: relative; cursor: pointer; }
+.monthly-day-cell.week-start { padding-top: 1.75rem; }
+.week-planning-links.compact { position: absolute; inset: .25rem .25rem auto; justify-content: flex-end; gap: .15rem; z-index: 2; }
+.week-planning-links.compact a { min-height: 22px; width: 22px; padding: 0; justify-content: center; border: 0; border-radius: 7px; font-size: .7rem; box-shadow: none; }
+
 .weekly-board {
   background: rgba(255, 253, 249, .78);
   border: 1px solid var(--color-border);
@@ -534,18 +563,21 @@
   .day-cell { min-height: 40px; font-size: .82rem; border-radius: 9px; }
 
   .weekly-board { padding: .4rem; border-radius: 20px; }
-  .weekly-columns, .weekly-row { grid-template-columns: 52px repeat(2, minmax(0, 1fr)); gap: .4rem; }
+  .weekly-columns, .weekly-row { grid-template-columns: 68px repeat(2, minmax(0, 1fr)); gap: .4rem; }
   .weekly-columns { padding-inline: .2rem; }
   .weekly-row { padding: .45rem .2rem; }
-  .weekly-day { min-height: 112px; padding: .3rem; border-radius: 12px; }
-  .weekly-day strong { font-size: 1.45rem; }
-  .weekly-day span, .weekly-day small { font-size: .58rem; }
+  .weekly-day { min-height: 112px; padding: .45rem; border-radius: 14px; }
+  .weekly-day strong { font-size: 1.85rem; }
+  .weekly-day span { font-size: .7rem; }
+  .weekly-day small { font-size: .62rem; }
   .weekly-meal-card { display: flex; flex-direction: column; align-items: stretch; }
   .weekly-meal-card img { width: 100%; height: 64px; min-height: 64px; }
   .weekly-meal-copy { padding: .55rem; }
   .weekly-meal-copy small { display: none; }
   .weekly-meal-copy strong { font-size: .78rem; line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .weekly-side-link { padding: .4rem .5rem; font-size: .6rem; }
+  .week-planning-links:not(.compact) { display: grid; grid-template-columns: 1fr 1fr; }
+  .week-planning-links:not(.compact) a { justify-content: center; padding-inline: .45rem; font-size: .7rem; }
 }
 
 @media (max-width: 480px) {
@@ -555,4 +587,7 @@
   .monthly-card { border-radius: 20px; }
   .monthly-nav { justify-content: space-between; gap: .5rem; }
   .monthly-title { min-width: 0; flex: 1; }
+  .monthly-day-cell.week-start { padding-top: 1.25rem; }
+  .week-planning-links.compact { inset: .12rem .12rem auto; }
+  .week-planning-links.compact a { width: 17px; min-height: 17px; font-size: .55rem; }
 }
