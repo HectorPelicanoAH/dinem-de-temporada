@@ -352,7 +352,7 @@
     "servings": 4,
     "tags": [
       "llegums",
-      "peix"
+      "vegetarià"
     ],
     "image": "assets/images/recipes/amanida-cigrons.jpg",
     "ingredients": [
@@ -382,7 +382,7 @@
         "unit": ""
       },
       {
-        "ingredient": "tonyina",
+        "ingredient": "tonyina opcional",
         "amount": "",
         "unit": ""
       }
@@ -390,11 +390,14 @@
     "steps": [
       "Esbandeix i escorre els cigrons.",
       "Talla les hortalisses a daus.",
-      "Barreja, amaneix i afegeix la tonyina."
+      "Barreja, amaneix i afegeix la tonyina només si en vols."
     ],
     "allergens": [],
     "babyNotes": "Separa la ració infantil abans de salar i adapta la textura i la mida dels trossos.",
-    "variations": [],
+    "variations": [
+      "Vegetariana",
+      "Amb tonyina"
+    ],
     "pairings": []
   },
   "amanida-llenties": {
@@ -412,7 +415,7 @@
     "servings": 4,
     "tags": [
       "llegums",
-      "peix"
+      "vegetarià"
     ],
     "image": "assets/images/recipes/amanida-llenties.jpg",
     "ingredients": [
@@ -442,7 +445,7 @@
         "unit": ""
       },
       {
-        "ingredient": "tonyina",
+        "ingredient": "tonyina opcional",
         "amount": "",
         "unit": ""
       }
@@ -450,11 +453,14 @@
     "steps": [
       "Esbandeix i escorre les llenties.",
       "Talla les hortalisses a daus petits.",
-      "Barreja i amaneix amb oli i vinagre."
+      "Barreja i amaneix amb oli i vinagre; la tonyina és opcional."
     ],
     "allergens": [],
     "babyNotes": "Separa la ració infantil abans de salar i adapta la textura i la mida dels trossos.",
-    "variations": [],
+    "variations": [
+      "Vegetariana",
+      "Amb tonyina"
+    ],
     "pairings": []
   },
   "amanida-quinoa": {
