@@ -8,8 +8,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -21,8 +21,9 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -34,8 +35,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Ous farcits de tonyina",
-        "recipe": "ous-farcits"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -47,8 +48,8 @@
         "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -56,12 +57,12 @@
     },
     "2026-01-05": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -69,13 +70,13 @@
     },
     "2026-01-06": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Patates i moniato al forn",
-        "recipe": "cuixes-pollastre",
-        "side": "patata-boniato-forn"
+        "title": "Ous estrellats amb pernil o xoriço",
+        "recipe": "ous-estrellats"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -87,8 +88,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -101,8 +102,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -110,12 +111,12 @@
     },
     "2026-01-09": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Bròquil al vapor",
-        "recipe": "salmo-planxa",
+        "title": "Lluç a la planxa · Bròquil al vapor",
+        "recipe": "lluc-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -128,8 +129,8 @@
         "recipe": "paella-bolets"
       },
       "dinner": {
-        "title": "Seques amb botifarra i ou ferrat",
-        "recipe": "seques-botifarra"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -137,12 +138,12 @@
     },
     "2026-01-11": {
       "lunch": {
-        "title": "Paella de pollastre",
-        "recipe": "paella-pollastre"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -150,12 +151,12 @@
     },
     "2026-01-12": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -163,13 +164,13 @@
     },
     "2026-01-13": {
       "lunch": {
-        "title": "Aletes de pollastre al forn · Safata de verdures al forn",
-        "recipe": "aletes-forn",
+        "title": "Cuixes de pollastre a la brasa o al forn · Safata de verdures al forn",
+        "recipe": "cuixes-pollastre",
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Bròquil al vapor",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Bròquil al vapor",
+        "recipe": "salmo-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -182,8 +183,8 @@
         "recipe": "pasta-bolonyesa"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -196,8 +197,8 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Amanida verda de temporada",
-        "recipe": "amanida-verda"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -209,8 +210,8 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -222,8 +223,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -231,12 +232,12 @@
     },
     "2026-01-18": {
       "lunch": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Fideuà amb sèpia",
+        "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -244,12 +245,12 @@
     },
     "2026-01-19": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -257,8 +258,8 @@
     },
     "2026-01-20": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Amanida verda de temporada",
-        "recipe": "pollastre-planxa",
+        "title": "Aletes de pollastre al forn · Amanida verda de temporada",
+        "recipe": "aletes-forn",
         "side": "amanida-verda"
       },
       "dinner": {
@@ -276,8 +277,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -290,8 +291,8 @@
         "side": "patata-boniato-forn"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -303,8 +304,8 @@
         "recipe": "hummus"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Bròquil al vapor",
-        "recipe": "salmo-planxa",
+        "title": "Lluç a la planxa · Bròquil al vapor",
+        "recipe": "lluc-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -313,8 +314,8 @@
     },
     "2026-01-24": {
       "lunch": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Paella de bolets",
+        "recipe": "paella-bolets"
       },
       "dinner": {
         "title": "Ensaladilla russa",
@@ -326,12 +327,12 @@
     },
     "2026-01-25": {
       "lunch": {
-        "title": "Fideuà amb sèpia",
-        "recipe": "fideua-sepia"
+        "title": "Paella de pollastre",
+        "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -339,12 +340,12 @@
     },
     "2026-01-26": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -352,13 +353,14 @@
     },
     "2026-01-27": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Bròquil al vapor",
-        "recipe": "kebab-pollastre",
+        "title": "Cuixes de pollastre a la brasa o al forn · Bròquil al vapor",
+        "recipe": "cuixes-pollastre",
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Salmó a la planxa · Bròquil al vapor",
+        "recipe": "salmo-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -370,8 +372,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -379,12 +381,12 @@
     },
     "2026-01-29": {
       "lunch": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Makis de salmó",
+        "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -392,12 +394,12 @@
     },
     "2026-01-30": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -409,9 +411,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Hamburguesa casolana · Bròquil al vapor",
-        "recipe": "hamburguesa",
-        "side": "broquil-vapor"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -419,13 +420,12 @@
     },
     "2026-02-01": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Safata de verdures al forn",
-        "recipe": "cuixes-pollastre",
-        "side": "verdures-forn"
+        "title": "Croquetes casolanes de pollastre",
+        "recipe": "croquetes-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -433,12 +433,12 @@
     },
     "2026-02-02": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -446,13 +446,13 @@
     },
     "2026-02-03": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Bròquil al vapor",
-        "recipe": "pollastre-planxa",
+        "title": "Hamburguesa casolana · Bròquil al vapor",
+        "recipe": "hamburguesa",
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Orada a la planxa · Bròquil al vapor",
-        "recipe": "orada-planxa",
+        "title": "Lluç a la planxa · Bròquil al vapor",
+        "recipe": "lluc-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -465,8 +465,8 @@
         "recipe": "arros-cubana"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -479,8 +479,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Amanida verda de temporada",
-        "recipe": "amanida-verda"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -488,12 +488,13 @@
     },
     "2026-02-06": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -505,8 +506,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Pernil ibèric amb pa amb tomàquet",
-        "recipe": "pernil-iberic"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -514,12 +515,12 @@
     },
     "2026-02-08": {
       "lunch": {
-        "title": "Paella de pollastre",
-        "recipe": "paella-pollastre"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -527,12 +528,12 @@
     },
     "2026-02-09": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -540,13 +541,13 @@
     },
     "2026-02-10": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Patates i moniato al forn",
-        "recipe": "kebab-pollastre",
-        "side": "patata-boniato-forn"
+        "title": "Ous estrellats amb pernil o xoriço",
+        "recipe": "ous-estrellats"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -558,8 +559,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -572,8 +573,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -599,8 +600,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -613,8 +614,8 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -626,8 +627,8 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -635,8 +636,8 @@
     },
     "2026-02-17": {
       "lunch": {
-        "title": "Aletes de pollastre al forn · Safata de verdures al forn",
-        "recipe": "aletes-forn",
+        "title": "Hamburguesa casolana · Safata de verdures al forn",
+        "recipe": "hamburguesa",
         "side": "verdures-forn"
       },
       "dinner": {
@@ -654,8 +655,8 @@
         "recipe": "pasta-bolonyesa"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -668,8 +669,8 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -681,8 +682,9 @@
         "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -694,8 +696,8 @@
         "recipe": "paella-bolets"
       },
       "dinner": {
-        "title": "Ous farcits de tonyina",
-        "recipe": "ous-farcits"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -707,8 +709,8 @@
         "recipe": "croquetes-pollastre"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -716,12 +718,12 @@
     },
     "2026-02-23": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -734,9 +736,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Orada a la planxa · Amanida verda de temporada",
-        "recipe": "orada-planxa",
-        "side": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -748,8 +749,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -761,8 +762,8 @@
         "recipe": "amanida-pasta"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -770,12 +771,13 @@
     },
     "2026-02-27": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Salmó a la planxa · Bròquil al vapor",
+        "recipe": "salmo-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -787,8 +789,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Amanida verda de temporada",
-        "recipe": "amanida-verda"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -800,8 +802,9 @@
         "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
+        "recipe": "lluc-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -809,8 +812,8 @@
     },
     "2026-03-02": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
         "title": "Remenat de portobello",
@@ -822,12 +825,13 @@
     },
     "2026-03-03": {
       "lunch": {
-        "title": "Fajitas de pollastre",
-        "recipe": "fajitas"
+        "title": "Cuixes de pollastre a la brasa o al forn · Amanida verda de temporada",
+        "recipe": "cuixes-pollastre",
+        "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Bròquil al vapor",
-        "recipe": "lluc-planxa",
+        "title": "Orada a la planxa · Bròquil al vapor",
+        "recipe": "orada-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -840,8 +844,8 @@
         "recipe": "pasta-bolonyesa"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -854,8 +858,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -863,12 +867,12 @@
     },
     "2026-03-06": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Bròquil al vapor",
-        "recipe": "salmo-planxa",
+        "title": "Orada a la planxa · Bròquil al vapor",
+        "recipe": "orada-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -890,13 +894,12 @@
     },
     "2026-03-08": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Amanida verda de temporada",
-        "recipe": "cuixes-pollastre",
-        "side": "amanida-verda"
+        "title": "Tacos casolans",
+        "recipe": "tacos"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -904,12 +907,12 @@
     },
     "2026-03-09": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -917,13 +920,14 @@
     },
     "2026-03-10": {
       "lunch": {
-        "title": "Aletes de pollastre al forn · Safata de verdures al forn",
-        "recipe": "aletes-forn",
+        "title": "Kebab de pollastre casolà · Safata de verdures al forn",
+        "recipe": "kebab-pollastre",
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Salmó a la planxa · Daus de carbassó a la llimona",
+        "recipe": "salmo-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -935,8 +939,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -948,8 +952,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Amanida verda de temporada",
-        "recipe": "amanida-verda"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -957,12 +961,13 @@
     },
     "2026-03-13": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
+        "recipe": "lluc-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -974,8 +979,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Ensaladilla de tonyina, ou i olives",
-        "recipe": "ensaladilla-tonyina"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -988,8 +993,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -997,12 +1002,12 @@
     },
     "2026-03-16": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat d’espàrrecs de marge",
-        "recipe": "remenat-esparrecs"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1010,13 +1015,14 @@
     },
     "2026-03-17": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Daus de carbassó a la llimona",
-        "recipe": "pollastre-planxa",
+        "title": "Cuixes de pollastre a la brasa o al forn · Daus de carbassó a la llimona",
+        "recipe": "cuixes-pollastre",
         "side": "calabacin-llimona"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1028,8 +1034,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1042,8 +1048,8 @@
         "side": "patata-boniato-forn"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1055,9 +1061,8 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Orada a la planxa · Amanida verda de temporada",
-        "recipe": "orada-planxa",
-        "side": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1069,8 +1074,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Ous estrellats amb pernil o xoriço",
-        "recipe": "ous-estrellats"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1078,12 +1083,12 @@
     },
     "2026-03-22": {
       "lunch": {
-        "title": "Tacos casolans",
-        "recipe": "tacos"
+        "title": "Paella de pollastre",
+        "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1095,8 +1100,8 @@
         "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1104,8 +1109,8 @@
     },
     "2026-03-24": {
       "lunch": {
-        "title": "Aletes de pollastre al forn · Patates i moniato al forn",
-        "recipe": "aletes-forn",
+        "title": "Kebab de pollastre casolà · Patates i moniato al forn",
+        "recipe": "kebab-pollastre",
         "side": "patata-boniato-forn"
       },
       "dinner": {
@@ -1123,8 +1128,8 @@
         "recipe": "pasta-bolonyesa"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1137,8 +1142,8 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1164,8 +1169,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Caldo de pollastre",
-        "recipe": "caldo-pollastre"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1173,12 +1178,13 @@
     },
     "2026-03-29": {
       "lunch": {
-        "title": "Paella de pollastre",
-        "recipe": "paella-pollastre"
+        "title": "Croquetes casolanes de pollastre",
+        "recipe": "croquetes-pollastre"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1186,12 +1192,12 @@
     },
     "2026-03-30": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1199,13 +1205,13 @@
     },
     "2026-03-31": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Bròquil al vapor",
-        "recipe": "pollastre-planxa",
+        "title": "Cuixes de pollastre a la brasa o al forn · Bròquil al vapor",
+        "recipe": "cuixes-pollastre",
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1217,8 +1223,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1231,8 +1237,8 @@
         "side": "calabacin-llimona"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1244,8 +1250,9 @@
         "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
+        "recipe": "lluc-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1257,8 +1264,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Ous farcits de tonyina",
-        "recipe": "ous-farcits"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1266,13 +1273,12 @@
     },
     "2026-04-05": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Safata de verdures al forn",
-        "recipe": "cuixes-pollastre",
-        "side": "verdures-forn"
+        "title": "Fideuà amb sèpia",
+        "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1280,12 +1286,12 @@
     },
     "2026-04-06": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Remenat d’espàrrecs de marge",
-        "recipe": "remenat-esparrecs"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1293,12 +1299,12 @@
     },
     "2026-04-07": {
       "lunch": {
-        "title": "Fajitas de pollastre",
-        "recipe": "fajitas"
+        "title": "Ous estrellats amb pernil o xoriço",
+        "recipe": "ous-estrellats"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Amanida verda de temporada",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -1311,8 +1317,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1324,8 +1330,8 @@
         "recipe": "amanida-pasta"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1333,12 +1339,12 @@
     },
     "2026-04-10": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -1347,13 +1353,12 @@
     },
     "2026-04-11": {
       "lunch": {
-        "title": "Fideuà amb sèpia",
-        "recipe": "fideua-sepia"
+        "title": "Makis de salmó",
+        "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Hamburguesa casolana · Bròquil al vapor",
-        "recipe": "hamburguesa",
-        "side": "broquil-vapor"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1365,8 +1370,8 @@
         "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1374,12 +1379,12 @@
     },
     "2026-04-13": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1387,13 +1392,13 @@
     },
     "2026-04-14": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Patates i moniato al forn",
-        "recipe": "kebab-pollastre",
-        "side": "patata-boniato-forn"
+        "title": "Botifarra remenada amb ou, patata i porro",
+        "recipe": "botifarra-remendada"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Lluç a la planxa · Bròquil al vapor",
+        "recipe": "lluc-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1405,8 +1410,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1414,13 +1419,13 @@
     },
     "2026-04-16": {
       "lunch": {
-        "title": "Orada a la planxa · Bròquil al vapor",
-        "recipe": "orada-planxa",
+        "title": "Orada al forn · Bròquil al vapor",
+        "recipe": "orada-forn",
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1428,13 +1433,12 @@
     },
     "2026-04-17": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Orada a la planxa · Bròquil al vapor",
-        "recipe": "orada-planxa",
-        "side": "broquil-vapor"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1442,12 +1446,12 @@
     },
     "2026-04-18": {
       "lunch": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Pizza casolana",
+        "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Llenties amb xoriço",
-        "recipe": "llenties-xorico"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1455,12 +1459,13 @@
     },
     "2026-04-19": {
       "lunch": {
-        "title": "Paella de pollastre",
-        "recipe": "paella-pollastre"
+        "title": "Fideuà amb sèpia",
+        "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1468,12 +1473,12 @@
     },
     "2026-04-20": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1481,13 +1486,13 @@
     },
     "2026-04-21": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Bròquil al vapor",
-        "recipe": "cuixes-pollastre",
-        "side": "broquil-vapor"
+        "title": "Ous estrellats amb pernil o xoriço",
+        "recipe": "ous-estrellats"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Daus de carbassó a la llimona",
+        "recipe": "orada-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1499,8 +1504,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1508,13 +1513,13 @@
     },
     "2026-04-23": {
       "lunch": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Remenat d’espàrrecs de marge",
-        "recipe": "remenat-esparrecs"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1522,12 +1527,12 @@
     },
     "2026-04-24": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Daus de carbassó a la llimona",
+        "recipe": "salmo-planxa",
         "side": "calabacin-llimona"
       },
       "quickOption": {
@@ -1536,12 +1541,12 @@
     },
     "2026-04-25": {
       "lunch": {
-        "title": "Fideuà amb sèpia",
-        "recipe": "fideua-sepia"
+        "title": "Makis de salmó",
+        "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Seques amb botifarra i ou ferrat",
-        "recipe": "seques-botifarra"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1549,12 +1554,12 @@
     },
     "2026-04-26": {
       "lunch": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Paella de pollastre",
+        "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1562,12 +1567,12 @@
     },
     "2026-04-27": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1575,13 +1580,12 @@
     },
     "2026-04-28": {
       "lunch": {
-        "title": "Aletes de pollastre al forn · Amanida verda de temporada",
-        "recipe": "aletes-forn",
-        "side": "amanida-verda"
+        "title": "Botifarra remenada amb ou, patata i porro",
+        "recipe": "botifarra-remendada"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -1594,8 +1598,8 @@
         "recipe": "pasta-bolonyesa"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Remenat d’espàrrecs de marge",
+        "recipe": "remenat-esparrecs"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1603,13 +1607,13 @@
     },
     "2026-04-30": {
       "lunch": {
-        "title": "Lluç a la planxa · Safata de verdures al forn",
-        "recipe": "lluc-planxa",
+        "title": "Orada a la planxa · Safata de verdures al forn",
+        "recipe": "orada-planxa",
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1617,13 +1621,12 @@
     },
     "2026-05-01": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Orada a la planxa · Amanida verda de temporada",
-        "recipe": "orada-planxa",
-        "side": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1631,12 +1634,12 @@
     },
     "2026-05-02": {
       "lunch": {
-        "title": "Pizza casolana",
-        "recipe": "pizza-casolana"
+        "title": "Fideuà amb sèpia",
+        "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Ous estrellats amb pernil o xoriço",
-        "recipe": "ous-estrellats"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1648,8 +1651,8 @@
         "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1657,12 +1660,12 @@
     },
     "2026-05-04": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1670,13 +1673,12 @@
     },
     "2026-05-05": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Patates i moniato al forn",
-        "recipe": "cuixes-pollastre",
-        "side": "patata-boniato-forn"
+        "title": "Fajitas de pollastre",
+        "recipe": "fajitas"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Bròquil al vapor",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Bròquil al vapor",
+        "recipe": "salmo-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -1689,8 +1691,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1703,8 +1705,8 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1712,12 +1714,13 @@
     },
     "2026-05-08": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Orada a la planxa · Bròquil al vapor",
+        "recipe": "orada-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1729,8 +1732,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Caldo de pollastre",
-        "recipe": "caldo-pollastre"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1738,12 +1741,12 @@
     },
     "2026-05-10": {
       "lunch": {
-        "title": "Fideuà amb sèpia",
-        "recipe": "fideua-sepia"
+        "title": "Paella de pollastre",
+        "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1751,12 +1754,12 @@
     },
     "2026-05-11": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1764,14 +1767,13 @@
     },
     "2026-05-12": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Bròquil al vapor",
-        "recipe": "pollastre-planxa",
+        "title": "Kebab de pollastre casolà · Bròquil al vapor",
+        "recipe": "kebab-pollastre",
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Orada a la planxa · Daus de carbassó a la llimona",
-        "recipe": "orada-planxa",
-        "side": "calabacin-llimona"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1783,8 +1785,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1797,8 +1799,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Remenat d’espàrrecs de marge",
+        "recipe": "remenat-esparrecs"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1806,12 +1808,13 @@
     },
     "2026-05-15": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
+        "recipe": "lluc-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1819,12 +1822,12 @@
     },
     "2026-05-16": {
       "lunch": {
-        "title": "Pizza casolana",
-        "recipe": "pizza-casolana"
+        "title": "Fideuà amb sèpia",
+        "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Pernil ibèric amb pa amb tomàquet",
-        "recipe": "pernil-iberic"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1832,12 +1835,12 @@
     },
     "2026-05-17": {
       "lunch": {
-        "title": "Paella de pollastre",
-        "recipe": "paella-pollastre"
+        "title": "Tacos casolans",
+        "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1845,12 +1848,12 @@
     },
     "2026-05-18": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1858,13 +1861,13 @@
     },
     "2026-05-19": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Amanida verda de temporada",
-        "recipe": "kebab-pollastre",
-        "side": "amanida-verda"
+        "title": "Fajitas de pollastre",
+        "recipe": "fajitas"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1876,8 +1879,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1890,8 +1893,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Remenat d’espàrrecs de marge",
-        "recipe": "remenat-esparrecs"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1903,8 +1906,8 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -1917,8 +1920,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -1926,12 +1929,13 @@
     },
     "2026-05-24": {
       "lunch": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Cuixes de pollastre a la brasa o al forn · Amanida verda de temporada",
+        "recipe": "cuixes-pollastre",
+        "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -1939,12 +1943,12 @@
     },
     "2026-05-25": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -1952,13 +1956,13 @@
     },
     "2026-05-26": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Safata de verdures al forn",
-        "recipe": "cuixes-pollastre",
-        "side": "verdures-forn"
+        "title": "Ous estrellats amb pernil o xoriço",
+        "recipe": "ous-estrellats"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Lluç a la planxa · Bròquil al vapor",
+        "recipe": "lluc-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -1970,8 +1974,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -1984,8 +1988,8 @@
         "side": "calabacin-llimona"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -1997,8 +2001,8 @@
         "recipe": "hummus"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Bròquil al vapor",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Bròquil al vapor",
+        "recipe": "salmo-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -2011,9 +2015,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Hamburguesa casolana · Daus de carbassó a la llimona",
-        "recipe": "hamburguesa",
-        "side": "calabacin-llimona"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2021,12 +2024,13 @@
     },
     "2026-05-31": {
       "lunch": {
-        "title": "Paella de pollastre",
-        "recipe": "paella-pollastre"
+        "title": "Orada al forn · Safata de verdures al forn",
+        "recipe": "orada-forn",
+        "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Remenat d’espàrrecs de marge",
+        "recipe": "remenat-esparrecs"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2034,12 +2038,12 @@
     },
     "2026-06-01": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2047,13 +2051,13 @@
     },
     "2026-06-02": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Amanida verda de temporada",
-        "recipe": "kebab-pollastre",
-        "side": "amanida-verda"
+        "title": "Botifarra remenada amb ou, patata i porro",
+        "recipe": "botifarra-remendada"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Orada a la planxa · Daus de carbassó a la llimona",
+        "recipe": "orada-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2065,8 +2069,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -2074,13 +2078,13 @@
     },
     "2026-06-04": {
       "lunch": {
-        "title": "Orada a la planxa · Safata de verdures al forn",
-        "recipe": "orada-planxa",
+        "title": "Salmó a la planxa · Safata de verdures al forn",
+        "recipe": "salmo-planxa",
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Pasta amb albergínia i olives negres",
-        "recipe": "pasta-alberginia-olives"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2088,13 +2092,12 @@
     },
     "2026-06-05": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Orada a la planxa · Daus de carbassó a la llimona",
-        "recipe": "orada-planxa",
-        "side": "calabacin-llimona"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2106,8 +2109,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Seques amb botifarra i ou ferrat",
-        "recipe": "seques-botifarra"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2115,12 +2118,12 @@
     },
     "2026-06-07": {
       "lunch": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Paella de pollastre",
+        "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2128,12 +2131,12 @@
     },
     "2026-06-08": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2141,8 +2144,8 @@
     },
     "2026-06-09": {
       "lunch": {
-        "title": "Aletes de pollastre al forn · Safata de verdures al forn",
-        "recipe": "aletes-forn",
+        "title": "Cuixes de pollastre a la brasa o al forn · Safata de verdures al forn",
+        "recipe": "cuixes-pollastre",
         "side": "verdures-forn"
       },
       "dinner": {
@@ -2160,8 +2163,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2169,13 +2172,13 @@
     },
     "2026-06-11": {
       "lunch": {
-        "title": "Salmó a la planxa · Tomàquets de l’hort amanits",
-        "recipe": "salmo-planxa",
+        "title": "Lluç a la planxa · Tomàquets de l’hort amanits",
+        "recipe": "lluc-planxa",
         "side": "tomates-huerto"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2183,12 +2186,13 @@
     },
     "2026-06-12": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Lluç a la planxa · Tomàquets de l’hort amanits",
+        "recipe": "lluc-planxa",
+        "side": "tomates-huerto"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2200,8 +2204,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2209,12 +2213,12 @@
     },
     "2026-06-14": {
       "lunch": {
-        "title": "Paella de pollastre",
-        "recipe": "paella-pollastre"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2222,8 +2226,8 @@
     },
     "2026-06-15": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
         "title": "Remenat de shiitake",
@@ -2235,14 +2239,12 @@
     },
     "2026-06-16": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Tomàquets de l’hort amanits",
-        "recipe": "pollastre-planxa",
-        "side": "tomates-huerto"
+        "title": "Botifarra remenada amb ou, patata i porro",
+        "recipe": "botifarra-remendada"
       },
       "dinner": {
-        "title": "Orada a la planxa · Amanida verda de temporada",
-        "recipe": "orada-planxa",
-        "side": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2254,8 +2256,8 @@
         "recipe": "arros-cubana"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2268,8 +2270,8 @@
         "side": "calabacin-llimona"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2277,12 +2279,12 @@
     },
     "2026-06-19": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Amanida verda de temporada",
-        "recipe": "lluc-planxa",
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -2295,8 +2297,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2308,8 +2310,8 @@
         "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -2317,12 +2319,12 @@
     },
     "2026-06-22": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2330,13 +2332,13 @@
     },
     "2026-06-23": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Daus de carbassó a la llimona",
-        "recipe": "kebab-pollastre",
-        "side": "calabacin-llimona"
+        "title": "Ous estrellats amb pernil o xoriço",
+        "recipe": "ous-estrellats"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Salmó a la planxa · Daus de carbassó a la llimona",
+        "recipe": "salmo-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2348,8 +2350,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2361,8 +2363,8 @@
         "recipe": "amanida-pasta"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2370,12 +2372,13 @@
     },
     "2026-06-26": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
+        "recipe": "lluc-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2387,8 +2390,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Ensaladilla russa",
-        "recipe": "ensaladilla-russa"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -2401,8 +2404,8 @@
         "side": "calabacin-llimona"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2410,8 +2413,8 @@
     },
     "2026-06-29": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
         "title": "Remenat de portobello",
@@ -2423,13 +2426,13 @@
     },
     "2026-06-30": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Patates i moniato al forn",
-        "recipe": "pollastre-planxa",
-        "side": "patata-boniato-forn"
+        "title": "Botifarra remenada amb ou, patata i porro",
+        "recipe": "botifarra-remendada"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Tomàquets de l’hort amanits",
+        "recipe": "orada-planxa",
+        "side": "tomates-huerto"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2441,8 +2444,8 @@
         "recipe": "pasta-bolonyesa"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2455,8 +2458,8 @@
         "side": "tomates-huerto"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -2464,13 +2467,12 @@
     },
     "2026-07-03": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Orada a la planxa · Tomàquets de l’hort amanits",
-        "recipe": "orada-planxa",
-        "side": "tomates-huerto"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2482,8 +2484,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Ous estrellats amb pernil o xoriço",
-        "recipe": "ous-estrellats"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2495,8 +2497,8 @@
         "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2504,12 +2506,12 @@
     },
     "2026-07-06": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2517,13 +2519,14 @@
     },
     "2026-07-07": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Tomàquets de l’hort amanits",
-        "recipe": "kebab-pollastre",
+        "title": "Pit de pollastre a la planxa · Tomàquets de l’hort amanits",
+        "recipe": "pollastre-planxa",
         "side": "tomates-huerto"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2535,8 +2538,8 @@
         "recipe": "arros-cubana"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -2548,8 +2551,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2575,8 +2578,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Ous farcits de tonyina",
-        "recipe": "ous-farcits"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2588,8 +2591,8 @@
         "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2601,8 +2604,8 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2615,8 +2618,8 @@
         "side": "calabacin-llimona"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
-        "recipe": "lluc-planxa",
+        "title": "Orada a la planxa · Daus de carbassó a la llimona",
+        "recipe": "orada-planxa",
         "side": "calabacin-llimona"
       },
       "quickOption": {
@@ -2629,8 +2632,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2643,8 +2646,8 @@
         "side": "patata-boniato-forn"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2656,8 +2659,8 @@
         "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2669,8 +2672,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Bikini de pernil i formatge",
-        "recipe": "bikini"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2682,8 +2685,9 @@
         "recipe": "croquetes-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2691,12 +2695,12 @@
     },
     "2026-07-20": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -2704,13 +2708,12 @@
     },
     "2026-07-21": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Patates i moniato al forn",
-        "recipe": "pollastre-planxa",
-        "side": "patata-boniato-forn"
+        "title": "Botifarra remenada amb ou, patata i porro",
+        "recipe": "botifarra-remendada"
       },
       "dinner": {
-        "title": "Orada a la planxa · Tomàquets de l’hort amanits",
-        "recipe": "orada-planxa",
+        "title": "Salmó a la planxa · Tomàquets de l’hort amanits",
+        "recipe": "salmo-planxa",
         "side": "tomates-huerto"
       },
       "quickOption": {
@@ -2723,8 +2726,8 @@
         "recipe": "pasta-alberginia-olives"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2737,8 +2740,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2746,12 +2749,13 @@
     },
     "2026-07-24": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Tomàquets de l’hort amanits",
+        "recipe": "orada-planxa",
+        "side": "tomates-huerto"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2776,8 +2780,8 @@
         "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -2785,12 +2789,12 @@
     },
     "2026-07-27": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2798,13 +2802,12 @@
     },
     "2026-07-28": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Amanida verda de temporada",
-        "recipe": "kebab-pollastre",
-        "side": "amanida-verda"
+        "title": "Ous estrellats amb pernil o xoriço",
+        "recipe": "ous-estrellats"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2816,8 +2819,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2830,8 +2833,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Pasta amb albergínia i olives negres",
-        "recipe": "pasta-alberginia-olives"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2839,12 +2842,12 @@
     },
     "2026-07-31": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -2857,8 +2860,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Ous farcits de tonyina",
-        "recipe": "ous-farcits"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -2871,8 +2874,8 @@
         "side": "tomates-huerto"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2880,12 +2883,12 @@
     },
     "2026-08-03": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2897,8 +2900,9 @@
         "recipe": "fajitas"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Salmó a la planxa · Daus de carbassó a la llimona",
+        "recipe": "salmo-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2910,8 +2914,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -2923,8 +2927,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -2932,8 +2936,8 @@
     },
     "2026-08-07": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
         "title": "Orada a la planxa · Daus de carbassó a la llimona",
@@ -2950,8 +2954,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Amanida verda de temporada",
-        "recipe": "amanida-verda"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -2963,8 +2967,8 @@
         "recipe": "tacos"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -2972,12 +2976,12 @@
     },
     "2026-08-10": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -2990,8 +2994,8 @@
         "side": "patata-boniato-forn"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3003,8 +3007,8 @@
         "recipe": "pasta-alberginia-olives"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3017,8 +3021,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3026,12 +3030,13 @@
     },
     "2026-08-14": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Lluç a la planxa · Tomàquets de l’hort amanits",
+        "recipe": "lluc-planxa",
+        "side": "tomates-huerto"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3043,8 +3048,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Ous estrellats amb pernil o xoriço",
-        "recipe": "ous-estrellats"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -3056,8 +3061,8 @@
         "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3069,8 +3074,8 @@
         "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3097,8 +3102,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3111,8 +3116,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3120,12 +3125,12 @@
     },
     "2026-08-21": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Amanida verda de temporada",
-        "recipe": "lluc-planxa",
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -3138,8 +3143,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Seques amb botifarra i ou ferrat",
-        "recipe": "seques-botifarra"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3152,8 +3157,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3161,12 +3166,12 @@
     },
     "2026-08-24": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3174,13 +3179,13 @@
     },
     "2026-08-25": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Safata de verdures al forn",
-        "recipe": "pollastre-planxa",
-        "side": "verdures-forn"
+        "title": "Botifarra remenada amb ou, patata i porro",
+        "recipe": "botifarra-remendada"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
+        "recipe": "lluc-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3192,8 +3197,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3206,8 +3211,8 @@
         "side": "tomates-huerto"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -3215,12 +3220,13 @@
     },
     "2026-08-28": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Daus de carbassó a la llimona",
+        "recipe": "orada-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3232,8 +3238,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Bikini de pernil i formatge",
-        "recipe": "bikini"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3245,8 +3251,8 @@
         "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3254,12 +3260,12 @@
     },
     "2026-08-31": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3267,12 +3273,13 @@
     },
     "2026-09-01": {
       "lunch": {
-        "title": "Fajitas de pollastre",
-        "recipe": "fajitas"
+        "title": "Pit de pollastre a la planxa · Patates i moniato al forn",
+        "recipe": "pollastre-planxa",
+        "side": "patata-boniato-forn"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Amanida verda de temporada",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -3285,8 +3292,8 @@
         "recipe": "pasta-alberginia-olives"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3299,8 +3306,8 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Amanida verda de temporada",
-        "recipe": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3312,8 +3319,8 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -3326,8 +3333,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Botifarra remenada amb ou, patata i porro",
-        "recipe": "botifarra-remendada"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3339,8 +3346,8 @@
         "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3348,12 +3355,12 @@
     },
     "2026-09-07": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -3366,8 +3373,9 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Lluç a la planxa · Bròquil al vapor",
+        "recipe": "lluc-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3379,8 +3387,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3393,8 +3401,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Pasta amb albergínia i olives negres",
-        "recipe": "pasta-alberginia-olives"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3402,13 +3410,12 @@
     },
     "2026-09-11": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Orada a la planxa · Bròquil al vapor",
-        "recipe": "orada-planxa",
-        "side": "broquil-vapor"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3420,8 +3427,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Ensaladilla de tonyina, ou i olives",
-        "recipe": "ensaladilla-tonyina"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3433,8 +3440,8 @@
         "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -3442,8 +3449,8 @@
     },
     "2026-09-14": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
         "title": "Truita de patata",
@@ -3460,8 +3467,9 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Daus de carbassó a la llimona",
+        "recipe": "orada-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3473,8 +3481,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3487,8 +3495,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3496,12 +3504,12 @@
     },
     "2026-09-18": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Daus de carbassó a la llimona",
+        "recipe": "salmo-planxa",
         "side": "calabacin-llimona"
       },
       "quickOption": {
@@ -3514,8 +3522,8 @@
         "recipe": "paella-bolets"
       },
       "dinner": {
-        "title": "Albergínies farcides",
-        "recipe": "alberginies-farcides"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -3527,8 +3535,9 @@
         "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Lluç a la planxa · Bròquil al vapor",
+        "recipe": "lluc-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3536,12 +3545,12 @@
     },
     "2026-09-21": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3554,9 +3563,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
-        "side": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3568,8 +3576,8 @@
         "recipe": "arros-cubana"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3581,8 +3589,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3590,12 +3598,12 @@
     },
     "2026-09-25": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Orada a la planxa · Amanida verda de temporada",
-        "recipe": "orada-planxa",
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -3608,8 +3616,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Ensaladilla de tonyina, ou i olives",
-        "recipe": "ensaladilla-tonyina"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3621,8 +3629,8 @@
         "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3630,12 +3638,12 @@
     },
     "2026-09-28": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3643,13 +3651,13 @@
     },
     "2026-09-29": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Daus de carbassó a la llimona",
-        "recipe": "pollastre-planxa",
-        "side": "calabacin-llimona"
+        "title": "Botifarra remenada amb ou, patata i porro",
+        "recipe": "botifarra-remendada"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Orada a la planxa · Bròquil al vapor",
+        "recipe": "orada-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3661,8 +3669,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3675,8 +3683,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3684,12 +3692,12 @@
     },
     "2026-10-02": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Bròquil al vapor",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Bròquil al vapor",
+        "recipe": "salmo-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -3702,8 +3710,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Albergínies farcides",
-        "recipe": "alberginies-farcides"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3715,8 +3723,8 @@
         "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3724,12 +3732,12 @@
     },
     "2026-10-05": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3737,13 +3745,13 @@
     },
     "2026-10-06": {
       "lunch": {
-        "title": "Fajitas de pollastre",
-        "recipe": "fajitas"
+        "title": "Pit de pollastre a la planxa · Amanida verda de temporada",
+        "recipe": "pollastre-planxa",
+        "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Orada a la planxa · Daus de carbassó a la llimona",
-        "recipe": "orada-planxa",
-        "side": "calabacin-llimona"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -3755,8 +3763,8 @@
         "recipe": "pasta-bolonyesa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3778,12 +3786,13 @@
     },
     "2026-10-09": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
+        "recipe": "lluc-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3795,8 +3804,8 @@
         "recipe": "paella-bolets"
       },
       "dinner": {
-        "title": "Botifarra remenada amb ou, patata i porro",
-        "recipe": "botifarra-remendada"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3809,8 +3818,8 @@
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -3818,8 +3827,8 @@
     },
     "2026-10-12": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
         "title": "Remenat de portobello",
@@ -3831,13 +3840,14 @@
     },
     "2026-10-13": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Safata de verdures al forn",
-        "recipe": "pollastre-planxa",
+        "title": "Aletes de pollastre al forn · Safata de verdures al forn",
+        "recipe": "aletes-forn",
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3849,8 +3859,8 @@
         "recipe": "arros-cubana"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3862,8 +3872,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3875,8 +3885,8 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -3902,8 +3912,8 @@
         "recipe": "paella-pollastre"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -3911,12 +3921,12 @@
     },
     "2026-10-19": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -3929,8 +3939,8 @@
         "side": "calabacin-llimona"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -3942,8 +3952,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -3956,8 +3966,8 @@
         "side": "patata-boniato-forn"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -3983,8 +3993,8 @@
         "recipe": "paella-bolets"
       },
       "dinner": {
-        "title": "Botifarra remenada amb ou, patata i porro",
-        "recipe": "botifarra-remendada"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -3996,8 +4006,8 @@
         "recipe": "tacos"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4005,12 +4015,12 @@
     },
     "2026-10-26": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4037,8 +4047,8 @@
         "recipe": "pasta-alberginia-olives"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4060,12 +4070,13 @@
     },
     "2026-10-30": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Orada a la planxa · Daus de carbassó a la llimona",
+        "recipe": "orada-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4077,8 +4088,8 @@
         "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Llenties amb xoriço",
-        "recipe": "llenties-xorico"
+        "title": "Ensaladilla russa",
+        "recipe": "ensaladilla-russa"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4090,8 +4101,8 @@
         "recipe": "truita-patata"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4099,12 +4110,12 @@
     },
     "2026-11-02": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4112,8 +4123,8 @@
     },
     "2026-11-03": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Safata de verdures al forn",
-        "recipe": "cuixes-pollastre",
+        "title": "Albergínies farcides · Safata de verdures al forn",
+        "recipe": "alberginies-farcides",
         "side": "verdures-forn"
       },
       "dinner": {
@@ -4131,8 +4142,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4144,8 +4155,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4153,12 +4164,13 @@
     },
     "2026-11-06": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4170,8 +4182,8 @@
         "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Albergínies farcides",
-        "recipe": "alberginies-farcides"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4179,12 +4191,14 @@
     },
     "2026-11-08": {
       "lunch": {
-        "title": "Croquetes casolanes de pollastre",
-        "recipe": "croquetes-pollastre"
+        "title": "Orada al forn · Safata de verdures al forn",
+        "recipe": "orada-forn",
+        "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Salmó a la planxa · Daus de carbassó a la llimona",
+        "recipe": "salmo-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4192,12 +4206,12 @@
     },
     "2026-11-09": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4224,8 +4238,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4233,13 +4247,13 @@
     },
     "2026-11-12": {
       "lunch": {
-        "title": "Orada al forn · Patates i moniato al forn",
-        "recipe": "orada-forn",
+        "title": "Orada a la planxa · Patates i moniato al forn",
+        "recipe": "orada-planxa",
         "side": "patata-boniato-forn"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4251,8 +4265,8 @@
         "recipe": "hummus"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Bròquil al vapor",
-        "recipe": "salmo-planxa",
+        "title": "Orada a la planxa · Bròquil al vapor",
+        "recipe": "orada-planxa",
         "side": "broquil-vapor"
       },
       "quickOption": {
@@ -4265,8 +4279,8 @@
         "recipe": "paella-bolets"
       },
       "dinner": {
-        "title": "Ensaladilla russa",
-        "recipe": "ensaladilla-russa"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4274,12 +4288,12 @@
     },
     "2026-11-15": {
       "lunch": {
-        "title": "Tacos casolans",
-        "recipe": "tacos"
+        "title": "Fideuà amb sèpia",
+        "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4291,8 +4305,8 @@
         "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4305,8 +4319,9 @@
         "side": "patata-boniato-forn"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Lluç a la planxa · Daus de carbassó a la llimona",
+        "recipe": "lluc-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4318,8 +4333,8 @@
         "recipe": "pasta-alberginia-olives"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4327,13 +4342,13 @@
     },
     "2026-11-19": {
       "lunch": {
-        "title": "Orada a la planxa · Bròquil al vapor",
-        "recipe": "orada-planxa",
+        "title": "Orada al forn · Bròquil al vapor",
+        "recipe": "orada-forn",
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4345,8 +4360,9 @@
         "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Salmó a la planxa · Daus de carbassó a la llimona",
+        "recipe": "salmo-planxa",
+        "side": "calabacin-llimona"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4354,12 +4370,12 @@
     },
     "2026-11-21": {
       "lunch": {
-        "title": "Fideuà amb sèpia",
-        "recipe": "fideua-sepia"
+        "title": "Makis de salmó",
+        "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Pernil ibèric amb pa amb tomàquet",
-        "recipe": "pernil-iberic"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4367,13 +4383,12 @@
     },
     "2026-11-22": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Patates i moniato al forn",
-        "recipe": "cuixes-pollastre",
-        "side": "patata-boniato-forn"
+        "title": "Croquetes casolanes de pollastre",
+        "recipe": "croquetes-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4381,12 +4396,12 @@
     },
     "2026-11-23": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de verdures",
-        "recipe": "truita-verdures"
+        "title": "Crema suau de verdures",
+        "recipe": "crema-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4394,13 +4409,14 @@
     },
     "2026-11-24": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Bròquil al vapor",
-        "recipe": "pollastre-planxa",
+        "title": "Cuixes de pollastre a la brasa o al forn · Bròquil al vapor",
+        "recipe": "cuixes-pollastre",
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4412,8 +4428,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4421,13 +4437,13 @@
     },
     "2026-11-26": {
       "lunch": {
-        "title": "Lluç a la planxa · Amanida verda de temporada",
-        "recipe": "lluc-planxa",
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4435,13 +4451,12 @@
     },
     "2026-11-27": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Orada a la planxa · Amanida verda de temporada",
-        "recipe": "orada-planxa",
-        "side": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4449,12 +4464,12 @@
     },
     "2026-11-28": {
       "lunch": {
-        "title": "Pizza casolana",
-        "recipe": "pizza-casolana"
+        "title": "Fideuà amb sèpia",
+        "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Caldo de pollastre",
-        "recipe": "caldo-pollastre"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4462,12 +4477,12 @@
     },
     "2026-11-29": {
       "lunch": {
-        "title": "Paella de pollastre",
-        "recipe": "paella-pollastre"
+        "title": "Tacos casolans",
+        "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4475,12 +4490,12 @@
     },
     "2026-11-30": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Remenat de xampinyons",
-        "recipe": "remenat-xampinyons"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4488,13 +4503,13 @@
     },
     "2026-12-01": {
       "lunch": {
-        "title": "Kebab de pollastre casolà · Patates i moniato al forn",
-        "recipe": "kebab-pollastre",
-        "side": "patata-boniato-forn"
+        "title": "Fajitas de pollastre",
+        "recipe": "fajitas"
       },
       "dinner": {
-        "title": "Amanida de pasta amb tonyina",
-        "recipe": "amanida-pasta"
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4506,8 +4521,8 @@
         "recipe": "arros-cubana"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4519,8 +4534,8 @@
         "recipe": "amanida-pasta"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4528,8 +4543,8 @@
     },
     "2026-12-04": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de cigrons",
+        "recipe": "amanida-cigrons"
       },
       "dinner": {
         "title": "Salmó a la planxa · Bròquil al vapor",
@@ -4546,8 +4561,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Ous estrellats amb pernil o xoriço",
-        "recipe": "ous-estrellats"
+        "title": "Amanida verda de temporada",
+        "recipe": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4555,12 +4570,13 @@
     },
     "2026-12-06": {
       "lunch": {
-        "title": "Fideuà amb sèpia",
-        "recipe": "fideua-sepia"
+        "title": "Croquetes casolanes de pollastre",
+        "recipe": "croquetes-pollastre"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Orada a la planxa · Bròquil al vapor",
+        "recipe": "orada-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4568,12 +4584,12 @@
     },
     "2026-12-07": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Llenties amb xoriço",
+        "recipe": "llenties-xorico"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4581,14 +4597,13 @@
     },
     "2026-12-08": {
       "lunch": {
-        "title": "Aletes de pollastre al forn · Safata de verdures al forn",
-        "recipe": "aletes-forn",
+        "title": "Kebab de pollastre casolà · Safata de verdures al forn",
+        "recipe": "kebab-pollastre",
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Lluç a la planxa · Bròquil al vapor",
-        "recipe": "lluc-planxa",
-        "side": "broquil-vapor"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4600,8 +4615,8 @@
         "recipe": "pasta-bolonyesa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4614,8 +4629,8 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Amanida fresca de quinoa",
-        "recipe": "amanida-quinoa"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4623,12 +4638,13 @@
     },
     "2026-12-11": {
       "lunch": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Lluç a la planxa · Amanida verda de temporada",
+        "recipe": "lluc-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4636,12 +4652,12 @@
     },
     "2026-12-12": {
       "lunch": {
-        "title": "Pizza casolana",
-        "recipe": "pizza-casolana"
+        "title": "Paella de bolets",
+        "recipe": "paella-bolets"
       },
       "dinner": {
-        "title": "Ous farcits de tonyina",
-        "recipe": "ous-farcits"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4649,12 +4665,12 @@
     },
     "2026-12-13": {
       "lunch": {
-        "title": "Croquetes casolanes de pollastre",
-        "recipe": "croquetes-pollastre"
+        "title": "Fideuà amb sèpia",
+        "recipe": "fideua-sepia"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4662,12 +4678,12 @@
     },
     "2026-12-14": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4675,13 +4691,12 @@
     },
     "2026-12-15": {
       "lunch": {
-        "title": "Pit de pollastre a la planxa · Amanida verda de temporada",
-        "recipe": "pollastre-planxa",
-        "side": "amanida-verda"
+        "title": "Fajitas de pollastre",
+        "recipe": "fajitas"
       },
       "dinner": {
-        "title": "Orada a la planxa · Amanida verda de temporada",
-        "recipe": "orada-planxa",
+        "title": "Salmó a la planxa · Amanida verda de temporada",
+        "recipe": "salmo-planxa",
         "side": "amanida-verda"
       },
       "quickOption": {
@@ -4694,8 +4709,8 @@
         "recipe": "pasta-carbonara"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Remenat de shiitake",
+        "recipe": "remenat-shiitake"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4717,12 +4732,13 @@
     },
     "2026-12-18": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Hummus casolà",
+        "recipe": "hummus"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Bròquil al vapor",
+        "recipe": "orada-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4730,13 +4746,12 @@
     },
     "2026-12-19": {
       "lunch": {
-        "title": "Fideuà amb sèpia",
-        "recipe": "fideua-sepia"
+        "title": "Pizza casolana",
+        "recipe": "pizza-casolana"
       },
       "dinner": {
-        "title": "Hamburguesa casolana · Amanida verda de temporada",
-        "recipe": "hamburguesa",
-        "side": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4744,12 +4759,12 @@
     },
     "2026-12-20": {
       "lunch": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Tacos casolans",
+        "recipe": "tacos"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Remenat de xampinyons",
+        "recipe": "remenat-xampinyons"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4761,8 +4776,8 @@
         "recipe": "amanida-cigrons"
       },
       "dinner": {
-        "title": "Remenat de shiitake",
-        "recipe": "remenat-shiitake"
+        "title": "Pernil ibèric amb pa amb tomàquet",
+        "recipe": "pernil-iberic"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4775,8 +4790,9 @@
         "side": "broquil-vapor"
       },
       "dinner": {
-        "title": "Orada al forn",
-        "recipe": "orada-forn"
+        "title": "Lluç a la planxa · Bròquil al vapor",
+        "recipe": "lluc-planxa",
+        "side": "broquil-vapor"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4788,8 +4804,8 @@
         "recipe": "pasta-japonesa"
       },
       "dinner": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Truita de verdures",
+        "recipe": "truita-verdures"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4802,8 +4818,8 @@
         "side": "verdures-forn"
       },
       "dinner": {
-        "title": "Crema suau de verdures",
-        "recipe": "crema-verdures"
+        "title": "Remenat de portobello",
+        "recipe": "remenat-portobello"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4811,13 +4827,12 @@
     },
     "2026-12-25": {
       "lunch": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Amanida fresca de llenties",
+        "recipe": "amanida-llenties"
       },
       "dinner": {
-        "title": "Salmó a la planxa · Amanida verda de temporada",
-        "recipe": "salmo-planxa",
-        "side": "amanida-verda"
+        "title": "Ous farcits de tonyina",
+        "recipe": "ous-farcits"
       },
       "quickOption": {
         "title": "Ous remenats"
@@ -4829,8 +4844,8 @@
         "recipe": "makis-salmo"
       },
       "dinner": {
-        "title": "Ensaladilla de tonyina, ou i olives",
-        "recipe": "ensaladilla-tonyina"
+        "title": "Truita de patata",
+        "recipe": "truita-patata"
       },
       "quickOption": {
         "title": "Tomàquets de l’hort amb tonyina"
@@ -4838,13 +4853,13 @@
     },
     "2026-12-27": {
       "lunch": {
-        "title": "Cuixes de pollastre a la brasa o al forn · Amanida verda de temporada",
-        "recipe": "cuixes-pollastre",
+        "title": "Orada al forn · Amanida verda de temporada",
+        "recipe": "orada-forn",
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Amanida fresca de cigrons",
-        "recipe": "amanida-cigrons"
+        "title": "Amanida fresca de quinoa",
+        "recipe": "amanida-quinoa"
       },
       "quickOption": {
         "title": "Bikini de pernil i formatge"
@@ -4852,12 +4867,12 @@
     },
     "2026-12-28": {
       "lunch": {
-        "title": "Amanida fresca de llenties",
-        "recipe": "amanida-llenties"
+        "title": "Seques amb botifarra i ou ferrat",
+        "recipe": "seques-botifarra"
       },
       "dinner": {
-        "title": "Truita de patata",
-        "recipe": "truita-patata"
+        "title": "Bikini de pernil i formatge",
+        "recipe": "bikini"
       },
       "quickOption": {
         "title": "Hummus amb pa torrat"
@@ -4865,13 +4880,13 @@
     },
     "2026-12-29": {
       "lunch": {
-        "title": "Aletes de pollastre al forn · Patates i moniato al forn",
-        "recipe": "aletes-forn",
-        "side": "patata-boniato-forn"
+        "title": "Fajitas de pollastre",
+        "recipe": "fajitas"
       },
       "dinner": {
-        "title": "Makis de salmó",
-        "recipe": "makis-salmo"
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
+        "side": "amanida-verda"
       },
       "quickOption": {
         "title": "Truita francesa"
@@ -4883,8 +4898,8 @@
         "recipe": "amanida-quinoa"
       },
       "dinner": {
-        "title": "Hummus casolà",
-        "recipe": "hummus"
+        "title": "Caldo de pollastre",
+        "recipe": "caldo-pollastre"
       },
       "quickOption": {
         "title": "Pernil ibèric amb pa amb tomàquet"
@@ -4892,13 +4907,13 @@
     },
     "2026-12-31": {
       "lunch": {
-        "title": "Lluç a la planxa · Amanida verda de temporada",
-        "recipe": "lluc-planxa",
+        "title": "Orada a la planxa · Amanida verda de temporada",
+        "recipe": "orada-planxa",
         "side": "amanida-verda"
       },
       "dinner": {
-        "title": "Remenat de portobello",
-        "recipe": "remenat-portobello"
+        "title": "Ensaladilla de tonyina, ou i olives",
+        "recipe": "ensaladilla-tonyina"
       },
       "quickOption": {
         "title": "Ous remenats"

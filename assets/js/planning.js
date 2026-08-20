@@ -156,7 +156,14 @@ function renderNutrition() {
   const findings = results.map(item => {
     const low = !item.maximum && item.count < item.expected * .7;
     const highMeat = item.maximum && item.count > item.expected;
-    const proposal = low ? `Prova d’afegir ${Math.max(1,item.expected-item.count)} àpat(s) amb ${item.label.toLowerCase()}.` : highMeat ? 'Canvia algun plat de carn per llegums, peix o una opció vegetal.' : 'Presència adequada dins del menú planificat.';
+    const missing = Math.max(1, item.expected - item.count);
+    const proposal = low && item.key === 'legumes'
+      ? `Prova d’afegir ${missing} dinar(s) amb llegums; al vespre, mantén opcions més lleugeres.`
+      : low
+        ? `Prova d’afegir ${missing} àpat(s) amb ${item.label.toLowerCase()}.`
+        : highMeat
+          ? 'Canvia algun plat de carn per llegums al migdia, peix o una opció vegetal.'
+          : 'Presència adequada dins del menú planificat.';
     return `<div class="nutrition-finding${low || highMeat ? '' : ' good'}"><strong>${low ? 'A reforçar' : highMeat ? 'A moderar' : 'Bon equilibri'} · ${item.label}</strong><span>${proposal}</span></div>`;
   }).join('');
   document.querySelector('#tool-content').innerHTML = `<div class="nutrition-layout"><section class="nutrition-card"><div class="nutrition-score" aria-label="Puntuació orientativa ${score} sobre 100">${score}</div><h3>Lectura global</h3><p>${score >= 85 ? 'El menú és variat i cobreix bé els grans grups.' : score >= 65 ? 'La base és bona, amb alguns grups per reforçar.' : 'Hi ha marge per repartir millor els grups durant el període.'}</p><p class="nutrition-note">Valoració orientativa basada en la varietat del menú. No calcula quantitats ni calories, i no substitueix el consell d’una dietista-nutricionista sanitària.</p></section><section class="nutrition-card"><h3>Freqüència dels grups</h3><div class="nutrition-bars">${results.map(item=>`<div><div class="nutrition-bar-head"><span>${item.label}</span><strong>${item.count} / ${item.expected}</strong></div><div class="nutrition-bar-track"><div class="nutrition-bar-fill" style="width:${Math.min(100,item.count/Math.max(1,item.expected)*100)}%"></div></div></div>`).join('')}</div></section><section class="nutrition-card" style="grid-column:1/-1"><h3>Valoració i propostes</h3><div class="nutrition-findings">${findings}</div></section></div>`;

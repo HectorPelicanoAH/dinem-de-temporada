@@ -80,11 +80,12 @@ const plantLegumeMains = ['amanida-cigrons','amanida-llenties','hummus'];
 const whiteMeatMains = ['pollastre-planxa','fajitas','kebab-pollastre','cuixes-pollastre','aletes-forn'];
 const grainMains = ['pasta-alberginia-olives','pasta-japonesa','arros-cubana','amanida-quinoa','pasta-bolonyesa','pasta-carbonara'];
 const fishMains = ['salmo-planxa','lluc-planxa','orada-planxa','orada-forn','amanida-pasta','makis-salmo'];
+const lightFishDinners = ['salmo-planxa','lluc-planxa','orada-planxa','ous-farcits'];
 const eggMains = ['truita-patata','truita-verdures','remenat-esparrecs','remenat-xampinyons','remenat-portobello','remenat-shiitake'];
-const vegetableMains = ['crema-verdures','amanida-verda','amanida-quinoa','pasta-alberginia-olives'];
+const lightDinnerMains = ['crema-verdures','amanida-verda','amanida-quinoa','ensaladilla-russa','ensaladilla-tonyina','caldo-pollastre','bikini','pernil-iberic','ous-farcits'];
 const lunchesByWeekday = {
-  1: plantLegumeMains,
-  2: whiteMeatMains,
+  1: legumeMains,
+  2: [...whiteMeatMains,'botifarra-remendada','ous-estrellats','hamburguesa','alberginies-farcides'],
   3: grainMains,
   4: fishMains,
   5: plantLegumeMains
@@ -92,13 +93,13 @@ const lunchesByWeekday = {
 const saturdayLunches = ['paella-bolets','fideua-sepia','pizza-casolana','makis-salmo'];
 const sundayLunches = ['orada-forn','cuixes-pollastre','truita-patata','paella-pollastre','fideua-sepia','croquetes-pollastre','tacos'];
 const dinnersByWeekday = {
-  1: eggMains,
-  2: fishMains,
-  3: plantLegumeMains,
-  4: [...vegetableMains, ...eggMains],
-  5: fishMains,
-  6: ['crema-verdures','amanida-verda','amanida-quinoa','ensaladilla-russa','ensaladilla-tonyina','caldo-pollastre','bikini','pernil-iberic','botifarra-remendada','ous-estrellats','ous-farcits','hamburguesa','alberginies-farcides','llenties-xorico','seques-botifarra'],
-  0: plantLegumeMains
+  1: [...eggMains, ...lightDinnerMains],
+  2: lightFishDinners,
+  3: [...lightDinnerMains, ...eggMains],
+  4: [...lightDinnerMains, ...eggMains],
+  5: lightFishDinners,
+  6: [...lightDinnerMains, ...eggMains],
+  0: [...lightDinnerMains, ...eggMains, ...lightFishDinners]
 };
 const quicks = ['Bikini de pernil i formatge','Hummus amb pa torrat','Truita francesa','Pernil ibèric amb pa amb tomàquet','Ous remenats','Tomàquets de l’hort amb tonyina'];
 const sides = ['patata-boniato-forn','calabacin-llimona','tomates-huerto','verdures-forn','amanida-verda','broquil-vapor'];
