@@ -2746,5 +2746,74 @@
       "Amb pa de pita"
     ],
     "pairings": []
+  },
+  "mossets-vedella-mongeta-tendra-carbassa": {
+    "id": "mossets-vedella-mongeta-tendra-carbassa",
+    "title": "Mossets de vedella amb mongeta tendra i carbassa",
+    "category": "carn",
+    "season": [
+      "estiu",
+      "tardor"
+    ],
+    "time": 35,
+    "difficulty": "Fàcil",
+    "servings": 8,
+    "servingsUnit": "unitats",
+    "tags": [
+      "BLW",
+      "carn"
+    ],
+    "image": "assets/images/recipes/mossets-vedella-mongeta-tendra-carbassa.png",
+    "ingredients": [
+      {
+        "ingredient": "carn de vedella picada",
+        "amount": "150",
+        "unit": "g"
+      },
+      {
+        "ingredient": "flocs de civada",
+        "amount": "5",
+        "unit": "cullerades"
+      },
+      {
+        "ingredient": "mongeta tendra cuita",
+        "amount": "50",
+        "unit": "g"
+      },
+      {
+        "ingredient": "carbassa rostida",
+        "amount": "½",
+        "unit": "tassa"
+      },
+      {
+        "ingredient": "pebre al gust",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "ingredient": "alfàbrega fresca",
+        "amount": "5",
+        "unit": "fulletes"
+      }
+    ],
+    "steps": [
+      "Preparació: 15 minuts, amb la mongeta tendra ja cuita i la carbassa ja rostida. Pica la mongeta tendra i l’alfàbrega. Tritura la carbassa i reserva-ho.",
+      "Posa la carn en un recipient. Afegeix-hi les verdures i l’alfàbrega i barreja-ho bé.",
+      "Incorpora-hi els flocs de civada i lliga tota la barreja.",
+      "Preescalfa el forn a 180 °C.",
+      "Forma 8 boletes i col·loca-les en una safata de forn coberta amb paper de forn.",
+      "Enforna els mossets durant 15–20 minuts. El requadre del llibre indica 20 minuts de cocció; el temps total de 35 minuts parteix de les verdures ja cuinades."
+    ],
+    "allergens": [
+      "civada (cereal amb gluten)"
+    ],
+    "babyNotes": "",
+    "variations": [
+      "Pots substituir la vedella per una altra carn.",
+      "Pots canviar la carbassa per moniato o la mongeta tendra per una altra verdura, en les mateixes proporcions.",
+      "Pots substituir la civada per pa ratllat, farina de blat o ametlla molta. El pa ratllat i la farina de blat aporten gluten; l’ametlla aporta fruita de closca.",
+      "El llibre marca la recepta base com a sense lactis, sense fruita de closca i sense ou; aquestes indicacions no s’apliquen automàticament a les variants."
+    ],
+    "pairings": []
   }
 }

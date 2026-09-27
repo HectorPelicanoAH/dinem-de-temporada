@@ -1,0 +1,44 @@
+{
+  "recipeId": "mossets-vedella-mongeta-tendra-carbassa",
+  "book": null,
+  "author": null,
+  "pages": [
+    56,
+    57
+  ],
+  "imageOrigin": {
+    "type": "adapted",
+    "source": "Foto 1.jpg, pàgina 57 aportada per l’usuari",
+    "tool": "built-in image_gen",
+    "prompt": "Extract the food photograph from the cookbook page; crop margins and fingers, correct perspective and gently balance exposure; preserve bowl, bites, arrangement, wood and checked napkin; landscape 4:3."
+  },
+  "adaptations": [
+    "Traducció al català.",
+    "Dificultat Fàcil i estacions estiu/tardor: classificació editorial segons elaboració i ingredients.",
+    "Etiqueta BLW per preferència de l’usuari.",
+    "Rendiment expressat en 8 unitats, no persones.",
+    "Avís dels al·lèrgens de les substitucions separat de la recepta base."
+  ],
+  "missingFields": [
+    "Títol complet del llibre",
+    "Autor"
+  ],
+  "originalTitle": "Bocaditos de ternera con judías verdes y calabaza",
+  "printedFooter": "BABY-LED WEANING",
+  "preparationMinutes": 15,
+  "cookingMinutes": 20,
+  "cookingRangeMinutes": [
+    15,
+    20
+  ],
+  "temperatureCelsius": 180,
+  "yield": {
+    "amount": 8,
+    "unit": "unitats"
+  },
+  "sourceNotes": [
+    "Els temps pressuposen mongeta tendra cuita i carbassa rostida.",
+    "El pebre figura als ingredients, però el llibre no indica en quin pas afegir-lo.",
+    "Les pàgines no indiquen edat mínima, conservació ni notes específiques per al nadó."
+  ]
+}
