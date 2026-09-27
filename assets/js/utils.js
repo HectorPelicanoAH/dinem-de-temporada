@@ -373,3 +373,11 @@ function trapFocus(element) {
 
 /* === Export for use in other modules === */
 // (all functions available as globals in vanilla JS)
+
+/* Escape family-authored content before inserting it into HTML templates. */
+function escapeHTML(value) {
+  return String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+}
+function safeRecipeImage(value) {
+  return /^assets\/images\/[a-zA-Z0-9/_.,-]+$/.test(value || '') ? value : '';
+}

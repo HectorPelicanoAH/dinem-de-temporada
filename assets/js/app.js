@@ -35,15 +35,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         fetchMenusForYear(2026)
       ]);
 
-      App.recipes = recipesData;
-      App.menus = menusData;
+      const resolved = await FamilyStore.resolve({ recipes: recipesData, menus: menusData });
+      App.recipes = resolved.recipes;
+      App.menus = resolved.menus;
 
       // Init calendar
       initCalendar(App.menus, App.recipes);
 
     } else if (App.isRecipePage) {
       // Load only recipes
-      App.recipes = await fetchJSON('data/recipes.json');
+      const publicRecipes = await fetchJSON('data/recipes.json');
+      App.recipes = (await FamilyStore.resolve({ recipes: publicRecipes })).recipes;
 
       // Check if showing detail or index
       const params = new URLSearchParams(window.location.search);
@@ -133,7 +135,7 @@ function showDataError(err) {
         <h2 style="font-family:var(--font-serif); color:var(--color-primary); margin-bottom:0.5rem;">Error carregant les dades</h2>
         <p style="color:var(--color-text-muted); margin-bottom:1.5rem; font-size:0.875rem;">
           No s'han pogut carregar els menús i receptes.<br>
-          Comprova la connexió o torna-ho a intentar.
+          Comprova la connexió o torna-ho a intentar. <a href="familia.html">Obrir Família per revisar la sessió</a>.
         </p>
         <button onclick="location.reload()" class="btn">Tornar a intentar</button>
       </div>

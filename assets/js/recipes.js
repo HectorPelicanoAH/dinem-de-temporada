@@ -126,7 +126,7 @@ function renderRecipeGrid(container, recipes, countEl) {
  */
 function createRecipeCard(recipe) {
   const a = document.createElement('a');
-  a.href = `recepta.html?id=${recipe.id}`;
+  a.href = `recepta.html?id=${encodeURIComponent(recipe.id)}`;
   a.className = 'recipe-card';
   a.setAttribute('role', 'listitem');
   a.setAttribute('aria-label', `Recepta: ${recipe.title}`);
@@ -142,8 +142,8 @@ function createRecipeCard(recipe) {
 
   a.innerHTML = `
     <div class="recipe-card-image">
-      ${recipe.image
-        ? `<img src="${recipe.image}" alt="${recipe.title}" loading="lazy" />`
+      ${safeRecipeImage(recipe.image)
+        ? `<img src="${escapeHTML(safeRecipeImage(recipe.image))}" alt="${escapeHTML(recipe.title)}" loading="lazy" />`
         : `<div class="recipe-card-placeholder">
             <span>🍽️</span>
             <span>Fotografia pròximament</span>
@@ -151,11 +151,11 @@ function createRecipeCard(recipe) {
       }
     </div>
     <div class="recipe-card-body">
-      <div class="recipe-card-category">${categoryLabel}</div>
-      <h3 class="recipe-card-title">${recipe.title}</h3>
+      <div class="recipe-card-category">${escapeHTML(categoryLabel)}</div>
+      <h3 class="recipe-card-title">${escapeHTML(recipe.title)}</h3>
       <div class="recipe-card-meta">
-        <span>⏱ ${formatTime(recipe.time)}</span>
-        <span>${getDifficultyStars(recipe.difficulty)}</span>
+        <span>⏱ ${escapeHTML(formatTime(recipe.time))}</span>
+        <span>${escapeHTML(getDifficultyStars(recipe.difficulty))}</span>
         <span>${seasons}</span>
       </div>
       <div class="recipe-card-tags">${tagsHTML}</div>
@@ -230,11 +230,11 @@ function populateRecipeDetail(recipe, allRecipes) {
   if (tagsContainer) renderTags(tagsContainer, recipe.tags);
 
   // Image
-  if (recipe.image) {
+  if (safeRecipeImage(recipe.image)) {
     const img = document.getElementById('recipe-image');
     const placeholder = document.getElementById('recipe-image-placeholder');
     if (img && placeholder) {
-      img.src = recipe.image;
+      img.src = safeRecipeImage(recipe.image);
       img.alt = recipe.title;
       img.hidden = false;
       placeholder.hidden = true;
@@ -245,8 +245,8 @@ function populateRecipeDetail(recipe, allRecipes) {
   const ingredientsList = document.getElementById('recipe-ingredients');
   if (ingredientsList && recipe.ingredients) {
     ingredientsList.innerHTML = recipe.ingredients.map(ing => {
-      const amount = ing.amount ? `<span class="ingredient-amount">${ing.amount} ${ing.unit || ''}</span>` : '';
-      const name = `<span class="ingredient-name">${ing.ingredient || ing}</span>`;
+      const amount = ing.amount ? `<span class="ingredient-amount">${escapeHTML(ing.amount)} ${escapeHTML(ing.unit || '')}</span>` : '';
+      const name = `<span class="ingredient-name">${escapeHTML(ing.ingredient || ing)}</span>`;
       return `<li class="ingredient-item">${amount}${name}</li>`;
     }).join('');
   }
@@ -257,7 +257,7 @@ function populateRecipeDetail(recipe, allRecipes) {
     stepsList.innerHTML = recipe.steps.map((step, i) =>
       `<li class="step-item">
         <span class="step-number" aria-label="Pas ${i + 1}">${i + 1}</span>
-        <span>${step}</span>
+        <span>${escapeHTML(step)}</span>
       </li>`
     ).join('');
   }
@@ -267,7 +267,7 @@ function populateRecipeDetail(recipe, allRecipes) {
     const allergensContainer = document.getElementById('recipe-allergens');
     if (allergensContainer) {
       allergensContainer.innerHTML = recipe.allergens.map(a =>
-        `<span class="allergen-badge">⚠️ ${a}</span>`
+        `<span class="allergen-badge">⚠️ ${escapeHTML(a)}</span>`
       ).join('');
     }
   } else {
@@ -277,7 +277,7 @@ function populateRecipeDetail(recipe, allRecipes) {
 
   // Baby Notes
   if (recipe.babyNotes) {
-    setHTML('recipe-baby-notes', recipe.babyNotes);
+    setText('recipe-baby-notes', recipe.babyNotes);
   } else {
     const babySection = document.getElementById('baby-container');
     if (babySection) hideEl(babySection);
@@ -287,7 +287,7 @@ function populateRecipeDetail(recipe, allRecipes) {
   const optionsSection = document.getElementById('options-container');
   const optionsList = document.getElementById('recipe-options');
   if (optionsSection && optionsList && recipe.variations?.length) {
-    optionsList.innerHTML = recipe.variations.map(option => `<span>${option}</span>`).join('');
+    optionsList.innerHTML = recipe.variations.map(option => `<span>${escapeHTML(option)}</span>`).join('');
     showEl(optionsSection);
   }
 
@@ -406,7 +406,7 @@ function showRecipeNotFound(recipeId) {
       <div style="text-align:center; padding:4rem 2rem;">
         <div style="font-size:4rem; margin-bottom:1rem;">🍽️</div>
         <h1 style="font-family:var(--font-serif);color:var(--color-primary);">Recepta no trobada</h1>
-        <p style="color:var(--color-text-muted);margin:1rem 0 2rem;">No hem trobat la recepta "${recipeId}".</p>
+        <p style="color:var(--color-text-muted);margin:1rem 0 2rem;">No hem trobat la recepta "${escapeHTML(recipeId)}".</p>
         <a href="recepta.html" class="btn">← Totes les receptes</a>
       </div>`;
   }
@@ -444,7 +444,7 @@ function populateMealInfo(mealSection, mealData, recipes, prefix) {
     // Link
     const link = document.getElementById(`${prefix}-recipe-link`);
     if (link) {
-      link.href = `recepta.html?id=${recipeId}`;
+      link.href = `recepta.html?id=${encodeURIComponent(recipeId)}`;
       link.style.display = '';
       link.hidden = false;
       link.textContent = mealData.side ? 'Veure recepta principal →' : 'Veure recepta →';
@@ -455,7 +455,7 @@ function populateMealInfo(mealSection, mealData, recipes, prefix) {
     const sideLink = document.getElementById(`${prefix}-side-recipe-link`);
     const sideRecipe = mealData.side && recipes[mealData.side];
     if (sideLink && sideRecipe) {
-      sideLink.href = `recepta.html?id=${sideRecipe.id}`;
+      sideLink.href = `recepta.html?id=${encodeURIComponent(sideRecipe.id)}`;
       sideLink.hidden = false;
       sideLink.setAttribute('aria-label', `Veure recepta acompanyant: ${sideRecipe.title}`);
     } else if (sideLink) {

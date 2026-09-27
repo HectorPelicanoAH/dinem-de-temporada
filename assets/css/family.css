@@ -1,0 +1,26 @@
+.family-context { padding: .65rem 1rem; text-align: center; background: #eaf0df; font-size: .85rem; }
+.family-context a { color: #3e4a1e; text-decoration: underline; }
+.family-main { max-width: 1040px; margin: 0 auto; padding: 2.5rem 1rem 5rem; }
+.family-main h1 { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3rem); margin: .5rem 0; }
+.family-intro { max-width: 650px; color: var(--color-text-muted); margin-bottom: 1.5rem; }
+.family-card { padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--color-border); border-radius: 16px; background: white; margin-top: 1.5rem; }
+.family-card h2 { font-family: var(--font-serif); margin-bottom: .8rem; }
+.family-main label { display: grid; gap: .4rem; font-weight: 500; margin-bottom: 1rem; }
+.family-main input, .family-main select, .family-main textarea { width: 100%; min-width: 0; border: 1px solid #b9b4a4; border-radius: 8px; padding: .7rem; font: inherit; color: var(--color-text); background: white; }
+.family-main textarea { min-height: 105px; resize: vertical; }
+.family-main input:focus-visible, .family-main select:focus-visible, .family-main textarea:focus-visible { outline: 3px solid var(--color-primary-light); outline-offset: 2px; }
+.family-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.family-actions { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-top: 1rem; }
+.family-main .btn { min-height: 44px; }
+.family-main button:disabled { opacity: .55; cursor: wait; }
+.family-note { color: var(--color-text-muted); font-size: .9rem; margin: .5rem 0 1rem; }
+.family-status { padding: 1rem; background: #edf3e5; border-radius: 8px; margin: 1rem 0; overflow-wrap: anywhere; }
+.family-status:empty { display: none; }
+.family-status[data-error="true"] { background: #fff0e8; color: #7b3017; }
+.family-main [hidden] { display: none !important; }
+.family-main fieldset { border: 0; min-width: 0; padding: 0; }
+.family-main legend { font-family: var(--font-serif); font-size: 1.2rem; margin-bottom: .8rem; }
+.family-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; }
+.family-nav { display: flex; gap: 1rem; flex-wrap: wrap; padding: 1rem; }
+.family-nav a { color: var(--color-primary-dark); text-decoration: underline; }
+@media(max-width: 640px) { .family-grid { grid-template-columns: 1fr; gap: 0; } .family-actions .btn { width: 100%; } }

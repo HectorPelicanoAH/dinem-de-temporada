@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="same-origin">
+  <title>El nostre espai — Dinem en Família</title>
+  <link rel="stylesheet" href="assets/css/main.css"><link rel="stylesheet" href="assets/css/family.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Salta al contingut principal</a>
+  <header class="site-header"><nav class="family-nav" aria-label="Navegació principal"><a href="index.html">🫒 Dinem en Família</a><a href="recepta.html">Receptes</a><a href="compra.html">Compra</a><a href="familia.html" aria-current="page">Família</a></nav></header>
+  <main id="main-content" class="family-main">
+    <p>CUINEM I PLANIFIQUEM PLEGATS</p><h1>El nostre espai familiar</h1>
+    <p class="family-intro">Un calendari per compartir, receptes al vostre gust i els canvis sempre a mà.</p>
+    <p id="family-status" class="family-status" role="status" aria-live="polite"></p>
+    <section id="access" class="family-card">
+      <h2>Entra al teu espai</h2><p class="family-note">Accés per invitació. Rebràs un codi al teu correu.</p>
+      <p id="not-configured" hidden>Estem preparant l’accés compartit. Mentrestant, pots provar l’edició amb una còpia local.</p>
+      <form id="login-form"><label>Correu electrònic<input id="email" type="email" autocomplete="email" required maxlength="254"></label><button class="btn" type="submit">Enviar codi</button></form>
+      <form id="code-form" hidden><label>Codi del correu<input id="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" required></label><button class="btn" type="submit">Entrar</button></form>
+      <div class="family-actions"><button id="start-demo" class="btn btn-outline" type="button">Provar amb una còpia local</button></div>
+      <p class="family-note">La prova es desa només en aquest navegador i no es comparteix amb ningú.</p>
+    </section>
+    <section id="workspace" hidden>
+      <div class="family-card"><div class="family-top"><div><h2 id="family-name"></h2><p id="account" class="family-note"></p><p id="save-info" class="family-note"></p></div><button id="logout" class="btn btn-outline" type="button">Sortir</button></div>
+      <div class="family-actions"><a class="btn" href="index.html">Veure calendari</a><button id="export" hidden class="btn btn-outline" type="button">Descarregar còpia</button><button id="reload" class="btn btn-outline" type="button">Recarregar dades</button></div>
+      <p class="family-note">Els canvis es desen quan prems «Desar». Si algú s’avança, t’avisarem abans de sobreescriure’ls.</p></div>
+      <section id="initialize" class="family-card" hidden><h2>Comencem?</h2><p>Copia el calendari de 2026 i la biblioteca actual al vostre espai privat. Després els podreu adaptar.</p><button id="initialize-button" class="btn" type="button">Crear la nostra còpia</button></section>
+      <div id="editors" hidden>
+        <section class="family-card" aria-labelledby="day-title"><h2 id="day-title">Editar un dia</h2>
+          <form id="day-form"><label>Data<input id="day-date" type="date" min="2026-01-01" max="2026-12-31" required></label>
+          <div class="family-grid"><fieldset><legend>Dinar</legend><label>Plat principal<select id="lunch" required></select></label><label>Acompanyament<select id="lunch-side"></select></label></fieldset><fieldset><legend>Sopar</legend><label>Plat principal<select id="dinner" required></select></label><label>Acompanyament<select id="dinner-side"></select></label></fieldset></div>
+          <label>Opció ràpida<input id="quick" maxlength="500"></label><button class="btn" type="submit">Desar dia</button></form>
+        </section>
+        <section class="family-card" aria-labelledby="recipe-heading"><h2 id="recipe-heading">Les nostres receptes</h2>
+          <label>Recepta per editar<select id="recipe-picker"><option value="">Nova recepta</option></select></label>
+          <p class="family-note">Editar una recepta actualitza també els dies que la fan servir. Les receptes originals de la web es conserven.</p>
+          <form id="recipe-form">
+            <label>Nom de la recepta<input id="recipe-title" required maxlength="200"></label>
+            <div class="family-grid"><label>Categoria<select id="recipe-category"></select></label><label>Dificultat<select id="recipe-difficulty"><option>Fàcil</option><option>Mitjana</option><option>Difícil</option></select></label><label>Temps (minuts)<input id="recipe-time" type="number" min="0" max="10080" required value="30"></label><label>Racions<input id="recipe-servings" type="number" min="1" max="1000" required value="4"></label></div>
+            <label>Ingredients — un per línia, amb quantitat i unitat opcionals<textarea id="recipe-ingredients" placeholder="Patata | 500 | g&#10;Oli d’oliva | 2 | cullerades" required></textarea></label>
+            <label>Preparació — un pas per línia<textarea id="recipe-steps" required></textarea></label>
+            <div class="family-grid"><label>Temporades (separades per comes)<input id="recipe-season" value="primavera, estiu, tardor, hivern"></label><label>Etiquetes (separades per comes)<input id="recipe-tags" placeholder="vegetarià, llegums"></label></div>
+            <label>Al·lèrgens (separats per comes)<input id="recipe-allergens"></label><p class="family-note">Un camp buit no confirma que la recepta estigui lliure d’al·lèrgens.</p>
+            <label>Notes per al nadó<textarea id="recipe-babyNotes"></textarea></label>
+            <label>Variants — una per línia<textarea id="recipe-variations"></textarea></label>
+            <p class="family-note">Les receptes noves apareixen sense fotografia. Les fotografies i combinacions de les receptes existents es conserven.</p>
+            <button class="btn" type="submit">Desar recepta</button>
+          </form>
+        </section>
+        <section class="family-card"><h2>Recuperar una còpia</h2><p class="family-note">Pots carregar una còpia exportada o el calendari compartible. Primer en veuràs el resum; només substituirà el vostre calendari quan ho confirmis.</p><label>Arxiu JSON<input id="import-file" type="file" accept=".json,application/json"></label><p id="import-summary"></p><button id="import-confirm" type="button" class="btn" hidden>Substituir amb aquesta còpia</button></section>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/family-config.js"></script><script src="assets/js/family-model.js"></script><script src="assets/js/family-store.js"></script><script src="assets/js/family-editor.js"></script>
+</body>
+</html>

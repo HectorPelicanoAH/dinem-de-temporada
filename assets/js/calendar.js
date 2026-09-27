@@ -399,13 +399,13 @@ function createWeeklyMealCard(mealData, mealLabel) {
   const recipe = calendarState.recipes[mealData.recipe];
   const mainLink = document.createElement('a');
   mainLink.className = 'weekly-meal-card';
-  mainLink.href = `recepta.html?id=${recipe.id}`;
+  mainLink.href = `recepta.html?id=${encodeURIComponent(recipe.id)}`;
   mainLink.setAttribute('aria-label', `${mealLabel}: ${recipe.title}`);
   mainLink.innerHTML = `
-    <img src="${recipe.image}" alt="" loading="lazy">
+    ${safeRecipeImage(recipe.image) ? `<img src="${escapeHTML(safeRecipeImage(recipe.image))}" alt="" loading="lazy">` : '<span aria-hidden="true">🍽️</span>'}
     <span class="weekly-meal-copy">
       <small>${mealLabel}</small>
-      <strong>${recipe.title}</strong>
+      <strong>${escapeHTML(recipe.title)}</strong>
     </span>
   `;
   cell.appendChild(mainLink);
@@ -414,8 +414,8 @@ function createWeeklyMealCard(mealData, mealLabel) {
   if (sideRecipe) {
     const sideLink = document.createElement('a');
     sideLink.className = 'weekly-side-link';
-    sideLink.href = `recepta.html?id=${sideRecipe.id}`;
-    sideLink.innerHTML = `<span aria-hidden="true">＋</span> ${sideRecipe.title}`;
+    sideLink.href = `recepta.html?id=${encodeURIComponent(sideRecipe.id)}`;
+    sideLink.innerHTML = `<span aria-hidden="true">＋</span> ${escapeHTML(sideRecipe.title)}`;
     sideLink.setAttribute('aria-label', `Acompanyament: ${sideRecipe.title}`);
     cell.appendChild(sideLink);
   }
@@ -639,6 +639,13 @@ function openDayModal(dateStr) {
     hideEl('blw-banner');
   }
 
+  let editLink = document.getElementById('edit-family-day');
+  if (!editLink) {
+    editLink = document.createElement('a'); editLink.id = 'edit-family-day'; editLink.className = 'btn btn-outline';
+    (document.getElementById('modal-panel') || modal).append(editLink);
+  }
+  editLink.href = `familia.html?date=${encodeURIComponent(dateStr)}`;
+  editLink.textContent = 'Editar aquest dia en família';
   // Show modal
   showEl(modal);
   document.body.style.overflow = 'hidden';
