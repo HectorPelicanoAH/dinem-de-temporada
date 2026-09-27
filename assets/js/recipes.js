@@ -206,6 +206,10 @@ function initRecipeDetail(recipes) {
 /**
  * Populate all recipe detail fields
  */
+function formatRecipeYield(recipe) {
+  return `${recipe.servings || 4} ${recipe.servingsUnit || 'persones'}`;
+}
+
 function populateRecipeDetail(recipe, allRecipes) {
   // Header
   const categoryBadge = document.getElementById('recipe-category-badge');
@@ -214,7 +218,7 @@ function populateRecipeDetail(recipe, allRecipes) {
   setText('recipe-title', recipe.title);
   setText('recipe-time', formatTime(recipe.time));
   setText('recipe-difficulty', recipe.difficulty || 'N/D');
-  setText('recipe-servings', `${recipe.servings || 4} persones`);
+  setText('recipe-servings', formatRecipeYield(recipe));
 
   const seasonEl = document.getElementById('recipe-season');
   if (seasonEl) {
@@ -369,7 +373,7 @@ function injectRecipeSchema(recipe) {
     "recipeCategory": getCategoryLabel(recipe.category),
     "recipeCuisine": "Mediterrània",
     "totalTime": `PT${recipe.time}M`,
-    "recipeYield": `${recipe.servings || 4} persones`,
+    "recipeYield": formatRecipeYield(recipe),
     "description": `Recepta de ${recipe.title} — cuina mediterrània casolana, de temporada i apta per a nadons.`,
     "keywords": (recipe.tags || []).join(', '),
     "recipeIngredient": (recipe.ingredients || []).map(ing =>
