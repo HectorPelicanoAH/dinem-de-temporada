@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Setrill d'oli">
+  <rect width="64" height="64" rx="16" fill="#3e4a1e"/>
+  <g fill="none" stroke="#f4deb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 15h8m-7 0v8m6-8v8m-9 0h12l4 7v18a5 5 0 0 1-5 5H27a5 5 0 0 1-5-5V30z"/>
+    <path d="M22 29 12 24l-3 3 13 10m21-8h3a8 8 0 0 1 0 16h-3"/>
+    <path d="M27 38c3-3 8-3 11 0m-9 7h8"/>
+  </g>
+  <path d="M49 16c0 3-2 5-4 5s-4-2-4-5c0-2 4-7 4-7s4 5 4 7Z" fill="#d4a96a"/>
+</svg>

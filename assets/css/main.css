@@ -214,8 +214,10 @@ button {
 .logo:hover { text-decoration: none; }
 
 .logo-icon {
-  font-size: 1.5rem;
-  line-height: 1;
+  display: block;
+  width: 40px;
+  height: 40px;
+  flex: none;
 }
 
 .logo-text {
@@ -1379,17 +1381,11 @@ body {
 }
 
 .logo-icon {
-  display: grid;
-  place-items: center;
-  width: 40px;
-  height: 40px;
-  font-size: 1.35rem;
-  background: var(--color-primary-dark);
   border-radius: 13px;
   box-shadow: 0 6px 16px rgba(36, 59, 43, .18);
 }
 
-.site-footer .logo-icon { width: 34px; height: 34px; font-size: 1.05rem; }
+.site-footer .logo-icon { width: 34px; height: 34px; }
 .nav-link { padding: .65rem 1rem; }
 
 .hero {
