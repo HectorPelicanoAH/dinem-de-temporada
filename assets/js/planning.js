@@ -1,15 +1,22 @@
 const planningState = { menus: {}, recipes: {}, period: 'week', anchor: null };
 
 document.addEventListener('DOMContentLoaded', async () => {
+  try {
   const [recipes, menus] = await Promise.all([fetchJSON('data/recipes.json'), fetchJSON('data/menus/2026.json')]);
-  planningState.recipes = recipes;
-  planningState.menus = menus.days || {};
+  const resolved = await FamilyStore.resolve({ recipes, menus });
+  planningState.recipes = resolved.recipes;
+  planningState.menus = resolved.menus.days || {};
   const params = new URLSearchParams(location.search);
   planningState.anchor = parseLocalDate(params.get('week')) || new Date();
   const initialWeek = mondayOf(planningState.anchor);
   if (addDays(initialWeek, 6) < new Date(2026, 0, 1, 12) || initialWeek > new Date(2026, 11, 31, 12)) planningState.anchor = new Date(2026, 0, 5, 12);
   bindPlanningControls();
   renderPlanningTool();
+  } catch (error) {
+    const container = document.getElementById('tool-content');
+    container.textContent = `${error.message} `;
+    const link = document.createElement('a'); link.href = 'familia.html'; link.textContent = 'Obrir Família'; container.append(link);
+  }
 });
 
 async function fetchJSON(path) {
@@ -124,9 +131,9 @@ function renderShopping() {
   }));
   const groups = Object.groupBy ? Object.groupBy([...ingredients.values()], item => item.group) : [...ingredients.values()].reduce((acc, item) => ((acc[item.group] ||= []).push(item), acc), {});
   const list = document.querySelector('#tool-content');
-  const storageKey = `dinf_shopping_${isoDate(getRange()[0])}`;
+  const storageKey = `dinf_shopping_${FamilyStore.demo() ? "demo" : FamilyStore.signedIn() ? FamilyStore.email() : "public"}_${isoDate(getRange()[0])}`;
   const checked = new Set(storageGet(storageKey) || []);
-  list.innerHTML = `<div class="shopping-actions"><button class="btn btn-sm btn-outline" id="clear-shopping">Desmarcar tot</button><button class="btn btn-sm" id="print-shopping">Imprimir</button></div><div class="shopping-grid">${pantryGroups.map(([group]) => !groups[group]?.length ? '' : `<section class="shopping-group"><h3>${group}</h3><div class="shopping-list">${groups[group].sort((a,b)=>a.name.localeCompare(b.name,'ca')).map(item => `<label class="shopping-item${checked.has(item.name) ? ' checked' : ''}"><input type="checkbox" value="${item.name}" ${checked.has(item.name) ? 'checked' : ''}><span>${item.name}</span><small>${item.count > 1 ? `${item.count} plats` : ''}</small></label>`).join('')}</div></section>`).join('')}</div>`;
+  list.innerHTML = `<div class="shopping-actions"><button class="btn btn-sm btn-outline" id="clear-shopping">Desmarcar tot</button><button class="btn btn-sm" id="print-shopping">Imprimir</button></div><div class="shopping-grid">${pantryGroups.map(([group]) => !groups[group]?.length ? '' : `<section class="shopping-group"><h3>${group}</h3><div class="shopping-list">${groups[group].sort((a,b)=>a.name.localeCompare(b.name,'ca')).map(item => `<label class="shopping-item${checked.has(item.name) ? ' checked' : ''}"><input type="checkbox" value="${escapeHTML(item.name)}" ${checked.has(item.name) ? 'checked' : ''}><span>${escapeHTML(item.name)}</span><small>${item.count > 1 ? `${item.count} plats` : ''}</small></label>`).join('')}</div></section>`).join('')}</div>`;
   list.querySelectorAll('input').forEach(input => input.addEventListener('change', () => {
     input.closest('label').classList.toggle('checked', input.checked);
     storageSet(storageKey, [...list.querySelectorAll('input:checked')].map(item => item.value));

@@ -144,3 +144,8 @@ Crea un fitxer `data/menus/YYYY.json` amb el format:
 ## 📄 Llicència
 
 Fet amb ❤️ per a la família.
+## Espai familiar (pendent d’activació)
+
+Obre `familia.html` per provar l’edició amb una còpia local: calendari de 2026, receptes, exportació i importació. Per compartir-la entre comptes, cal activar Supabase seguint [la guia de configuració](docs/CONFIGURACION-FAMILIAR.md). La web pública continua funcionant sense claus ni serveis configurats.
+
+Les proves de permisos i dades s’executen amb `npm ci --ignore-scripts` i `npm test` (Node 22+). Node només és necessari per a les proves, no per servir la web.
