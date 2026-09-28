@@ -1,7 +1,7 @@
 (function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  let data = null, pendingImport = null, pendingDraft = null, dirty = false, busy = false, sentEmail = '';
+  let data = null, pendingImport = null, pendingDraft = null, dirty = false, busy = false;
   const dirtyForms = new Set();
   let selectedRecipe = '', selectedDate = '';
   const value = id => $(id).value.trim();
@@ -92,22 +92,9 @@
   document.addEventListener('DOMContentLoaded', () => {
     const categories = ['arròs', 'pasta', 'peix', 'carn', 'llegums', 'cremes', 'amanides', 'pizza', 'forn', 'catalana', 'mediterrània'];
     options($('recipe-category'), categories.map(c => [c, c]));
-    $('login-form').hidden = !FamilyStore.configured();
     $('not-configured').hidden = FamilyStore.configured();
-    $('login-form').addEventListener('submit', event => { event.preventDefault(); run(async () => {
-      const email = value('email');
-      await FamilyStore.sendCode(email); sentEmail = email;
-      $('code-form').hidden = false;
-      $('code').value = ''; setTimeout(() => $('code').focus(), 0);
-      message('Si el compte té accés, rebràs un codi. Revisa també el correu brossa.');
-    }); });
-    $('code-form').addEventListener('submit', event => { event.preventDefault(); run(async () => {
-      await FamilyStore.verifyCode(sentEmail, value('code'));
-      $('code').value = '';
-      $('access').hidden = true; $('workspace').hidden = false;
-      display(await FamilyStore.load()); message('Ja ets al teu espai familiar.');
-    }); });
-    $('start-demo').addEventListener('click', () => run(async () => { display(await FamilyStore.startDemo()); message('Còpia local creada. Els canvis d’aquesta prova no es comparteixen.'); }));
+    $('google-login').hidden = !FamilyStore.configured();
+    $('google-login').addEventListener('click', () => run(async () => FamilyStore.signInWithGoogle()));
     $('initialize-button').addEventListener('click', () => run(async () => persist(await FamilyStore.base(), 'El calendari familiar ja està preparat.')));
     $('logout').addEventListener('click', () => run(async () => {
       if (!confirmDiscard()) return;
@@ -177,6 +164,11 @@
     if (FamilyStore.signedIn() || FamilyStore.demo()) run(async () => {
       $('access').hidden = true; $('workspace').hidden = false;
       display(await FamilyStore.load());
+    });
+    else if (FamilyStore.configured() && window.location.hash.includes('access_token')) run(async () => {
+      await FamilyStore.consumeOAuthCallback();
+      $('access').hidden = true; $('workspace').hidden = false;
+      display(await FamilyStore.load()); message('Ja ets al teu espai familiar.');
     });
   });
 })();
