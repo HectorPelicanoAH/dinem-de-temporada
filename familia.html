@@ -16,6 +16,10 @@
     <section id="access" class="family-card">
       <h2>Entra al teu espai</h2><p class="family-note">Accés per invitació. Rebràs un codi al teu correu.</p>
       <p id="not-configured" hidden>Estem preparant l’accés compartit. Mentrestant, pots provar l’edició amb una còpia local.</p>
+      <div class="family-login-options">
+        <button id="google-login" class="btn family-google" type="button">Continuar amb Google</button>
+        <div class="family-divider"><span>o amb codi de correu</span></div>
+      </div>
       <form id="login-form"><label>Correu electrònic<input id="email" type="email" autocomplete="email" required maxlength="254"></label><button class="btn" type="submit">Enviar codi</button></form>
       <form id="code-form" hidden><label>Codi del correu<input id="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" required></label><button class="btn" type="submit">Entrar</button></form>
       <div class="family-actions"><button id="start-demo" class="btn btn-outline" type="button">Provar amb una còpia local</button></div>
