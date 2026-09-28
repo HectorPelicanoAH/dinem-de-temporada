@@ -5,11 +5,8 @@
 .family-intro { max-width: 650px; color: var(--color-text-muted); margin-bottom: 1.5rem; }
 .family-card { padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--color-border); border-radius: 16px; background: white; margin-top: 1.5rem; }
 .family-card h2 { font-family: var(--font-serif); margin-bottom: .8rem; }
-.family-login-options { display: grid; gap: 1rem; max-width: 34rem; }
-.family-google { background: #fff; color: #2f332a; border: 1px solid #b9b4a4; box-shadow: 0 1px 2px #2221; }
+.family-google { width: min(100%, 34rem); background: #fff; color: #2f332a; border: 1px solid #b9b4a4; box-shadow: 0 1px 2px #2221; }
 .family-google::before { content: 'G'; display: inline-grid; place-items: center; width: 1.35rem; height: 1.35rem; margin-right: .45rem; border-radius: 50%; color: #4285f4; font-weight: 700; background: #f1f5ff; }
-.family-divider { display: flex; align-items: center; gap: .75rem; color: var(--color-text-muted); font-size: .85rem; max-width: 34rem; }
-.family-divider::before, .family-divider::after { content: ''; height: 1px; flex: 1; background: var(--color-border); }
 .family-main label { display: grid; gap: .4rem; font-weight: 500; margin-bottom: 1rem; }
 .family-main input, .family-main select, .family-main textarea { width: 100%; min-width: 0; border: 1px solid #b9b4a4; border-radius: 8px; padding: .7rem; font: inherit; color: var(--color-text); background: white; }
 .family-main textarea { min-height: 105px; resize: vertical; }

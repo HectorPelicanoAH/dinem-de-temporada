@@ -5,7 +5,7 @@ const vm = require('node:vm');
 const model = require('../assets/js/family-model.js');
 function storage() { const values = new Map(); return { getItem: k => values.get(k), setItem: (k,v) => values.set(k,v), removeItem: k => values.delete(k) }; }
 function setup(fetcher, sharedStorage = storage()) {
-  const context = { FAMILY_CONFIG: { supabaseUrl: 'https://example.supabase.co', publishableKey: 'public-test-key' }, FamilyModel: model, sessionStorage: storage(), localStorage: sharedStorage, document: { addEventListener() {} }, fetch: fetcher, AbortSignal, Date, console };
+  const context = { FAMILY_CONFIG: { supabaseUrl: 'https://example.supabase.co', publishableKey: 'public-test-key' }, FamilyModel: model, sessionStorage: storage(), localStorage: sharedStorage, document: { addEventListener() {} }, fetch: fetcher, AbortSignal, Date, URL, URLSearchParams, console };
   context.window = context;
   vm.runInNewContext(fs.readFileSync('assets/js/family-store.js','utf8'), context);
   return context;
@@ -38,10 +38,29 @@ test('refresh rotates tokens before private request', async () => {
   assert.ok(requests[0][0].includes('grant_type=refresh_token'));
   assert.equal(requests[1][1].headers.Authorization,'Bearer new-access');
 });
-test('OTP cannot create an uninvited user and logout clears local session on failure', async () => {
-  let body;
-  const ctx = setup(async (path,options) => { body=JSON.parse(options.body); return {ok:true,json:async()=>({})}; });
-  await ctx.FamilyStore.sendCode('test@example.org'); assert.equal(body.create_user,false);
+test('Google callback validates the user, stores the session and removes tokens from the URL', async () => {
+  const requests = [];
+  const ctx = setup(async (path, options) => {
+    requests.push([path, options]);
+    return { ok: true, json: async () => ({ id: 'family-member', email: 'test@example.org' }) };
+  });
+  ctx.location = { hash: '#access_token=google-access&refresh_token=google-refresh&expires_in=3600', pathname: '/familia.html', search: '' };
+  ctx.history = { replaceState(_state, _title, path) { assert.equal(path, '/familia.html'); ctx.location.hash = ''; } };
+  assert.equal(await ctx.FamilyStore.consumeOAuthCallback(), true);
+  assert.equal(ctx.FamilyStore.email(), 'test@example.org');
+  assert.equal(ctx.location.hash, '');
+  assert.equal(requests[0][1].headers.Authorization, 'Bearer google-access');
+});
+test('Google callback removes tokens from the URL even when validation fails', async () => {
+  const ctx = setup(async () => ({ ok: false, status: 401, json: async () => ({}) }));
+  ctx.location = { hash: '#access_token=invalid&refresh_token=invalid', pathname: '/familia.html', search: '' };
+  ctx.history = { replaceState() { ctx.location.hash = ''; } };
+  await assert.rejects(ctx.FamilyStore.consumeOAuthCallback());
+  assert.equal(ctx.location.hash, '');
+  assert.equal(ctx.FamilyStore.signedIn(), false);
+});
+test('logout clears local session when the network fails', async () => {
+  const ctx = setup(async () => ({ ok:true, json:async()=>({}) }));
   login(ctx); ctx.fetch = async () => { throw new Error('offline'); };
   assert.equal(await ctx.FamilyStore.logout(),true);
   assert.equal(ctx.FamilyStore.signedIn(),false);

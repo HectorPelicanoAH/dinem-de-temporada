@@ -119,14 +119,15 @@
     const accessToken = hash.get('access_token');
     if (!accessToken) return false;
     const refreshToken = hash.get('refresh_token');
+    history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+    if (!refreshToken) throw new Error('No s’ha pogut validar l’accés amb Google. Torna-ho a provar.');
     const userResponse = await fetch(`${config.supabaseUrl}/auth/v1/user`, {
       headers: { apikey: config.publishableKey, Authorization: `Bearer ${accessToken}` },
       signal: AbortSignal.timeout(20000)
     });
     const user = await userResponse.json().catch(() => null);
-    if (!userResponse.ok || !user?.id || !user?.email) throw new Error('No s’ha pogut validar l’accés amb Google.');
+    if (!userResponse.ok || !user?.id || !user?.email) throw new Error('No s’ha pogut validar l’accés amb Google. Torna-ho a provar.');
     saveSession({ access_token: accessToken, refresh_token: refreshToken, expires_at: Math.floor(Date.now() / 1000) + Number(hash.get('expires_in') || 3600), user });
-    history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
     return true;
   }
   window.FamilyStore = {
@@ -138,12 +139,6 @@
       const entry = { family_id: 'demo', name: 'Família de prova', revision: 0, data, updated_at: null };
       localStorage.setItem(demoKey, JSON.stringify(entry));
       return load();
-    },
-    async sendCode(email) { await request('/auth/v1/otp', { email, create_user: false }); },
-    async verifyCode(email, code) {
-      const session = await request('/auth/v1/verify', { email, token: code, type: 'email' });
-      if (!session?.access_token) throw new Error('No s’ha pogut iniciar la sessió.');
-      saveSession(session);
     }
   };
   document.addEventListener('DOMContentLoaded', () => {

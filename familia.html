@@ -14,16 +14,9 @@
     <p class="family-intro">Un calendari per compartir, receptes al vostre gust i els canvis sempre a mà.</p>
     <p id="family-status" class="family-status" role="status" aria-live="polite"></p>
     <section id="access" class="family-card">
-      <h2>Entra al teu espai</h2><p class="family-note">Accés per invitació. Rebràs un codi al teu correu.</p>
-      <p id="not-configured" hidden>Estem preparant l’accés compartit. Mentrestant, pots provar l’edició amb una còpia local.</p>
-      <div class="family-login-options">
-        <button id="google-login" class="btn family-google" type="button">Continuar amb Google</button>
-        <div class="family-divider"><span>o amb codi de correu</span></div>
-      </div>
-      <form id="login-form"><label>Correu electrònic<input id="email" type="email" autocomplete="email" required maxlength="254"></label><button class="btn" type="submit">Enviar codi</button></form>
-      <form id="code-form" hidden><label>Codi del correu<input id="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" required></label><button class="btn" type="submit">Entrar</button></form>
-      <div class="family-actions"><button id="start-demo" class="btn btn-outline" type="button">Provar amb una còpia local</button></div>
-      <p class="family-note">La prova es desa només en aquest navegador i no es comparteix amb ningú.</p>
+      <h2>Entra al teu espai</h2><p class="family-note">Accedeix amb el teu compte de Google autoritzat.</p>
+      <p id="not-configured" hidden>L’accés compartit encara no està configurat.</p>
+      <button id="google-login" class="btn family-google" type="button">Continuar amb Google</button>
     </section>
     <section id="workspace" hidden>
       <div class="family-card"><div class="family-top"><div><h2 id="family-name"></h2><p id="account" class="family-note"></p><p id="save-info" class="family-note"></p></div><button id="logout" class="btn btn-outline" type="button">Sortir</button></div>
