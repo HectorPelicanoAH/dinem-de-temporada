@@ -43,10 +43,57 @@
     for (const key of ['category', 'difficulty']) {
       if (recipe[key] && ![...$(`recipe-${key}`).options].some(o => o.value === recipe[key])) $(`recipe-${key}`).add(new Option(recipe[key], recipe[key]));
     }
-    for (const key of ['title', 'category', 'difficulty', 'time', 'servings', 'babyNotes']) $(`recipe-${key}`).value = recipe[key] ?? '';
+    for (const key of ['title', 'category', 'difficulty', 'time', 'servings', 'servingsUnit', 'babyNotes']) $(`recipe-${key}`).value = recipe[key] ?? (key === 'servingsUnit' ? 'persones' : '');
     for (const key of ['season', 'tags', 'allergens']) $(`recipe-${key}`).value = (recipe[key] || []).join(', ');
     for (const key of ['steps', 'variations']) $(`recipe-${key}`).value = (recipe[key] || []).join('\n');
     $('recipe-ingredients').value = (recipe.ingredients || []).map(i => [i.ingredient, i.amount, i.unit].join(' | ')).join('\n');
+    $('recipe-reviewed').checked = false;
+    $('photo-warnings').textContent = '';
+  }
+  function recipeFromForm(id, previous = {}) {
+    const recipe = {
+      ...previous, id, image: previous.image || '', pairings: previous.pairings || [],
+      title: value('recipe-title'), category: value('recipe-category'), difficulty: value('recipe-difficulty'),
+      time: Number(value('recipe-time')), servings: Number(value('recipe-servings')), servingsUnit: value('recipe-servingsUnit'),
+      ingredients: lines('recipe-ingredients').map(line => {
+        const parts = line.split('|').map(s => s.trim());
+        if (parts.length > 3 || !parts[0]) throw new Error('Revisa els ingredients: nom | quantitat | unitat.');
+        return { ingredient: parts[0], amount: parts[1] || '', unit: parts[2] || '' };
+      }), steps: lines('recipe-steps'), season: list('recipe-season'), tags: list('recipe-tags'),
+      allergens: list('recipe-allergens'), babyNotes: value('recipe-babyNotes'), variations: lines('recipe-variations')
+    };
+    if (!recipe.ingredients.length || !recipe.steps.length) throw new Error('La recepta necessita ingredients i passos.');
+    FamilyModel.validateRecipe(recipe, id);
+    return recipe;
+  }
+  async function compressPhoto(file) {
+    if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type) || file.size > 10000000) throw new Error('Cada foto ha de ser JPG, PNG o WebP i ocupar menys de 10 MB.');
+    const bitmap = await createImageBitmap(file);
+    try {
+      const scale = Math.min(1, 1800 / Math.max(bitmap.width, bitmap.height));
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.round(bitmap.width * scale); canvas.height = Math.round(bitmap.height * scale);
+      canvas.getContext('2d').drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.82);
+      if (dataUrl.length > 3000000) throw new Error('Una foto continua sent massa gran després de reduir-la.');
+      return dataUrl;
+    } finally { bitmap.close(); }
+  }
+  function fillExtractedRecipe(draft) {
+    showRecipe('');
+    for (const key of ['category', 'difficulty']) {
+      if (draft[key] && ![...$(`recipe-${key}`).options].some(option => option.value === draft[key])) $(`recipe-${key}`).add(new Option(draft[key], draft[key]));
+    }
+    for (const key of ['title', 'category', 'difficulty', 'time', 'servings', 'servingsUnit', 'babyNotes']) $(`recipe-${key}`).value = draft[key] ?? '';
+    for (const key of ['season', 'tags', 'allergens']) $(`recipe-${key}`).value = (draft[key] || []).join(', ');
+    for (const key of ['steps', 'variations']) $(`recipe-${key}`).value = (draft[key] || []).join('\n');
+    $('recipe-ingredients').value = (draft.ingredients || []).map(item => [item.ingredient, item.amount, item.unit].join(' | ')).join('\n');
+    const warnings = [...(draft.warnings || [])];
+    if (draft.time == null) warnings.push('Falta el temps total.');
+    if (draft.servings == null) warnings.push('Falten les racions o unitats.');
+    if (!draft.servingsUnit) warnings.push('Indica si són persones, racions o unitats.');
+    $('photo-warnings').textContent = warnings.length ? `Revisa abans de publicar: ${warnings.join(' ')}` : 'Esborrany preparat. Comprova’l amb les fotos abans de publicar.';
+    dirty = true; dirtyForms.add('recipe-form');
   }
   function display(entry) {
     $('access').hidden = true;
@@ -131,21 +178,35 @@
     }); });
     $('recipe-form').addEventListener('submit', event => { event.preventDefault(); run(async () => {
       const previous = data.recipes[selectedRecipe];
-      const recipe = {
-        ...(previous || { id: `recepta-${crypto.randomUUID()}`, image: '', pairings: [] }),
-        title: value('recipe-title'), category: value('recipe-category'), difficulty: value('recipe-difficulty'),
-        time: Number(value('recipe-time')), servings: Number(value('recipe-servings')),
-        ingredients: lines('recipe-ingredients').map(line => {
-          const parts = line.split('|').map(s => s.trim());
-          if (parts.length > 3 || !parts[0]) throw new Error('Revisa els ingredients: nom | quantitat | unitat.');
-          return { ingredient: parts[0], amount: parts[1] || '', unit: parts[2] || '' };
-        }), steps: lines('recipe-steps'), season: list('recipe-season'), tags: list('recipe-tags'),
-        allergens: list('recipe-allergens'), babyNotes: value('recipe-babyNotes'), variations: lines('recipe-variations')
-      };
+      const recipe = recipeFromForm(selectedRecipe || `recepta-${crypto.randomUUID()}`, previous);
       const next = FamilyModel.editRecipe(data, recipe);
       await persist(next, 'Recepta desada i menús actualitzats.', 'recipe-form');
       showRecipe(recipe.id);
     }); });
+    $('extract-recipe').addEventListener('click', () => run(async () => {
+      const files = [...$('recipe-photos').files];
+      if (files.length < 1 || files.length > 4) throw new Error('Tria entre una i quatre fotos de la mateixa recepta.');
+      if (!confirmDiscard()) return;
+      message('Llegint les fotos…');
+      const images = await Promise.all(files.map(compressPhoto));
+      const draft = await FamilyStore.extractRecipe(images);
+      fillExtractedRecipe(draft);
+      message('Esborrany preparat. Revisa i completa la recepta abans de publicar.');
+    }));
+    $('publish-recipe').addEventListener('click', () => {
+      if (!$('recipe-form').reportValidity()) return;
+      run(async () => {
+      if (selectedRecipe) throw new Error('Tria «Nova recepta» per publicar-ne una de nova.');
+      if (!$('recipe-reviewed').checked) throw new Error('Confirma que has revisat la fitxa abans de publicar-la.');
+      const recipe = recipeFromForm(`pub-${crypto.randomUUID()}`);
+      const published = await FamilyStore.publishRecipe(recipe);
+      data.recipes[published.id] = published;
+      dirtyForms.delete('recipe-form'); dirty = dirtyForms.size > 0;
+      refreshOptions(); showRecipe(published.id);
+      $('recipe-photos').value = '';
+      message(`«${published.title}» ja és pública per a tothom.`);
+      });
+    });
     $('import-file').addEventListener('change', () => run(async () => {
       pendingImport = null; $('import-confirm').hidden = true; $('import-summary').textContent = '';
       const file = $('import-file').files[0]; if (!file) return;

@@ -34,11 +34,18 @@
           <label>Opció ràpida<input id="quick" maxlength="500"></label><button class="btn" type="submit">Desar dia</button></form>
         </section>
         <section class="family-card" aria-labelledby="recipe-heading"><h2 id="recipe-heading">Les nostres receptes</h2>
+          <div class="photo-import">
+            <h3>Crear una recepta a partir de fotos</h3>
+            <p class="family-note">Puja d’una a quatre fotos d’una mateixa recepta. Les enviarem a OpenAI per preparar un esborrany; les fotos originals no es publicaran ni es desaran aquí. Revisa les quantitats i els passos abans de publicar.</p>
+            <label>Fotos de la recepta<input id="recipe-photos" type="file" accept="image/jpeg,image/png,image/webp" multiple></label>
+            <button id="extract-recipe" class="btn btn-outline" type="button">Llegir les fotos</button>
+            <p id="photo-warnings" class="family-note" role="status" aria-live="polite"></p>
+          </div>
           <label>Recepta per editar<select id="recipe-picker"><option value="">Nova recepta</option></select></label>
           <p class="family-note">Editar una recepta actualitza també els dies que la fan servir. Les receptes originals de la web es conserven.</p>
           <form id="recipe-form">
             <label>Nom de la recepta<input id="recipe-title" required maxlength="200"></label>
-            <div class="family-grid"><label>Categoria<select id="recipe-category"></select></label><label>Dificultat<select id="recipe-difficulty"><option>Fàcil</option><option>Mitjana</option><option>Difícil</option></select></label><label>Temps (minuts)<input id="recipe-time" type="number" min="0" max="10080" required value="30"></label><label>Racions<input id="recipe-servings" type="number" min="1" max="1000" required value="4"></label></div>
+            <div class="family-grid"><label>Categoria<select id="recipe-category"></select></label><label>Dificultat<select id="recipe-difficulty"><option>Fàcil</option><option>Mitjana</option><option>Difícil</option></select></label><label>Temps (minuts)<input id="recipe-time" type="number" min="0" max="10080" required value="30"></label><label>Racions o unitats<input id="recipe-servings" type="number" min="1" max="1000" required value="4"></label><label>Unitat de les racions<input id="recipe-servingsUnit" maxlength="100" required value="persones" placeholder="persones, unitats…"></label></div>
             <label>Ingredients — un per línia, amb quantitat i unitat opcionals<textarea id="recipe-ingredients" placeholder="Patata | 500 | g&#10;Oli d’oliva | 2 | cullerades" required></textarea></label>
             <label>Preparació — un pas per línia<textarea id="recipe-steps" required></textarea></label>
             <div class="family-grid"><label>Temporades (separades per comes)<input id="recipe-season" value="primavera, estiu, tardor, hivern"></label><label>Etiquetes (separades per comes)<input id="recipe-tags" placeholder="vegetarià, llegums"></label></div>
@@ -46,7 +53,9 @@
             <label>Notes per al nadó<textarea id="recipe-babyNotes"></textarea></label>
             <label>Variants — una per línia<textarea id="recipe-variations"></textarea></label>
             <p class="family-note">Les receptes noves apareixen sense fotografia. Les fotografies i combinacions de les receptes existents es conserven.</p>
-            <button class="btn" type="submit">Desar recepta</button>
+            <div class="family-actions"><button class="btn" type="submit">Desar només a la família</button><button id="publish-recipe" class="btn btn-outline" type="button">Publicar per a tothom</button></div>
+            <label class="publish-confirm"><input id="recipe-reviewed" type="checkbox"> He revisat la fitxa i vull que sigui pública immediatament.</label>
+            <p class="family-note">Per publicar, tria «Nova recepta». Les fotos de pàgines de llibres no es mostraran a la web.</p>
           </form>
         </section>
         <section class="family-card"><h2>Recuperar una còpia</h2><p class="family-note">Pots carregar una còpia exportada o el calendari compartible. Primer en veuràs el resum; només substituirà el vostre calendari quan ho confirmis.</p><label>Arxiu JSON<input id="import-file" type="file" accept=".json,application/json"></label><p id="import-summary"></p><button id="import-confirm" type="button" class="btn" hidden>Substituir amb aquesta còpia</button></section>
