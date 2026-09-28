@@ -386,7 +386,7 @@ function injectRecipeSchema(recipe) {
     }))
   };
 
-  if (recipe.image) schema.image = recipe.image;
+  if (safeRecipeImage(recipe.image)) schema.image = safeRecipeImage(recipe.image);
 
   const script = document.createElement('script');
   script.type = 'application/ld+json';

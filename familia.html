@@ -36,7 +36,7 @@
         <section class="family-card" aria-labelledby="recipe-heading"><h2 id="recipe-heading">Les nostres receptes</h2>
           <div class="photo-import">
             <h3>Crear una recepta a partir de fotos</h3>
-            <p class="family-note">Puja d’una a quatre fotos d’una mateixa recepta. Les enviarem a OpenAI per preparar un esborrany; les fotos originals no es publicaran ni es desaran aquí. Revisa les quantitats i els passos abans de publicar.</p>
+            <p class="family-note">Puja d’una a quatre fotos d’una mateixa recepta. Les enviarem a OpenAI per preparar un esborrany. La primera foto es proposarà com a portada; podràs canviar-la abans de publicar. Els originals no es desen.</p>
             <label>Fotos de la recepta<input id="recipe-photos" type="file" accept="image/jpeg,image/png,image/webp" multiple></label>
             <button id="extract-recipe" class="btn btn-outline" type="button">Llegir les fotos</button>
             <p id="photo-warnings" class="family-note" role="status" aria-live="polite"></p>
@@ -52,10 +52,12 @@
             <label>Al·lèrgens (separats per comes)<input id="recipe-allergens"></label><p class="family-note">Un camp buit no confirma que la recepta estigui lliure d’al·lèrgens.</p>
             <label>Notes per al nadó<textarea id="recipe-babyNotes"></textarea></label>
             <label>Variants — una per línia<textarea id="recipe-variations"></textarea></label>
-            <p class="family-note">Les receptes noves apareixen sense fotografia. Les fotografies i combinacions de les receptes existents es conserven.</p>
-            <div class="family-actions"><button class="btn" type="submit">Desar només a la família</button><button id="publish-recipe" class="btn btn-outline" type="button">Publicar per a tothom</button></div>
-            <label class="publish-confirm"><input id="recipe-reviewed" type="checkbox"> He revisat la fitxa i vull que sigui pública immediatament.</label>
-            <p class="family-note">Per publicar, tria «Nova recepta». Les fotos de pàgines de llibres no es mostraran a la web.</p>
+            <label>Foto visible de la recepta (opcional)<input id="recipe-cover" type="file" accept="image/jpeg,image/png,image/webp"></label>
+            <p class="family-note">Tria la foto del plat. La reduirem i la desarem com a JPEG; evita pàgines de text o dades personals. També la pots afegir més tard.</p>
+            <img id="recipe-cover-preview" class="recipe-cover-preview" alt="Previsualització de la foto de la recepta" hidden>
+            <div class="family-actions"><button class="btn" type="submit">Desar només a la família</button><button id="publish-recipe" class="btn btn-outline" type="button">Publicar per a tothom</button><button id="save-public-cover" class="btn btn-outline" type="button" hidden>Desar foto pública</button></div>
+            <label class="publish-confirm"><input id="recipe-reviewed" type="checkbox"> He revisat la fitxa i la foto i vull que siguin públiques immediatament.</label>
+            <p class="family-note">Per publicar, tria «Nova recepta». Les fotos originals no es desaran; només es publicarà la portada processada que hagis revisat.</p>
           </form>
         </section>
         <section class="family-card"><h2>Recuperar una còpia</h2><p class="family-note">Pots carregar una còpia exportada o el calendari compartible. Primer en veuràs el resum; només substituirà el vostre calendari quan ho confirmis.</p><label>Arxiu JSON<input id="import-file" type="file" accept=".json,application/json"></label><p id="import-summary"></p><button id="import-confirm" type="button" class="btn" hidden>Substituir amb aquesta còpia</button></section>

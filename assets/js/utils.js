@@ -379,5 +379,10 @@ function escapeHTML(value) {
   return String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 }
 function safeRecipeImage(value) {
-  return /^assets\/images\/[a-zA-Z0-9/_.,-]+$/.test(value || '') ? value : '';
+  if (/^assets\/images\/[a-zA-Z0-9/_.,-]+$/.test(value || '')) return value;
+  if (/^recipe-images\/[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\/[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\.jpg$/.test(value || '')
+      && /^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(window.FAMILY_CONFIG?.supabaseUrl || '')) {
+    return `${window.FAMILY_CONFIG.supabaseUrl}/storage/v1/object/public/${value}`;
+  }
+  return '';
 }

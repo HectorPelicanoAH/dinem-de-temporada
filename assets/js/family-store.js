@@ -15,7 +15,7 @@
     sessionStorage.setItem(sessionKey, JSON.stringify({
       access_token: session.access_token, refresh_token: session.refresh_token,
       expires_at: session.expires_at || Math.floor(Date.now() / 1000) + session.expires_in,
-      email: session.user?.email || '', user_id: session.user?.id
+      email: session.user?.email || read(sessionKey)?.email || '', user_id: session.user?.id || read(sessionKey)?.user_id
     }));
     localStorage.removeItem(demoKey);
   }
@@ -87,9 +87,36 @@
   async function publishRecipe(recipe) {
     if (demo()) throw new Error('Entra amb Google per publicar una recepta.');
     FamilyModel.validateRecipe(recipe, recipe.id);
-    const published = await request('/rest/v1/rpc/publish_public_recipe', { payload: recipe }, await token());
+    const published = await request('/rest/v1/rpc/publish_public_recipe_with_image', { payload: recipe }, await token());
     publicRecipesPromise = null;
     return published;
+  }
+  async function uploadRecipeImage(blob) {
+    if (demo()) throw new Error('Entra amb Google per desar fotografies.');
+    if (blob.type !== 'image/jpeg' || blob.size > 2000000) throw new Error('La foto processada ha de ser JPEG i ocupar menys de 2 MB.');
+    const userId = read(sessionKey)?.user_id;
+    if (!/^[a-f0-9-]{36}$/.test(userId || '')) throw new Error('La sessió ha caducat. Torna a entrar.');
+    const path = `recipe-images/${userId}/${crypto.randomUUID()}.jpg`;
+    let response;
+    try {
+      response = await fetch(`${config.supabaseUrl}/storage/v1/object/${path}`, {
+        method: 'POST', headers: { apikey: config.publishableKey, Authorization: `Bearer ${await token()}`, 'Content-Type': 'image/jpeg' },
+        body: blob, signal: AbortSignal.timeout(30000)
+      });
+    } catch { throw new Error('No s’ha pogut pujar la fotografia. Conserva-la i torna-ho a provar.'); }
+    if (!response.ok) throw new Error('No s’ha pogut desar la fotografia. Comprova els permisos de Storage i torna-ho a provar.');
+    return path;
+  }
+  async function setPublicRecipeImage(recipeId, imagePath) {
+    if (demo()) throw new Error('Entra amb Google per publicar fotografies.');
+    const saved = await request('/rest/v1/rpc/set_public_recipe_image', { recipe_id: recipeId, image_path: imagePath }, await token());
+    publicRecipesPromise = null;
+    return saved;
+  }
+  function imageUrl(path) {
+    if (/^assets\/images\/[a-zA-Z0-9/_.,-]+$/.test(path || '')) return path;
+    return FamilyModel.imagePath(path) && path.startsWith('recipe-images/') && configured()
+      ? `${config.supabaseUrl}/storage/v1/object/public/${path}` : '';
   }
   async function base() {
     const results = await Promise.all(['data/menus/2026.json', 'data/recipes.json'].map(async path => {
@@ -174,7 +201,7 @@
     return true;
   }
   window.FamilyStore = {
-    configured, demo, signedIn, base, load, save, resolve, publicRecipes, extractRecipe, publishRecipe, logout, signInWithGoogle, consumeOAuthCallback,
+    configured, demo, signedIn, base, load, save, resolve, publicRecipes, extractRecipe, publishRecipe, uploadRecipeImage, setPublicRecipeImage, imageUrl, logout, signInWithGoogle, consumeOAuthCallback,
     email: () => read(sessionKey)?.email || '',
     isCurrentAuthor: id => read(sessionKey)?.user_id === id,
     async startDemo() {

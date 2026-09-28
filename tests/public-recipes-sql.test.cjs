@@ -9,17 +9,27 @@ test('only members can spend extraction slots and publish; everyone can read rec
     await db.exec(`
       create role anon; create role authenticated;
       create schema auth;
+      create schema storage;
+      create table storage.buckets(id text primary key, name text not null, public boolean, file_size_limit bigint, allowed_mime_types text[]);
+      create table storage.objects(bucket_id text not null, name text not null, primary key(bucket_id,name));
+      alter table storage.objects enable row level security;
+      grant usage on schema storage to authenticated;
+      grant insert on storage.objects to authenticated;
       create table auth.users(id uuid primary key);
       create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;
       grant usage on schema auth to anon,authenticated;
       grant execute on function auth.uid() to anon,authenticated;
-      insert into auth.users values ('00000000-0000-0000-0000-000000000001'),('00000000-0000-0000-0000-000000000002');
+      insert into auth.users values ('00000000-0000-0000-0000-000000000001'),('00000000-0000-0000-0000-000000000002'),('00000000-0000-0000-0000-000000000003'),('00000000-0000-0000-0000-000000000004');
     `);
     await db.exec(fs.readFileSync('supabase/migrations/001_family.sql', 'utf8'));
     await db.exec(fs.readFileSync('supabase/migrations/002_public_recipes.sql', 'utf8'));
+    await db.exec(fs.readFileSync('supabase/migrations/003_recipe_images.sql', 'utf8'));
     await db.exec(`
       insert into public.family_documents(family_id,name) values ('10000000-0000-0000-0000-000000000001','Family A');
       insert into public.family_members values ('00000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001');
+      insert into public.family_members values ('00000000-0000-0000-0000-000000000003','10000000-0000-0000-0000-000000000001');
+      insert into public.family_documents(family_id,name) values ('10000000-0000-0000-0000-000000000002','Family B');
+      insert into public.family_members values ('00000000-0000-0000-0000-000000000004','10000000-0000-0000-0000-000000000002');
     `);
     const asUser = async (role, id) => {
       await db.exec('reset role');
@@ -40,9 +50,30 @@ test('only members can spend extraction slots and publish; everyone can read rec
     assert.match(saved.id, /^pub-[a-f0-9-]{36}$/);
     assert.equal(saved.title, recipe.title);
     assert.equal(saved.image, '');
+    const firstPath = '00000000-0000-0000-0000-000000000001/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa.jpg';
+    await assert.rejects(db.query('select public.set_public_recipe_image($1,$2)', [saved.id, `recipe-images/${firstPath}`]), /invalid_image/);
+    await assert.rejects(db.query('insert into storage.objects values ($1,$2)', ['recipe-images', '00000000-0000-0000-0000-000000000002/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb.jpg']), /row-level security/);
+    await db.query('insert into storage.objects values ($1,$2)', ['recipe-images', firstPath]);
+    const withImage = (await db.query('select public.set_public_recipe_image($1,$2) as recipe', [saved.id, `recipe-images/${firstPath}`])).rows[0].recipe;
+    assert.equal(withImage.image, `recipe-images/${firstPath}`);
+    await assert.rejects(db.query('select public.publish_public_recipe_with_image($1)', [JSON.stringify({ ...recipe, image: 'recipe-images/00000000-0000-0000-0000-000000000002/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa.jpg' })]), /invalid_image/);
+    const publishedWithImage = (await db.query('select public.publish_public_recipe_with_image($1) as recipe', [JSON.stringify({ ...recipe, image: `recipe-images/${firstPath}` })])).rows[0].recipe;
+    assert.equal(publishedWithImage.image, `recipe-images/${firstPath}`);
+    const partnerPath = '00000000-0000-0000-0000-000000000003/cccccccc-cccc-cccc-cccc-cccccccccccc.jpg';
+    await asUser('authenticated', '00000000-0000-0000-0000-000000000003');
+    await db.query('insert into storage.objects values ($1,$2)', ['recipe-images', partnerPath]);
+    assert.equal((await db.query('select public.set_public_recipe_image($1,$2) as recipe', [saved.id, `recipe-images/${partnerPath}`])).rows[0].recipe.image, `recipe-images/${partnerPath}`);
+    const strangerPath = '00000000-0000-0000-0000-000000000004/dddddddd-dddd-dddd-dddd-dddddddddddd.jpg';
+    await asUser('authenticated', '00000000-0000-0000-0000-000000000004');
+    await db.query('insert into storage.objects values ($1,$2)', ['recipe-images', strangerPath]);
+    await assert.rejects(db.query('select public.set_public_recipe_image($1,$2)', [saved.id, `recipe-images/${strangerPath}`]), /not_authorized/);
+    await asUser('authenticated', '00000000-0000-0000-0000-000000000001');
     await assert.rejects(db.query("delete from public.public_recipes where id = '" + saved.id + "'"), /permission denied/);
+    await asUser('authenticated', '00000000-0000-0000-0000-000000000002');
+    await assert.rejects(db.query('insert into storage.objects values ($1,$2)', ['recipe-images', '00000000-0000-0000-0000-000000000002/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb.jpg']), /row-level security/);
+    await assert.rejects(db.query('select public.set_public_recipe_image($1,$2)', [saved.id, `recipe-images/${firstPath}`]), /invalid_image/);
     await asUser('anon');
-    assert.equal((await db.query('select recipe from public.public_recipes')).rows[0].recipe.id, saved.id);
+    assert.ok((await db.query('select recipe from public.public_recipes')).rows.some(row => row.recipe.id === saved.id));
     await assert.rejects(db.query('select created_by from public.public_recipes'), /permission denied/);
     await assert.rejects(db.query('select public.publish_public_recipe($1)', [JSON.stringify(recipe)]), /permission denied/);
   } finally { await db.close(); }

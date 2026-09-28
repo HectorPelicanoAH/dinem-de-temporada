@@ -2,6 +2,7 @@
   'use strict';
   const $ = id => document.getElementById(id);
   let data = null, pendingImport = null, pendingDraft = null, dirty = false, busy = false;
+  let pendingCoverFile = null, pendingCoverPath = '', coverPreviewUrl = '';
   const dirtyForms = new Set();
   let selectedRecipe = '', selectedDate = '';
   const value = id => $(id).value.trim();
@@ -40,6 +41,9 @@
     selectedRecipe = id;
     $('recipe-picker').value = id;
     const recipe = data.recipes[id] || { time: 30, servings: 4, season: ['primavera', 'estiu', 'tardor', 'hivern'], difficulty: 'Fàcil', category: 'mediterrània' };
+    pendingCoverFile = null; pendingCoverPath = ''; $('recipe-cover').value = '';
+    showCoverPreview(FamilyStore.imageUrl(recipe.image));
+    $('save-public-cover').hidden = !id.startsWith('pub-');
     for (const key of ['category', 'difficulty']) {
       if (recipe[key] && ![...$(`recipe-${key}`).options].some(o => o.value === recipe[key])) $(`recipe-${key}`).add(new Option(recipe[key], recipe[key]));
     }
@@ -50,9 +54,24 @@
     $('recipe-reviewed').checked = false;
     $('photo-warnings').textContent = '';
   }
-  function recipeFromForm(id, previous = {}) {
+  function showCoverPreview(source) {
+    if (coverPreviewUrl) URL.revokeObjectURL(coverPreviewUrl);
+    coverPreviewUrl = '';
+    $('recipe-cover-preview').hidden = !source;
+    $('recipe-cover-preview').src = source || '';
+  }
+  function chooseCover(file) {
+    if (!file) return;
+    if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type) || file.size > 10000000) throw new Error('La foto ha de ser JPG, PNG o WebP i ocupar menys de 10 MB.');
+    if (coverPreviewUrl) URL.revokeObjectURL(coverPreviewUrl);
+    pendingCoverFile = file; pendingCoverPath = '';
+    coverPreviewUrl = URL.createObjectURL(file);
+    $('recipe-cover-preview').src = coverPreviewUrl;
+    $('recipe-cover-preview').hidden = false;
+  }
+  function recipeFromForm(id, previous = {}, image = previous.image || '') {
     const recipe = {
-      ...previous, id, image: previous.image || '', pairings: previous.pairings || [],
+      ...previous, id, image, pairings: previous.pairings || [],
       title: value('recipe-title'), category: value('recipe-category'), difficulty: value('recipe-difficulty'),
       time: Number(value('recipe-time')), servings: Number(value('recipe-servings')), servingsUnit: value('recipe-servingsUnit'),
       ingredients: lines('recipe-ingredients').map(line => {
@@ -78,6 +97,33 @@
       if (dataUrl.length > 3000000) throw new Error('Una foto continua sent massa gran després de reduir-la.');
       return dataUrl;
     } finally { bitmap.close(); }
+  }
+  async function processedCover(file) {
+    if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type) || file.size > 10000000) throw new Error('La foto ha de ser JPG, PNG o WebP i ocupar menys de 10 MB.');
+    const bitmap = await createImageBitmap(file);
+    try {
+      const scale = Math.min(1, 1600 / Math.max(bitmap.width, bitmap.height));
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.max(1, Math.round(bitmap.width * scale));
+      canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+      canvas.getContext('2d').drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+      for (let attempt = 0; attempt < 6; attempt++) {
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', .82));
+        if (blob && blob.size <= 1900000) return blob;
+        const smaller = document.createElement('canvas');
+        smaller.width = Math.max(1, Math.round(canvas.width * .8));
+        smaller.height = Math.max(1, Math.round(canvas.height * .8));
+        smaller.getContext('2d').drawImage(canvas, 0, 0, smaller.width, smaller.height);
+        canvas.width = smaller.width; canvas.height = smaller.height;
+        canvas.getContext('2d').drawImage(smaller, 0, 0);
+      }
+      throw new Error('La foto continua sent massa gran després de reduir-la.');
+    } finally { bitmap.close(); }
+  }
+  async function coverImagePath(previous = '') {
+    if (!pendingCoverFile) return previous;
+    if (!pendingCoverPath) pendingCoverPath = await FamilyStore.uploadRecipeImage(await processedCover(pendingCoverFile));
+    return pendingCoverPath;
   }
   function fillExtractedRecipe(draft) {
     showRecipe('');
@@ -171,6 +217,10 @@
       if (confirmDiscard()) { dirty = false; dirtyForms.clear(); pendingDraft = null; showDay(); showRecipe(value('recipe-picker')); }
       else $('recipe-picker').value = selectedRecipe;
     });
+    $('recipe-cover').addEventListener('change', () => run(async () => {
+      chooseCover($('recipe-cover').files[0]);
+      dirty = true; dirtyForms.add('recipe-form');
+    }));
     for (const form of ['day-form', 'recipe-form']) $(form).addEventListener('input', event => { if (event.target.id !== 'day-date') { dirty = true; dirtyForms.add(form); } });
     $('day-form').addEventListener('submit', event => { event.preventDefault(); run(async () => {
       const next = FamilyModel.editDay(data, value('day-date'), { lunch: value('lunch'), lunchSide: value('lunch-side'), dinner: value('dinner'), dinnerSide: value('dinner-side'), quick: value('quick') });
@@ -178,7 +228,10 @@
     }); });
     $('recipe-form').addEventListener('submit', event => { event.preventDefault(); run(async () => {
       const previous = data.recipes[selectedRecipe];
+      if (selectedRecipe.startsWith('pub-') && pendingCoverFile) throw new Error('Per canviar la foto d’una recepta pública, prem «Desar foto pública».');
       const recipe = recipeFromForm(selectedRecipe || `recepta-${crypto.randomUUID()}`, previous);
+      const image = await coverImagePath(previous?.image || '');
+      recipe.image = image;
       const next = FamilyModel.editRecipe(data, recipe);
       await persist(next, 'Recepta desada i menús actualitzats.', 'recipe-form');
       showRecipe(recipe.id);
@@ -191,6 +244,7 @@
       const images = await Promise.all(files.map(compressPhoto));
       const draft = await FamilyStore.extractRecipe(images);
       fillExtractedRecipe(draft);
+      chooseCover(files[0]);
       message('Esborrany preparat. Revisa i completa la recepta abans de publicar.');
     }));
     $('publish-recipe').addEventListener('click', () => {
@@ -199,6 +253,8 @@
       if (selectedRecipe) throw new Error('Tria «Nova recepta» per publicar-ne una de nova.');
       if (!$('recipe-reviewed').checked) throw new Error('Confirma que has revisat la fitxa abans de publicar-la.');
       const recipe = recipeFromForm(`pub-${crypto.randomUUID()}`);
+      const image = await coverImagePath();
+      recipe.image = image;
       const published = await FamilyStore.publishRecipe(recipe);
       data.recipes[published.id] = published;
       dirtyForms.delete('recipe-form'); dirty = dirtyForms.size > 0;
@@ -207,6 +263,15 @@
       message(`«${published.title}» ja és pública per a tothom.`);
       });
     });
+    $('save-public-cover').addEventListener('click', () => run(async () => {
+      if (!selectedRecipe.startsWith('pub-') || !pendingCoverFile) throw new Error('Tria una foto nova per a aquesta recepta pública.');
+      const imagePath = await coverImagePath();
+      const saved = await FamilyStore.setPublicRecipeImage(selectedRecipe, imagePath);
+      data.recipes[saved.id] = saved;
+      pendingCoverFile = null; pendingCoverPath = ''; $('recipe-cover').value = '';
+      showCoverPreview(FamilyStore.imageUrl(imagePath));
+      message('Foto pública desada. Els altres canvis del formulari, si n’hi ha, encara no s’han desat.');
+    }));
     $('import-file').addEventListener('change', () => run(async () => {
       pendingImport = null; $('import-confirm').hidden = true; $('import-summary').textContent = '';
       const file = $('import-file').files[0]; if (!file) return;

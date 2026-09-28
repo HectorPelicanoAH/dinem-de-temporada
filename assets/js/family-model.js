@@ -9,7 +9,8 @@
     assert(typeof value === 'string' && value.length <= max, `${label}: text no vàlid.`);
   }
   function imagePath(value) {
-    return typeof value === 'string' && (value === '' || /^assets\/images\/[a-zA-Z0-9/_.,-]+$/.test(value));
+    return typeof value === 'string' && (value === '' || /^assets\/images\/[a-zA-Z0-9/_.,-]+$/.test(value)
+      || /^recipe-images\/[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\/[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\.jpg$/.test(value));
   }
   function validateRecipe(recipe, id) {
     assert(idPattern.test(id) && recipe && recipe.id === id, 'Identificador de recepta no vàlid.');
@@ -19,7 +20,7 @@
     assert(Number.isFinite(recipe.servings) && recipe.servings > 0 && recipe.servings <= 1000, 'Racions no vàlides.');
     for (const key of ['category', 'difficulty', 'babyNotes']) text(recipe[key] ?? '', key);
     if (recipe.servingsUnit !== undefined) text(recipe.servingsUnit, 'Unitat de racions', 100);
-    assert(imagePath(recipe.image || ''), 'La imatge ha de ser un fitxer de la biblioteca.');
+    assert(imagePath(recipe.image || ''), 'La imatge ha de ser un fitxer de la biblioteca o una foto de recepta.');
     for (const key of ['season', 'tags', 'steps', 'allergens', 'variations', 'pairings']) {
       assert(Array.isArray(recipe[key] || []) && (recipe[key] || []).length <= 200, `${key}: llista no vàlida.`);
       for (const value of recipe[key] || []) text(value, key);
