@@ -1,6 +1,6 @@
-# Activar el calendario familiar
+# Configuración del calendario familiar
 
-La instancia real de Supabase y Google OAuth ya está configurada para `peli.tlc@gmail.com` y `albafuentes89@gmail.com`. La interfaz ofrece únicamente el acceso con Google.
+La instancia real de Supabase y Google OAuth ya está configurada para `peli.tlc@gmail.com` y `albafuentes89@gmail.com`. La interfaz ofrece únicamente el acceso con Google. El catálogo público y la función `extract-recipe` se activaron el 28 de septiembre de 2026. Esta guía también sirve para preparar otra instalación.
 
 ## Probar antes de publicar
 
@@ -57,7 +57,7 @@ Referencias: [Google OAuth](https://supabase.com/docs/guides/auth/social-login/a
 - Se retienen las 20 versiones anteriores en `family_history`, solo legibles por miembros de esa familia. No equivale a una copia externa; descargar copias periódicamente.
 - Recuperación: el administrador puede extraer `data` de una versión en `family_history` y guardarlo como JSON con `menus` y `recipes`. El usuario lo carga en **Recuperar una còpia** y confirma el reemplazo; se crea una revisión nueva. No modificar la tabla directamente para evitar saltarse el control de versiones.
 - Cada familia guarda un documento completo (calendario y biblioteca), adecuado para el uso familiar previsto. Límite de importación 6 MB; validación de contenido de 3 millones de caracteres, 2.000 recetas. El calendario de esta versión es 2026.
-- Las nuevas recetas no incluyen subida de fotos. Las imágenes existentes y los metadatos del libro se conservan al editar. Solo se admiten rutas de imágenes locales de la biblioteca.
+- Las nuevas recetas pueden crearse a partir de fotos, pero estas se usan solo para generar un borrador. Las imágenes existentes y los metadatos del libro se conservan al editar. Solo se admiten rutas de imágenes locales de la biblioteca para mostrar fotos en una ficha.
 - Favoritos e historial de navegación siguen siendo locales del navegador. Las marcas de la compra se separan por cuenta/modo y semana; no se sincronizan entre dispositivos.
 - No hay registro público, invitaciones desde la interfaz, borrado de recetas, subida de fotografías públicas ni sincronización instantánea en esta primera entrega; sí existe la importación temporal de fotos para crear un borrador de receta.
 
@@ -65,12 +65,13 @@ Referencias: [Google OAuth](https://supabase.com/docs/guides/auth/social-login/a
 
 Una persona miembro de la familia entra en **Família → Crear una recepta a partir de fotos**. Puede elegir de una a cuatro imágenes, pulsar **Llegir les fotos**, revisar el borrador y pulsar **Publicar per a tothom**. La publicación es inmediata y aparece en el catálogo de **Receptes** para cualquier visitante. El botón exige confirmar que la ficha se ha revisado y solo permite publicar recetas nuevas.
 
-El navegador reduce las imágenes antes de enviarlas a la Edge Function `extract-recipe`. Las fotos se procesan en memoria y no se guardan en el catálogo. La función valida la sesión de Supabase, reserva un uso por usuario y llama a OpenAI con el secreto `OPENAI_API_KEY`; ese secreto nunca se incluye en `family-config.js` ni en el navegador. Configura los secretos desde el panel de Supabase o con la CLI:
+El navegador reduce las imágenes antes de enviarlas a la Edge Function `extract-recipe`. Las fotos se procesan en memoria y no se guardan en el catálogo. La función valida la sesión de Supabase, reserva un uso por usuario y llama a OpenAI con el secreto `OPENAI_API_KEY`; ese secreto nunca se incluye en `family-config.js` ni en el navegador.
 
-```sh
-supabase secrets set OPENAI_API_KEY=sk-... SITE_ORIGINS=https://hectorpelicanoah.github.io,http://localhost:8080
-supabase functions deploy extract-recipe
-```
+Para activar una instalación nueva, ejecuta `supabase/migrations/002_public_recipes.sql` en SQL Editor, despliega `supabase/functions/extract-recipe/index.ts` como función `extract-recipe` y añade `OPENAI_API_KEY` en **Edge Functions → Secrets** del proyecto. El valor debe pegarse directamente en el panel, sin escribirlo en Git ni en un comando que quede en el historial de la terminal. `SUPABASE_URL` y `SUPABASE_ANON_KEY` son secretos predeterminados del proyecto. El origen publicado (`https://hectorpelicanoah.github.io`) ya está permitido por la función; si cambia el alojamiento, configura `SITE_ORIGINS` con los orígenes HTTPS separados por comas y vuelve a probar el flujo.
+
+Comprueba que `public_recipes` responde a la lectura pública, que una invocación de `extract-recipe` sin sesión devuelve `401` y que una cuenta autorizada puede generar un borrador con fotos. Una foto que solo muestra el plato debe producir advertencias sobre los datos que no se pueden determinar. Comprueba también que **Publicar per a tothom** requiere la casilla de revisión y que la receta publicada aparece en **Receptes** sin mostrar la foto original.
+
+Si la clave de OpenAI caduca o se rota, sustituye el valor de `OPENAI_API_KEY` en Supabase. La cuenta de OpenAI asociada a esa clave asume el coste de las extracciones; los usuarios de Google no aportan sus propios créditos.
 
 La cuota inicial es una extracción por minuto, diez al día y sesenta al mes por miembro. Si se supera, la web conserva el formulario y muestra el límite. El modelo devuelve un borrador estructurado; no se publica automáticamente para evitar inventar cantidades o pasos ilegibles. La publicación no añade una fotografía: si se quiere mostrar una imagen, debe incorporarse posteriormente como recurso público con permiso para compartirla.
 

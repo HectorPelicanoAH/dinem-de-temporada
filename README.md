@@ -6,7 +6,7 @@ Aplicació web estàtica de planificació de menús mediterranis per a tota la f
 
 ## 🚀 Com arrancar l'aplicació
 
-L'aplicació és **100% estàtica** (HTML + CSS + JS pur). No necessita Node.js, ni instal·lació de paquets, ni backend.
+La interfície és **estàtica** (HTML + CSS + JS pur). El calendari públic funciona sense servidor propi. L'espai familiar, la publicació de receptes i la lectura de fotos utilitzen Supabase; l'última funció també utilitza l'API d'OpenAI. No cal Node.js per servir la web.
 
 ### Opció 1 — Servidor local amb Python (recomanat)
 
@@ -40,6 +40,7 @@ Obre el navegador a: **http://localhost:3000** (o el port que indiqui)
 dinem-de-temporada/
 ├── index.html              # Pàgina principal — Calendari
 ├── recepta.html            # Pàgina de receptes
+├── familia.html            # Edició del calendari i de les receptes
 ├── assets/
 │   ├── css/
 │   │   ├── main.css        # Estils globals
@@ -49,10 +50,11 @@ dinem-de-temporada/
 │       ├── recipes.js      # Lògica de receptes
 │       ├── calendar.js     # Motor del calendari
 │       └── app.js          # Punt d'entrada de l'aplicació
-└── data/
-    ├── recipes.json        # Base de dades de receptes
-    └── menus/
-        └── 2026.json       # Menús assignats per cada dia de l'any
+├── data/
+│   ├── recipes.json        # Base de dades de receptes
+│   └── menus/
+│       └── 2026.json       # Menús assignats per cada dia de l'any
+└── supabase/               # Migracions i funció de lectura de fotos
 ```
 
 ---
@@ -68,6 +70,8 @@ dinem-de-temporada/
 - **Favorits** (guardat en localStorage)
 - **Disseny responsive** per a mòbil i escriptori
 - **Accessibilitat** (ARIA, focus trap, skip link)
+- **Espai familiar** amb accés Google i calendari compartit
+- **Receptes públiques** creades des de fotos després de revisar-ne l'esborrany
 
 ---
 
@@ -138,14 +142,16 @@ Crea un fitxer `data/menus/YYYY.json` amb el format:
 - CSS3 (variables, grid, flexbox)
 - JavaScript ES6+ (Vanilla, sense frameworks)
 - Google Fonts (Lora + Inter)
+- Supabase (Auth, PostgreSQL i Edge Functions) i OpenAI per llegir fotos
 
 ---
 
 ## 📄 Llicència
 
 Fet amb ❤️ per a la família.
-## Espai familiar (pendent d’activació)
 
-Obre `familia.html` per provar l’edició amb una còpia local: calendari de 2026, receptes, exportació i importació. Per compartir-la entre comptes, cal activar Supabase seguint [la guia de configuració](docs/CONFIGURACION-FAMILIAR.md). La web pública continua funcionant sense claus ni serveis configurats.
+## Espai familiar
+
+Obre `familia.html` per editar el calendari de 2026 i les receptes, exportar o importar una còpia, i crear receptes públiques des de fotos. La instal·lació publicada té Supabase activat. Per preparar una altra instal·lació o recuperar la configuració, segueix [la guia de configuració](docs/CONFIGURACION-FAMILIAR.md). La clau d'OpenAI només ha d'estar als secrets de Supabase, mai al repositori ni al navegador.
 
 Les proves de permisos i dades s’executen amb `npm ci --ignore-scripts` i `npm test` (Node 22+). Node només és necessari per a les proves, no per servir la web.
