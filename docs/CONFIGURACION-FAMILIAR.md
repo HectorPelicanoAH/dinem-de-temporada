@@ -1,6 +1,13 @@
 # Activar el calendario familiar
 
-El desarrollo funciona sin configuración en modo de prueba local. La conexión real queda pendiente deliberadamente. No se han creado servicios, enviado invitaciones ni publicado cambios.
+El desarrollo funciona sin configuración en modo de prueba local. La instancia real de Supabase y el acceso con Google están configurados. La nueva interfaz sigue en la rama `feat/familia-google-login` hasta que se revise y publique.
+
+## Estado de esta instancia (28 de septiembre de 2026)
+
+- Proyecto Supabase: `wvhjzdzvvifgiqkilvxa`. La base de datos, sus permisos, el espacio familiar y las membresías de `peli.tlc@gmail.com` y `albafuentes89@gmail.com` están creados.
+- Proyecto Google Cloud: `dinem-en-familia`. El cliente OAuth web usa `https://wvhjzdzvvifgiqkilvxa.supabase.co/auth/v1/callback`; el proveedor Google está habilitado en Supabase. La aplicación Google sigue en modo **Prueba** y solo admite esos dos correos como usuarios de prueba.
+- El Site URL de Supabase es `https://hectorpelicanoah.github.io/dinem-de-temporada` y el retorno permitido incluye `/familia.html`. Se ha comprobado el acceso con Google para `peli.tlc@gmail.com`: Supabase lo vincula al usuario familiar existente.
+- El correo por código sigue pendiente de un proveedor SMTP propio. Hasta configurarlo, el acceso práctico será **Continuar amb Google** cuando se publique esta rama. No incluir el secreto OAuth ni tokens de sesión en Git.
 
 ## Probar antes de configurar
 
@@ -8,7 +15,7 @@ Ejecutar `python3 -m http.server 8080` en la raíz y abrir `http://localhost:808
 
 Las cuentas reales usan un código por correo y una sesión en sessionStorage (por pestaña). No hay contraseñas gestionadas por la web. Los cambios se guardan con los botones «Desar». Para ver cambios hechos en otro dispositivo hay que recargar; no se incorpora sincronización en tiempo real.
 
-## Configuración pendiente, en orden
+## Configuración de una instalación nueva, en orden
 
 1. Crear un proyecto Supabase gratuito. Elegir una región europea. Guardar la contraseña de base de datos en un gestor de contraseñas; nunca en este repositorio.
 2. Ejecutar una sola vez `supabase/migrations/001_family.sql` desde SQL Editor. Crea las tablas, los permisos y la función de guardado.
@@ -34,7 +41,7 @@ commit;
 
 7. Completar `assets/js/family-config.js` con la URL `https://<proyecto>.supabase.co` y la clave **publishable** (o la antigua **anon**). Son configuración pública. **Nunca usar `service_role`, `sb_secret_…`, una contraseña o un token de sesión.** No se necesita una clave administrativa en la web.
 8. Publicar la rama revisada en el alojamiento estático existente. Es compatible con GitHub Pages y rutas bajo una subcarpeta; no hace falta migrar a Cloudflare para activar las cuentas. Configurar Site URL de Supabase con la dirección publicada. Este flujo usa un código y no requiere callback de OAuth.
-   Para activar también **Continuar amb Google**, en Supabase activa el proveedor Google y crea un cliente OAuth en Google Cloud. Usa como callback `https://wvhjzdzvvifgiqkilvxa.supabase.co/auth/v1/callback` y añade `https://hectorpelicanoah.github.io/dinem-de-temporada/familia.html` como URL de redirección. La rama ya incluye el botón y el consumo seguro del token OAuth; solo faltan las credenciales del proveedor.
+   Para activar también **Continuar amb Google** en otra instalación, en Supabase activa el proveedor Google y crea un cliente OAuth en Google Cloud. Usa como callback `https://<proyecto>.supabase.co/auth/v1/callback` y añade la URL publicada de `familia.html` como URL de redirección en Supabase. La rama incluye el botón y el consumo del token OAuth.
 9. Entrar con la primera cuenta y pulsar **Crear la nostra còpia**. Inicializa los 365 días de 2026 y las recetas presentes en `data/recipes.json` en ese momento.
 10. Entrar desde otro navegador/dispositivo con la segunda cuenta y verificar que ambos ven la misma familia.
 
