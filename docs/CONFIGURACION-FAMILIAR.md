@@ -34,6 +34,7 @@ commit;
 
 7. Completar `assets/js/family-config.js` con la URL `https://<proyecto>.supabase.co` y la clave **publishable** (o la antigua **anon**). Son configuración pública. **Nunca usar `service_role`, `sb_secret_…`, una contraseña o un token de sesión.** No se necesita una clave administrativa en la web.
 8. Publicar la rama revisada en el alojamiento estático existente. Es compatible con GitHub Pages y rutas bajo una subcarpeta; no hace falta migrar a Cloudflare para activar las cuentas. Configurar Site URL de Supabase con la dirección publicada. Este flujo usa un código y no requiere callback de OAuth.
+   Para activar también **Continuar amb Google**, en Supabase activa el proveedor Google y crea un cliente OAuth en Google Cloud. Usa como callback `https://wvhjzdzvvifgiqkilvxa.supabase.co/auth/v1/callback` y añade `https://hectorpelicanoah.github.io/dinem-de-temporada/familia.html` como URL de redirección. La rama ya incluye el botón y el consumo seguro del token OAuth; solo faltan las credenciales del proveedor.
 9. Entrar con la primera cuenta y pulsar **Crear la nostra còpia**. Inicializa los 365 días de 2026 y las recetas presentes en `data/recipes.json` en ese momento.
 10. Entrar desde otro navegador/dispositivo con la segunda cuenta y verificar que ambos ven la misma familia.
 

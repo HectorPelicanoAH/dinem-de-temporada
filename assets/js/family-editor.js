@@ -94,6 +94,8 @@
     options($('recipe-category'), categories.map(c => [c, c]));
     $('login-form').hidden = !FamilyStore.configured();
     $('not-configured').hidden = FamilyStore.configured();
+    $('google-login').hidden = !FamilyStore.configured();
+    $('google-login').addEventListener('click', () => run(async () => FamilyStore.signInWithGoogle()));
     $('login-form').addEventListener('submit', event => { event.preventDefault(); run(async () => {
       const email = value('email');
       await FamilyStore.sendCode(email); sentEmail = email;
@@ -177,6 +179,11 @@
     if (FamilyStore.signedIn() || FamilyStore.demo()) run(async () => {
       $('access').hidden = true; $('workspace').hidden = false;
       display(await FamilyStore.load());
+    });
+    else if (FamilyStore.configured() && window.location.hash.includes('access_token')) run(async () => {
+      await FamilyStore.consumeOAuthCallback();
+      $('access').hidden = true; $('workspace').hidden = false;
+      display(await FamilyStore.load()); message('Ja ets al teu espai familiar.');
     });
   });
 })();
