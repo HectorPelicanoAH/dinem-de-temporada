@@ -39,8 +39,12 @@ test('invalid imports reject broken references, invalid dates, scripts in image 
   ]) { const data = source(); mutate(data); assert.throws(() => model.validate(data)); }
 });
 test('HTML escaping handles user text, attributes and unsafe images', () => {
-  const ctx = vm.createContext({}); vm.runInContext(fs.readFileSync('assets/js/utils.js', 'utf8'), ctx);
+  const ctx = vm.createContext({ window: { FAMILY_CONFIG: { supabaseUrl: 'https://example.supabase.co' } } }); vm.runInContext(fs.readFileSync('assets/js/utils.js', 'utf8'), ctx);
   assert.equal(ctx.escapeHTML('<img src=x onerror="alert(1)">'), '&lt;img src=x onerror=&quot;alert(1)&quot;&gt;');
   assert.equal(ctx.safeRecipeImage('https://example.org/track.png'), '');
   assert.equal(ctx.safeRecipeImage('assets/images/recipes/pasta.jpg'), 'assets/images/recipes/pasta.jpg');
+  const image = 'recipe-images/00000000-0000-0000-0000-000000000001/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa.jpg';
+  assert.equal(model.imagePath(image), true);
+  assert.equal(ctx.safeRecipeImage(image), `https://example.supabase.co/storage/v1/object/public/${image}`);
+  assert.equal(model.imagePath('recipe-images/../../private.png'), false);
 });
