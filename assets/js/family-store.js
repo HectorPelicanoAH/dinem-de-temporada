@@ -4,7 +4,7 @@
   const config = window.FAMILY_CONFIG || {};
   const sessionKey = 'dinf_family_session_v1';
   const demoKey = 'dinf_family_demo_v1';
-  let current = null, refreshPromise = null;
+  let current = null, refreshPromise = null, publicRecipesPromise = null;
   function read(key, storage = sessionStorage) {
     try { return JSON.parse(storage.getItem(key) || 'null'); } catch { return null; }
   }
@@ -52,13 +52,52 @@
     }
     return session.access_token;
   }
+  async function publicRecipes() {
+    if (!configured() || demo()) return {};
+    if (!publicRecipesPromise) publicRecipesPromise = request('/rest/v1/public_recipes?select=recipe', undefined, undefined, 'GET').then(rows => {
+      const recipes = {};
+      for (const row of rows) {
+        const recipe = row.recipe;
+        FamilyModel.validateRecipe(recipe, recipe?.id);
+        recipes[recipe.id] = recipe;
+      }
+      return recipes;
+    }).catch(() => {
+      // The static catalogue remains usable while the optional public table is
+      // being migrated or when the public endpoint is temporarily unavailable.
+      publicRecipesPromise = null;
+      return {};
+    });
+    return publicRecipesPromise;
+  }
+  function withPublicRecipes(data, published) {
+    if (!Object.keys(published).length) return data;
+    return { ...data, recipes: { ...published, ...data.recipes } };
+  }
+  async function extractRecipe(images) {
+    if (demo()) throw new Error('Entra amb Google per processar fotografies.');
+    const response = await fetch(`${config.supabaseUrl}/functions/v1/extract-recipe`, {
+      method: 'POST', headers: { apikey: config.publishableKey, Authorization: `Bearer ${await token()}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ images }), signal: AbortSignal.timeout(80000)
+    }).catch(() => { throw new Error('No hi ha connexió amb el processador de fotos.'); });
+    const result = await response.json().catch(() => null);
+    if (!response.ok) throw new Error(result?.error || 'No s’ha pogut llegir la recepta.');
+    return result.recipe;
+  }
+  async function publishRecipe(recipe) {
+    if (demo()) throw new Error('Entra amb Google per publicar una recepta.');
+    FamilyModel.validateRecipe(recipe, recipe.id);
+    const published = await request('/rest/v1/rpc/publish_public_recipe', { payload: recipe }, await token());
+    publicRecipesPromise = null;
+    return published;
+  }
   async function base() {
     const results = await Promise.all(['data/menus/2026.json', 'data/recipes.json'].map(async path => {
       const response = await fetch(path);
       if (!response.ok) throw new Error('No s’ha pogut carregar la biblioteca inicial.');
       return response.json();
     }));
-    return FamilyModel.validate({ menus: results[0], recipes: results[1] });
+    return FamilyModel.validate(withPublicRecipes({ menus: results[0], recipes: results[1] }, await publicRecipes()));
   }
   async function load() {
     if (demo()) {
@@ -70,7 +109,10 @@
     const rows = await request('/rest/v1/family_documents?select=family_id,name,revision,data,updated_at,updated_by', undefined, await token(), 'GET');
     if (rows.length !== 1) throw new Error('El teu compte encara no té un espai familiar assignat.');
     current = rows[0];
-    if (current.data) FamilyModel.validate(current.data);
+    if (current.data) {
+      current.data = withPublicRecipes(current.data, await publicRecipes());
+      FamilyModel.validate(current.data);
+    }
     return current;
   }
   async function save(data) {
@@ -97,7 +139,8 @@
   async function resolve(publicData) {
     const family = await load();
     if (family && !family.data) throw new Error('Obre Família per crear la còpia inicial del calendari.');
-    return family?.data || publicData;
+    if (family?.data) return family.data;
+    return withPublicRecipes(publicData, await publicRecipes());
   }
   async function logout() {
     let warning = false;
@@ -131,7 +174,7 @@
     return true;
   }
   window.FamilyStore = {
-    configured, demo, signedIn, base, load, save, resolve, logout, signInWithGoogle, consumeOAuthCallback,
+    configured, demo, signedIn, base, load, save, resolve, publicRecipes, extractRecipe, publishRecipe, logout, signInWithGoogle, consumeOAuthCallback,
     email: () => read(sessionKey)?.email || '',
     isCurrentAuthor: id => read(sessionKey)?.user_id === id,
     async startDemo() {

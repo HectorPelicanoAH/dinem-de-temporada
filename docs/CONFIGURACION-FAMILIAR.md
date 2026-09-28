@@ -11,7 +11,7 @@ Las cuentas reales entran con Google y mantienen una sesión en sessionStorage (
 ## Configuración de una instalación nueva, en orden
 
 1. Crear un proyecto Supabase gratuito. Elegir una región europea. Guardar la contraseña de base de datos en un gestor de contraseñas; nunca en este repositorio.
-2. Ejecutar una sola vez `supabase/migrations/001_family.sql` desde SQL Editor. Crea las tablas, los permisos y la función de guardado.
+2. Ejecutar una sola vez `supabase/migrations/001_family.sql` y `supabase/migrations/002_public_recipes.sql` desde SQL Editor. La segunda migración añade el catálogo público, límites de uso y la publicación protegida.
 3. Desactivar el registro de usuarios nuevos y el proveedor Email en Supabase. Mantener habilitado Google.
 4. Crear un cliente OAuth web en Google Cloud. Registrar `https://<proyecto>.supabase.co/auth/v1/callback` como URI de redirección, guardar el ID y secreto solo en el proveedor Google de Supabase y añadir las cuentas autorizadas como usuarios de prueba en Google Cloud.
 5. Crear los dos usuarios desde la administración de Supabase, con sus correos autorizados. No es necesario habilitar el registro público. Al entrar con Google usando el mismo correo verificado, Supabase vincula la identidad con el usuario existente.
@@ -59,7 +59,20 @@ Referencias: [Google OAuth](https://supabase.com/docs/guides/auth/social-login/a
 - Cada familia guarda un documento completo (calendario y biblioteca), adecuado para el uso familiar previsto. Límite de importación 6 MB; validación de contenido de 3 millones de caracteres, 2.000 recetas. El calendario de esta versión es 2026.
 - Las nuevas recetas no incluyen subida de fotos. Las imágenes existentes y los metadatos del libro se conservan al editar. Solo se admiten rutas de imágenes locales de la biblioteca.
 - Favoritos e historial de navegación siguen siendo locales del navegador. Las marcas de la compra se separan por cuenta/modo y semana; no se sincronizan entre dispositivos.
-- No hay registro público, invitaciones desde la interfaz, borrado de recetas, subida de fotos ni sincronización instantánea en esta primera entrega.
+- No hay registro público, invitaciones desde la interfaz, borrado de recetas, subida de fotografías públicas ni sincronización instantánea en esta primera entrega; sí existe la importación temporal de fotos para crear un borrador de receta.
+
+## Crear recetas desde fotografías
+
+Una persona miembro de la familia entra en **Família → Crear una recepta a partir de fotos**. Puede elegir de una a cuatro imágenes, pulsar **Llegir les fotos**, revisar el borrador y pulsar **Publicar per a tothom**. La publicación es inmediata y aparece en el catálogo de **Receptes** para cualquier visitante. El botón exige confirmar que la ficha se ha revisado y solo permite publicar recetas nuevas.
+
+El navegador reduce las imágenes antes de enviarlas a la Edge Function `extract-recipe`. Las fotos se procesan en memoria y no se guardan en el catálogo. La función valida la sesión de Supabase, reserva un uso por usuario y llama a OpenAI con el secreto `OPENAI_API_KEY`; ese secreto nunca se incluye en `family-config.js` ni en el navegador. Configura los secretos desde el panel de Supabase o con la CLI:
+
+```sh
+supabase secrets set OPENAI_API_KEY=sk-... SITE_ORIGINS=https://hectorpelicanoah.github.io,http://localhost:8080
+supabase functions deploy extract-recipe
+```
+
+La cuota inicial es una extracción por minuto, diez al día y sesenta al mes por miembro. Si se supera, la web conserva el formulario y muestra el límite. El modelo devuelve un borrador estructurado; no se publica automáticamente para evitar inventar cantidades o pasos ilegibles. La publicación no añade una fotografía: si se quiere mostrar una imagen, debe incorporarse posteriormente como recurso público con permiso para compartirla.
 
 ## Verificación del desarrollo
 

@@ -22,6 +22,11 @@
 .family-main [hidden] { display: none !important; }
 .family-main fieldset { border: 0; min-width: 0; padding: 0; }
 .family-main legend { font-family: var(--font-serif); font-size: 1.2rem; margin-bottom: .8rem; }
+.photo-import { padding: 1rem; margin: 1.25rem 0; border-radius: 12px; background: var(--color-bg-subtle); }
+.photo-import h3 { margin: 0 0 .5rem; font-family: var(--font-serif); }
+.photo-import input[type="file"] { background: white; }
+.family-main .publish-confirm { display: flex; align-items: flex-start; gap: .65rem; margin: 1rem 0 .4rem; }
+.family-main .publish-confirm input { width: auto; margin-top: .3rem; }
 .family-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; }
 .family-site-header { height: auto; min-height: var(--header-height); }
 .family-site-header .header-inner { min-height: var(--header-height); flex-wrap: wrap; padding-block: .6rem; gap: .5rem 1rem; }

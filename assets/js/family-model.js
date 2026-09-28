@@ -82,7 +82,7 @@
     }
     return validate(next);
   }
-  const api = { clone, validate, editDay, editRecipe, imagePath };
+  const api = { clone, validate, validateRecipe, editDay, editRecipe, imagePath };
   root.FamilyModel = api;
   if (typeof module !== 'undefined') module.exports = api;
 })(globalThis);
