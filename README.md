@@ -1,4 +1,4 @@
-# 🫒 Dinem en Família
+# Dinem en Família
 
 Aplicació web estàtica de planificació de menús mediterranis per a tota la família, cada dia de l'any. Inclou un calendari anual/mensual de menús, receptes de temporada i notes per a nadons (BLW).
 

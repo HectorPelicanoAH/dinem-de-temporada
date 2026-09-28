@@ -23,6 +23,10 @@
 .family-main fieldset { border: 0; min-width: 0; padding: 0; }
 .family-main legend { font-family: var(--font-serif); font-size: 1.2rem; margin-bottom: .8rem; }
 .family-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; }
-.family-nav { display: flex; gap: 1rem; flex-wrap: wrap; padding: 1rem; }
-.family-nav a { color: var(--color-primary-dark); text-decoration: underline; }
+.family-site-header { height: auto; min-height: var(--header-height); }
+.family-site-header .header-inner { min-height: var(--header-height); flex-wrap: wrap; padding-block: .6rem; gap: .5rem 1rem; }
+.family-site-header .family-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .2rem; margin-left: auto; }
+.family-site-header .family-nav a { padding: .55rem .75rem; border-radius: 10px; color: var(--color-primary-dark); text-decoration: none; font-size: .9rem; font-weight: 600; }
+.family-site-header .family-nav a:hover, .family-site-header .family-nav a[aria-current="page"] { background: var(--color-bg-subtle); }
+@media(max-width: 640px) { .family-site-header .family-nav { width: 100%; margin-left: 0; } .family-site-header .family-nav a { padding: .4rem .55rem; } }
 @media(max-width: 640px) { .family-grid { grid-template-columns: 1fr; gap: 0; } .family-actions .btn { width: 100%; } }
