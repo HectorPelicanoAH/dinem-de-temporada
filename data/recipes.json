@@ -20,28 +20,28 @@
     "ingredients": [
       {
         "ingredient": "pasta",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "carn picada",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "500",
+        "unit": "g"
       },
       {
         "ingredient": "ceba",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "pastanaga",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -77,23 +77,23 @@
     "ingredients": [
       {
         "ingredient": "pasta",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "ou",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "formatge curat",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "cansalada",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -130,28 +130,28 @@
     "ingredients": [
       {
         "ingredient": "pasta",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "albergínia",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "olives negres",
-        "amount": "",
-        "unit": ""
+        "amount": "80",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "all",
-        "amount": "",
-        "unit": ""
+        "amount": "10",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -185,28 +185,28 @@
     "ingredients": [
       {
         "ingredient": "pasta curta",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "tonyina",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "ou",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquets cherry",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       },
       {
         "ingredient": "olives verdes",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -243,33 +243,33 @@
     "ingredients": [
       {
         "ingredient": "patata",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "pastanaga",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "pèsols",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "tonyina",
-        "amount": "",
-        "unit": ""
+        "amount": "160",
+        "unit": "g"
       },
       {
         "ingredient": "ou",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "maionesa",
-        "amount": "",
-        "unit": ""
+        "amount": "120",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -305,23 +305,23 @@
     "ingredients": [
       {
         "ingredient": "tonyina",
-        "amount": "",
-        "unit": ""
+        "amount": "240",
+        "unit": "g"
       },
       {
         "ingredient": "ou",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "olives verdes",
-        "amount": "",
-        "unit": ""
+        "amount": "80",
+        "unit": "g"
       },
       {
         "ingredient": "maionesa",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -358,33 +358,33 @@
     "ingredients": [
       {
         "ingredient": "cigrons cuits",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "remolatxa",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "pastanaga",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "olives",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       },
       {
         "ingredient": "tonyina opcional",
-        "amount": "",
-        "unit": ""
+        "amount": "160",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -421,33 +421,33 @@
     "ingredients": [
       {
         "ingredient": "llenties cuites",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "remolatxa",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "pastanaga",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "olives",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       },
       {
         "ingredient": "tonyina opcional",
-        "amount": "",
-        "unit": ""
+        "amount": "160",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -484,28 +484,28 @@
     "ingredients": [
       {
         "ingredient": "quinoa",
-        "amount": "",
-        "unit": ""
+        "amount": "240",
+        "unit": "g"
       },
       {
         "ingredient": "remolatxa",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "pastanaga",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "olives",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -539,28 +539,28 @@
     "ingredients": [
       {
         "ingredient": "llenties",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "xoriço",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "ceba",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "pastanaga",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -592,23 +592,23 @@
     "ingredients": [
       {
         "ingredient": "pollastre",
-        "amount": "",
-        "unit": ""
+        "amount": "800",
+        "unit": "g"
       },
       {
         "ingredient": "verdures per al brou",
-        "amount": "",
-        "unit": ""
+        "amount": "500",
+        "unit": "g"
       },
       {
         "ingredient": "galets",
-        "amount": "",
-        "unit": ""
+        "amount": "160",
+        "unit": "g"
       },
       {
         "ingredient": "pilota opcional",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -646,23 +646,23 @@
     "ingredients": [
       {
         "ingredient": "botifarra",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "patata",
-        "amount": "",
-        "unit": ""
+        "amount": "500",
+        "unit": "g"
       },
       {
         "ingredient": "porro",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -697,23 +697,23 @@
     "ingredients": [
       {
         "ingredient": "patates",
-        "amount": "",
-        "unit": ""
+        "amount": "800",
+        "unit": "g"
       },
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "ceba opcional",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -752,18 +752,18 @@
     "ingredients": [
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "verdures de temporada",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -799,28 +799,28 @@
     "ingredients": [
       {
         "ingredient": "arròs",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "pollastre",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "mongeta verda",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "brou",
-        "amount": "",
-        "unit": ""
+        "amount": "1000",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -853,28 +853,28 @@
     "ingredients": [
       {
         "ingredient": "arròs",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "bolets variats",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "ceba",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "brou vegetal",
-        "amount": "",
-        "unit": ""
+        "amount": "1000",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -908,28 +908,28 @@
     "ingredients": [
       {
         "ingredient": "fideus",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "sèpia",
-        "amount": "",
-        "unit": ""
+        "amount": "500",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "all",
-        "amount": "",
-        "unit": ""
+        "amount": "10",
+        "unit": "g"
       },
       {
         "ingredient": "brou de peix",
-        "amount": "",
-        "unit": ""
+        "amount": "1000",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -966,28 +966,28 @@
     "ingredients": [
       {
         "ingredient": "cigrons cuits",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "tahina",
-        "amount": "",
-        "unit": ""
+        "amount": "40",
+        "unit": "g"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "40",
+        "unit": "g"
       },
       {
         "ingredient": "all",
-        "amount": "",
-        "unit": ""
+        "amount": "5",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -1025,18 +1025,18 @@
     "ingredients": [
       {
         "ingredient": "lloms de salmó",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "20",
+        "unit": "ml"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1072,23 +1072,23 @@
     "ingredients": [
       {
         "ingredient": "filets de lluç",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "20",
+        "unit": "ml"
       },
       {
         "ingredient": "all",
-        "amount": "",
-        "unit": ""
+        "amount": "10",
+        "unit": "g"
       },
       {
         "ingredient": "julivert",
-        "amount": "",
-        "unit": ""
+        "amount": "5",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1124,18 +1124,18 @@
     "ingredients": [
       {
         "ingredient": "filets d’orada",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "20",
+        "unit": "ml"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1168,23 +1168,23 @@
     "ingredients": [
       {
         "ingredient": "patates",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "moniato opcional",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       },
       {
         "ingredient": "herbes",
-        "amount": "",
-        "unit": ""
+        "amount": "2",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1224,23 +1224,23 @@
     "ingredients": [
       {
         "ingredient": "orada sencera",
-        "amount": "",
-        "unit": ""
+        "amount": "1200",
+        "unit": "g"
       },
       {
         "ingredient": "patata",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "ceba",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "120",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1275,23 +1275,23 @@
     "ingredients": [
       {
         "ingredient": "aletes de pollastre",
-        "amount": "",
-        "unit": ""
+        "amount": "1000",
+        "unit": "g"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "pebre vermell",
-        "amount": "",
-        "unit": ""
+        "amount": "4",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -1324,23 +1324,23 @@
     "ingredients": [
       {
         "ingredient": "cuixes de pollastre",
-        "amount": "",
-        "unit": ""
+        "amount": "1000",
+        "unit": "g"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "herbes",
-        "amount": "",
-        "unit": ""
+        "amount": "2",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -1376,23 +1376,23 @@
     "ingredients": [
       {
         "ingredient": "pit de pollastre",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "20",
+        "unit": "ml"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "herbes",
-        "amount": "",
-        "unit": ""
+        "amount": "2",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1428,23 +1428,23 @@
     "ingredients": [
       {
         "ingredient": "massa de pizza",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "mozzarella",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       },
       {
         "ingredient": "ingredients al gust",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1484,23 +1484,23 @@
     "ingredients": [
       {
         "ingredient": "pa de motlle",
-        "amount": "",
-        "unit": ""
+        "amount": "240",
+        "unit": "g"
       },
       {
         "ingredient": "pernil dolç",
-        "amount": "",
-        "unit": ""
+        "amount": "160",
+        "unit": "g"
       },
       {
         "ingredient": "formatge",
-        "amount": "",
-        "unit": ""
+        "amount": "160",
+        "unit": "g"
       },
       {
         "ingredient": "mantega opcional",
-        "amount": "",
-        "unit": ""
+        "amount": "20",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1536,23 +1536,23 @@
     "ingredients": [
       {
         "ingredient": "pernil ibèric",
-        "amount": "",
-        "unit": ""
+        "amount": "160",
+        "unit": "g"
       },
       {
         "ingredient": "pa de pagès",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "20",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -1587,23 +1587,23 @@
     "ingredients": [
       {
         "ingredient": "carbassó",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       },
       {
         "ingredient": "pebre",
-        "amount": "",
-        "unit": ""
+        "amount": "0.5",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1634,18 +1634,18 @@
     "ingredients": [
       {
         "ingredient": "tomàquets de l’hort",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       },
       {
         "ingredient": "sal",
-        "amount": "",
-        "unit": ""
+        "amount": "2",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1679,18 +1679,18 @@
     "ingredients": [
       {
         "ingredient": "arròs blanc",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet fregit",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1725,18 +1725,18 @@
     "ingredients": [
       {
         "ingredient": "patates",
-        "amount": "",
-        "unit": ""
+        "amount": "800",
+        "unit": "g"
       },
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "pernil ibèric o xoriço",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1774,23 +1774,23 @@
     "ingredients": [
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "tonyina",
-        "amount": "",
-        "unit": ""
+        "amount": "160",
+        "unit": "g"
       },
       {
         "ingredient": "maionesa",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "olives",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1826,28 +1826,28 @@
     "ingredients": [
       {
         "ingredient": "carn picada",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "pa d’hamburguesa",
-        "amount": "",
-        "unit": ""
+        "amount": "280",
+        "unit": "g"
       },
       {
         "ingredient": "formatge opcional",
-        "amount": "",
-        "unit": ""
+        "amount": "80",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "enciam",
-        "amount": "",
-        "unit": ""
+        "amount": "80",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1886,28 +1886,28 @@
     "ingredients": [
       {
         "ingredient": "mongetes seques cuites",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "botifarra",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "all",
-        "amount": "",
-        "unit": ""
+        "amount": "10",
+        "unit": "g"
       },
       {
         "ingredient": "julivert",
-        "amount": "",
-        "unit": ""
+        "amount": "5",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1941,28 +1941,28 @@
     "ingredients": [
       {
         "ingredient": "albergínies",
-        "amount": "",
-        "unit": ""
+        "amount": "800",
+        "unit": "g"
       },
       {
         "ingredient": "carn picada",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "ceba",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "formatge",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1997,33 +1997,33 @@
     "ingredients": [
       {
         "ingredient": "pollastre rostit",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "llet",
-        "amount": "",
-        "unit": ""
+        "amount": "500",
+        "unit": "ml"
       },
       {
         "ingredient": "farina",
-        "amount": "",
-        "unit": ""
+        "amount": "80",
+        "unit": "g"
       },
       {
         "ingredient": "mantega",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "ou",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "pa ratllat",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2062,23 +2062,23 @@
     "ingredients": [
       {
         "ingredient": "verdures de temporada",
-        "amount": "",
-        "unit": ""
+        "amount": "800",
+        "unit": "g"
       },
       {
         "ingredient": "patata",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "porro",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -2112,23 +2112,23 @@
     "ingredients": [
       {
         "ingredient": "fulles verdes",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "cogombre",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "pastanaga",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2162,18 +2162,18 @@
     "ingredients": [
       {
         "ingredient": "verdures de temporada",
-        "amount": "",
-        "unit": ""
+        "amount": "1000",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       },
       {
         "ingredient": "herbes",
-        "amount": "",
-        "unit": ""
+        "amount": "2",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2207,18 +2207,18 @@
     "ingredients": [
       {
         "ingredient": "bròquil",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "20",
+        "unit": "ml"
       },
       {
         "ingredient": "llimona opcional",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2253,18 +2253,18 @@
     "ingredients": [
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "espàrrecs de marge",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -2301,23 +2301,23 @@
     "ingredients": [
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "xampinyons",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "all",
-        "amount": "",
-        "unit": ""
+        "amount": "10",
+        "unit": "g"
       },
       {
         "ingredient": "julivert",
-        "amount": "",
-        "unit": ""
+        "amount": "5",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2352,23 +2352,23 @@
     "ingredients": [
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "bolets portobello",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "ceba tendra",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -2403,23 +2403,23 @@
     "ingredients": [
       {
         "ingredient": "ous",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "bolets shiitake",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "ceba tendra",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "oli d’oliva",
-        "amount": "",
-        "unit": ""
+        "amount": "30",
+        "unit": "ml"
       }
     ],
     "steps": [
@@ -2455,33 +2455,33 @@
     "ingredients": [
       {
         "ingredient": "fideus udon",
-        "amount": "",
-        "unit": ""
+        "amount": "800",
+        "unit": "g"
       },
       {
         "ingredient": "col",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "pastanaga",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       },
       {
         "ingredient": "ceba tendra",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "salsa de soja",
-        "amount": "",
-        "unit": ""
+        "amount": "40",
+        "unit": "ml"
       },
       {
         "ingredient": "sèsam",
-        "amount": "",
-        "unit": ""
+        "amount": "10",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2522,28 +2522,28 @@
     "ingredients": [
       {
         "ingredient": "arròs per a sushi",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "salmó apte per a consum en cru",
-        "amount": "",
-        "unit": ""
+        "amount": "300",
+        "unit": "g"
       },
       {
         "ingredient": "alga nori",
-        "amount": "",
-        "unit": ""
+        "amount": "10",
+        "unit": "g"
       },
       {
         "ingredient": "vinagre d’arròs",
-        "amount": "",
-        "unit": ""
+        "amount": "50",
+        "unit": "ml"
       },
       {
         "ingredient": "cogombre",
-        "amount": "",
-        "unit": ""
+        "amount": "150",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2578,33 +2578,33 @@
     "ingredients": [
       {
         "ingredient": "tortilles de blat de moro",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "carn picada",
-        "amount": "",
-        "unit": ""
+        "amount": "500",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       },
       {
         "ingredient": "enciam",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "ceba",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "alvocat",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2641,28 +2641,28 @@
     "ingredients": [
       {
         "ingredient": "tortilles de blat",
-        "amount": "",
-        "unit": ""
+        "amount": "320",
+        "unit": "g"
       },
       {
         "ingredient": "pit de pollastre",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "pebrot",
-        "amount": "",
-        "unit": ""
+        "amount": "400",
+        "unit": "g"
       },
       {
         "ingredient": "ceba",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2697,38 +2697,38 @@
     "ingredients": [
       {
         "ingredient": "pollastre",
-        "amount": "",
-        "unit": ""
+        "amount": "600",
+        "unit": "g"
       },
       {
         "ingredient": "iogurt",
-        "amount": "",
-        "unit": ""
+        "amount": "200",
+        "unit": "g"
       },
       {
         "ingredient": "llimona",
-        "amount": "",
-        "unit": ""
+        "amount": "60",
+        "unit": "g"
       },
       {
         "ingredient": "comí",
-        "amount": "",
-        "unit": ""
+        "amount": "3",
+        "unit": "g"
       },
       {
         "ingredient": "pa de pita",
-        "amount": "",
-        "unit": ""
+        "amount": "280",
+        "unit": "g"
       },
       {
         "ingredient": "enciam",
-        "amount": "",
-        "unit": ""
+        "amount": "100",
+        "unit": "g"
       },
       {
         "ingredient": "tomàquet",
-        "amount": "",
-        "unit": ""
+        "amount": "250",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -2772,8 +2772,8 @@
       },
       {
         "ingredient": "flocs de civada",
-        "amount": "5",
-        "unit": "cullerades"
+        "amount": "25",
+        "unit": "g"
       },
       {
         "ingredient": "mongeta tendra cuita",
@@ -2782,18 +2782,18 @@
       },
       {
         "ingredient": "carbassa rostida",
-        "amount": "½",
-        "unit": "tassa"
+        "amount": "120",
+        "unit": "g"
       },
       {
-        "ingredient": "pebre al gust",
-        "amount": "",
-        "unit": ""
+        "ingredient": "pebre",
+        "amount": "0.2",
+        "unit": "g"
       },
       {
         "ingredient": "alfàbrega fresca",
-        "amount": "5",
-        "unit": "fulletes"
+        "amount": "2",
+        "unit": "g"
       }
     ],
     "steps": [
